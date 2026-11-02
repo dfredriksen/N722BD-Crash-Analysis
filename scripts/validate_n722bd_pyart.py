@@ -8,11 +8,14 @@ import numpy as np
 import pyart
 
 p=argparse.ArgumentParser();p.add_argument('files',nargs='+');p.add_argument('--output',default='N722BD_pyart_independent_samples.csv')
+p.add_argument('--all-rays',action='store_true',help='Disable the legacy time and fixed-bearing screening filters')
 a=p.parse_args()
 fields={'reflectivity':'REF_dBZ','velocity':'VEL_mps','spectrum_width':'SW_mps'}
 rows=[]
 for path in a.files:
- radar=pyart.io.read_nexrad_archive(path)
+ # Nearest-neighbor remapping is explicit. Native-resolution validation is
+ # performed separately by run_investigation.py; this reader uses a common grid.
+ radar=pyart.io.read_nexrad_archive(path,linear_interp=False)
  units=radar.time['units']
  try:
   from netCDF4 import num2date
@@ -22,10 +25,10 @@ for path in a.files:
  for i in range(radar.nrays):
   dt=ts[i]
   if dt.tzinfo is None:dt=dt.replace(tzinfo=datetime.timezone.utc)
-  if not datetime.datetime(2026,11,1,17,35,tzinfo=datetime.timezone.utc)<=dt<=datetime.datetime(2026,11,1,17,57,tzinfo=datetime.timezone.utc):continue
+  if not a.all_rays and not datetime.datetime(2026,11,1,17,35,tzinfo=datetime.timezone.utc)<=dt<=datetime.datetime(2026,11,1,17,57,tzinfo=datetime.timezone.utc):continue
   az=float(radar.azimuth['data'][i]); el=float(radar.elevation['data'][i]);
   # Include all rays near last aircraft position bearing, allowing independent comparison.
-  if abs((az-14.769+180)%360-180)>2.0:continue
+  if not a.all_rays and abs((az-14.769+180)%360-180)>2.0:continue
   row={'file':pathlib.Path(path).name,'utc':dt.isoformat(),'ray_index':i,'azimuth_deg':az,'elevation_deg':el,'range_gate_m':None,'radar_lat':float(radar.latitude['data'][0]),'radar_lon':float(radar.longitude['data'][0]),'radar_alt_m':float(radar.altitude['data'][0])}
   for field,label in fields.items():
    row[label]=''

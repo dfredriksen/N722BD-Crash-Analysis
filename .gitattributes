@@ -1,0 +1,5 @@
+# Preserve original evidence and generated artifact bytes across platforms.
+data/** -text
+results/** -text
+overlays/** -text
+scripts/vendor/pyart_nexrad_level2.py -text

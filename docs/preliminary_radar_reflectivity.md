@@ -1,3 +1,5 @@
+> Historical preliminary analysis. Superseded by the [November 2 independent validation and reconstruction](technical_investigation_report.md). Original numerical claims below are retained for provenance.
+
 # Preliminary KAMX Level II reflectivity decoding — N722BD
 
 Analysis date: 2026-11-02 UTC. **Preliminary; not a causal finding.**

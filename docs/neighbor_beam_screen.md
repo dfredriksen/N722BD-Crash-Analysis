@@ -1,3 +1,5 @@
+> Historical preliminary analysis. Superseded by the [November 2 independent validation and reconstruction](technical_investigation_report.md). Original numerical claims below are retained for provenance.
+
 # Expanded neighboring-beam screen — N722BD
 
 2026-11-01 KAMX Level II radar / Flightradar24 comparison. **Preliminary, not a causal conclusion.**

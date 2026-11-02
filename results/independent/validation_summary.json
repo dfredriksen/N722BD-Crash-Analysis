@@ -1,0 +1,34 @@
+{
+  "pyart_rays": 48600,
+  "custom_rays": 29556,
+  "omitted_custom_rays": 19044,
+  "omitted_custom_percent": 39.18518518518518,
+  "candidate_rays": 290,
+  "nominal_joint_overlap_rays": 1,
+  "fields": {
+    "REF": {
+      "compared_native_gates": 35578936,
+      "raw_gate_mismatches": 0,
+      "max_value_difference": 0.0,
+      "geometry_disagreements": 0,
+      "mask_disagreements": 0,
+      "moment_presence_disagreements_on_shared_rays": 0
+    },
+    "VEL": {
+      "compared_native_gates": 11112860,
+      "raw_gate_mismatches": 0,
+      "max_value_difference": 0.0,
+      "geometry_disagreements": 0,
+      "mask_disagreements": 0,
+      "moment_presence_disagreements_on_shared_rays": 0
+    },
+    "SW": {
+      "compared_native_gates": 6429492,
+      "raw_gate_mismatches": 0,
+      "max_value_difference": 0.0,
+      "geometry_disagreements": 0,
+      "mask_disagreements": 0,
+      "moment_presence_disagreements_on_shared_rays": 3929
+    }
+  }
+}

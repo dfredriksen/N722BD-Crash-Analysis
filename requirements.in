@@ -1,0 +1,9 @@
+# Full validation environment. Compile into requirements.lock with Python 3.11.
+arm_pyart==2.3.0
+numpy
+pandas
+scipy
+matplotlib
+netCDF4
+pyproj
+pytest
