@@ -6,6 +6,31 @@ conclusion. This report supersedes the repository's preliminary decoder and
 beam-screen conclusions. Source observations, calculations and interpretations
 are distinguished below.
 
+## Evidence, calculations and interpretation
+
+| Category | What this investigation establishes | What remains unestablished |
+|---|---|---|
+| Verified source observations and decoding | The preserved FR24 file contains the reported positions, altitudes and timestamps; the preserved radar archives contain the decoded ray metadata and moment codes. Checksums and decoder comparisons are reproducible. | Provider-reported positions have not been authenticated as raw GPS measurements. Source accuracy, acquisition completeness, clock accuracy and sensor calibration are not established by agreement between files or decoders. |
+| Calculated geographic relationships | WGS84 distances/bearings, bounded aircraft-state interpolation and nominal beam/gate intersections follow the documented inputs and model. | An intersection is a model-dependent calculation, not an observed aircraft weather encounter. Aircraft altitude datum, refraction and actual beam characteristics remain uncertain. |
+| Analytical interpretations and hypotheses | The datasets permit review of reported track/altitude changes and sampled radar conditions. | Weather avoidance, intentional maneuvering, storm exposure and relationships to the Mar-a-Lago perimeter have not been established. Geographic proximity alone cannot demonstrate intent, routing constraints or causation. |
+| Unresolved limitations | Custom decoder omissions, sparse observations and finite radar sampling are quantified where possible. | ATC synchronization, applicable airspace boundaries and whether a TFR was active at the relevant time are unverified. |
+
+**Test scope:** Passing scientific tests validates the tested calculation paths
+and boundary behavior under stated assumptions. It does not establish that the
+assumptions are physically correct, or that the underlying evidence is accurate,
+authentic or complete. Agreement between the custom decoder and Py-ART supports
+decoding consistency on the compared data; it is not independent validation of
+the weather, aircraft state or accident narrative.
+
+No ATC audio, transcripts or radar-track records have been synchronized to this
+timeline. Assessing weather avoidance or intentional maneuvering would require
+corroborating operational evidence. A Mar-a-Lago perimeter or airspace analysis
+would require a sourced, time-applicable boundary definition and separate
+horizontal/vertical uncertainty treatment. Determining whether a TFR was active
+would require historical FAA NOTAM/TFR evidence with effective UTC intervals,
+geometry, altitude limits and applicable exceptions. This report makes no
+finding of TFR activity, entry, violation or causal relevance.
+
 ## Evidence integrity and execution
 
 All six pre-existing manifest entries match the received ZIP in both byte size
@@ -17,6 +42,9 @@ analysis. The ZIP's SHA-256 is
 Its provenance and retention are documented in [data/README.md](../data/README.md).
 Hash agreement verifies receipt integrity, not authenticity or completeness of
 the provider's original acquisition.
+The original source files, both manifests and the byte-preserving Git attributes
+are included in the pull request so they enter `main` with the reviewed change.
+Reviewing or updating this report does not authorize a merge.
 
 The initial dependency installation failed because the disk was nearly full.
 A low-level Py-ART fallback ran under Python 3.14. After storage became available,

@@ -5,6 +5,8 @@ Independent decoder validation and aircraft-centered 3D sampling reconstruction 
 
 Read the [technical investigation report](docs/technical_investigation_report.md) for authoritative findings, methods and limitations, and [reproduction instructions](scripts/README.md) to rerun the analysis from a fresh clone with Python 3.11. Earlier preliminary reports and supplied result files are retained as historical evidence.
 
+The report separates preserved source observations and decoded measurements, model-dependent geographic calculations, analytical hypotheses, and unresolved limitations. Passing tests establishes the tested calculations' behavior under stated assumptions; it does not establish source accuracy or completeness. Weather avoidance, intentional maneuvering, storm exposure, Mar-a-Lago perimeter relationships, ATC synchronization and historical TFR activity remain unverified.
+
 ## Evidence received (2026-11-01)
 - Flightradar24 granular CSV: 78,107 records, UTC timestamps from 14:17:03.168653 to 17:49:32.411285; ICAO24 `a9ab17`. Position is populated on 16,107 rows. Missing fields must not be interpolated without documentation.
 - Five KAMX NEXRAD Level II radar volumes (UTC filename timestamps): 17:35:07, 17:40:32, 17:45:48, 17:51:04, and 17:56:21. Original archive headers begin with `AR2V`. Actual ray times extend through 18:01:20.523 UTC.
