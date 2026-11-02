@@ -1,0 +1,31 @@
+{
+  "completed_utc": "2026-11-02T10:37:59.359277+00:00",
+  "python": "3.11.15 (main, May 10 2026, 19:31:25) [MSC v.1944 64 bit (AMD64)]",
+  "environment": "Existing repository Python 3.11 environment; requirements.lock",
+  "commands": [
+    {
+      "command": "python scripts/collect_public_data.py radar weather satellite soundings bulletins availability airspace adsb",
+      "note": "Executed in bounded group invocations; all recorded responses retained"
+    },
+    {
+      "command": "python scripts/audit_public_data.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python scripts/collect_public_data.py --restore",
+      "exit_code": 0,
+      "note": "Verified all existing files; separate isolated missing GLM file restored and hash-checked"
+    },
+    {
+      "command": "python -m pytest tests -q",
+      "exit_code": 0,
+      "passed": 29,
+      "subtests_passed": 21,
+      "warnings": 2
+    }
+  ],
+  "raw_response_bytes": 3744758386,
+  "sha256_verified_responses": 379,
+  "original_manifest_checks_passed": 30,
+  "prior_investigation_recomputed_with_new_data": false
+}

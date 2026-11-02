@@ -1,0 +1,30 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/soundings/USM00072201-data-beg2026.txt.zip",
+  "kind": "igra_sounding",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/igra/data/data-y2d/USM00072201-data-beg2026.txt.zip",
+  "final_url": "https://www.ncei.noaa.gov/pub/data/igra/data/data-y2d/USM00072201-data-beg2026.txt.zip",
+  "retrieved_utc": "2026-11-02T10:24:11.731254+00:00",
+  "http_status": 200,
+  "size_bytes": 3286716,
+  "sha256": "87d425b3f0b1050373a46f364b76cb8a39be314789efa41d03f651525e22a505",
+  "content_type": "application/zip",
+  "content_encoding": "",
+  "etag": "\"3226bc-65f3ebdb679e8\"",
+  "last_modified": "Sun, 01 Nov 2026 22:42:15 GMT",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/soundings/USM00072201-data-beg2026.txt.zip.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:24:12 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Last-Modified": "Sun, 01 Nov 2026 22:42:15 GMT",
+    "ETag": "\"3226bc-65f3ebdb679e8\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "3286716",
+    "Content-Type": "application/zip",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "X-Requested-With, Content-Type",
+    "Keep-Alive": "timeout=3, max=100",
+    "Connection": "Keep-Alive"
+  }
+}

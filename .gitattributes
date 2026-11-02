@@ -1,5 +1,8 @@
 # Preserve original evidence and generated artifact bytes across platforms.
 data/** -text
+# Source whitespace (including fixed-width records and padded callsigns) is data.
+data/public/** -whitespace
 results/** -text
+results/public_acquisition/** -whitespace
 overlays/** -text
 scripts/vendor/pyart_nexrad_level2.py -text

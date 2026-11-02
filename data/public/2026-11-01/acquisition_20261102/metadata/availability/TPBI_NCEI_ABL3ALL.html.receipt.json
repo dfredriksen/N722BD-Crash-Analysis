@@ -1,0 +1,31 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/availability/TPBI_NCEI_ABL3ALL.html",
+  "kind": "availability_only",
+  "source_url": "https://www.ncei.noaa.gov/nexradinv/displaygraphs.jsp?id=TPBI&yyyy=2026&mm=11&dd=01&product=ABL3ALL",
+  "final_url": "https://www.ncei.noaa.gov/nexradinv/displaygraphs.jsp?id=TPBI&yyyy=2026&mm=11&dd=01&product=ABL3ALL",
+  "retrieved_utc": "2026-11-02T10:25:16.604476+00:00",
+  "http_status": 200,
+  "size_bytes": 10363,
+  "sha256": "090c500d7e07a41b3bd413403a5880a3273bf4c92c02154a1f7e63f5d6902e6a",
+  "content_type": "text/html;charset=UTF-8",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/availability/TPBI_NCEI_ABL3ALL.html.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:25:46 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Content-Type": "text/html;charset=UTF-8",
+    "Vary": "Accept-Encoding",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "X-Requested-With, Content-Type",
+    "Keep-Alive": "timeout=3, max=100",
+    "Connection": "Keep-Alive",
+    "Transfer-Encoding": "chunked"
+  },
+  "omitted_headers": [
+    "Set-Cookie"
+  ]
+}

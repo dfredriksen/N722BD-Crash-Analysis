@@ -1,0 +1,25 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/G19_GLM-L2-LCFA_18_001.xml",
+  "kind": "inventory",
+  "source_url": "https://noaa-goes19.s3.amazonaws.com/?list-type=2&prefix=GLM-L2-LCFA%2F2026%2F305%2F18%2F&max-keys=1000",
+  "final_url": "https://noaa-goes19.s3.amazonaws.com/?list-type=2&prefix=GLM-L2-LCFA%2F2026%2F305%2F18%2F&max-keys=1000",
+  "retrieved_utc": "2026-11-02T10:23:04.351618+00:00",
+  "http_status": 200,
+  "size_bytes": 67768,
+  "sha256": "557d7353a55be0d4458068e1f2214b3256aca5fbd433140ed7d66dc19b144847",
+  "content_type": "application/xml",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/G19_GLM-L2-LCFA_18_001.xml.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "x-amz-id-2": "1rPUteX2nvAOYjMsDd3R5IujL1RXBVRPjDBM7aquT6xgKstpGGt1V/Lh0yKhmhpz9gccsmmTgWA=",
+    "x-amz-request-id": "3CDNWVFPSCNQEPD5",
+    "Server": "AmazonS3",
+    "Date": "Mon, 02 Nov 2026 10:23:05 GMT",
+    "x-amz-bucket-region": "us-east-1",
+    "Content-Type": "application/xml",
+    "Transfer-Encoding": "chunked"
+  }
+}

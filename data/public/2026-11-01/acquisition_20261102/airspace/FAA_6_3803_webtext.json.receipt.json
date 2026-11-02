@@ -1,0 +1,31 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/airspace/FAA_6_3803_webtext.json",
+  "kind": "faa_notam_webtext",
+  "source_url": "https://tfr.faa.gov/tfrapi/getWebText?notamId=6%2F3803",
+  "final_url": "https://tfr.faa.gov/tfrapi/getWebText?notamId=6%2F3803",
+  "retrieved_utc": "2026-11-02T10:25:50.088350+00:00",
+  "http_status": 200,
+  "size_bytes": 16664,
+  "sha256": "6967d8ce46c0b5870433d3ce55b2c073ca10ceb708b34189ceb74e02710beddb",
+  "content_type": "application/json",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/airspace/FAA_6_3803_webtext.json.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Proxy-agent": "Oracle-iPlanet-Web-Server/7.0",
+    "Content-Length": "16664",
+    "Expires": "Mon, 02 Nov 2026 10:25:50 GMT",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Pragma": "no-cache",
+    "Date": "Mon, 02 Nov 2026 10:25:50 GMT",
+    "Connection": "keep-alive",
+    "Server-Timing": "cdn-cache; desc=MISS, edge; dur=138, origin; dur=212, ak_p; desc=\"1793615150154_398977486_977099042_39991_20282_51_37_-\";dur=1",
+    "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains"
+  },
+  "omitted_headers": [
+    "Set-Cookie"
+  ]
+}

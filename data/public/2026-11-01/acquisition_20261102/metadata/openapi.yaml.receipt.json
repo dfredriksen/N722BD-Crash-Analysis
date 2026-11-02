@@ -1,0 +1,30 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/openapi.yaml",
+  "kind": "documentation",
+  "source_url": "https://aviationweather.gov/data/schema/openapi.yaml",
+  "final_url": "https://aviationweather.gov/data/schema/openapi.yaml",
+  "retrieved_utc": "2026-11-02T10:22:28.338840+00:00",
+  "http_status": 200,
+  "size_bytes": 93075,
+  "sha256": "282226ebbe516d21c6ee11f2e65c15e674794ea7990f8eca40435c3836f8035f",
+  "content_type": "application/octet-stream",
+  "content_encoding": "",
+  "etag": "\"6ae4f6c2-16b93\"",
+  "last_modified": "Fri, 30 Oct 2026 19:57:54 GMT",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/openapi.yaml.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:22:28 GMT",
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "93075",
+    "Connection": "keep-alive",
+    "Last-Modified": "Fri, 30 Oct 2026 19:57:54 GMT",
+    "ETag": "\"6ae4f6c2-16b93\"",
+    "Cache-Control": "max-age=300",
+    "x-azure-ref": "20261102T102228Z-r1d4bcfd98bvp584hC1LAXkqvs0000000f9g0000000090w2",
+    "x-fd-int-roxy-purgeid": "66959013",
+    "X-Cache-Info": "L2_T2",
+    "X-Cache": "TCP_REVALIDATED_HIT",
+    "Accept-Ranges": "bytes"
+  }
+}

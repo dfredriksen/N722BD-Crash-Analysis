@@ -1,0 +1,383 @@
+{
+  "public_http_responses": 379,
+  "response_bytes": 3744758386,
+  "counts_by_kind": {
+    "faa_notam_webtext": 3,
+    "faa_current_tfr_list": 1,
+    "faa_notam_xml": 3,
+    "adsblol_archive_part": 2,
+    "license": 1,
+    "documentation": 6,
+    "release_inventory": 1,
+    "availability_only": 4,
+    "inventory": 10,
+    "station_metadata": 1,
+    "nexrad_level2": 33,
+    "goes_abi_c13": 18,
+    "goes_glm": 270,
+    "igra_sounding": 3,
+    "aviation_weather": 7,
+    "metar_rolling_snapshot": 5,
+    "nws_bulletin_bundle": 11
+  },
+  "all_download_sha256_verified": true,
+  "supplied_manifest_checks": 30,
+  "supplied_radar_exact_matches": 5,
+  "decoded_radar_volumes": 33,
+  "satellite_files_opened": 288,
+  "aviation_weather": [
+    {
+      "file": "cwa_20261101.json",
+      "records": 8,
+      "time_field": "validTimeFrom",
+      "earliest": "2026-11-01T16:09:00+00:00",
+      "latest": "2026-11-01T18:00:00+00:00",
+      "station_ids": []
+    },
+    {
+      "file": "gairmet_20261101.json",
+      "records": 41,
+      "time_field": "validTime",
+      "earliest": "2026-11-01T18:00:00.000Z",
+      "latest": "2026-11-01T18:00:00.000Z",
+      "station_ids": []
+    },
+    {
+      "file": "metar_20261101.json",
+      "records": 118,
+      "time_field": "obsTime",
+      "earliest": "2026-11-01T14:00:00+00:00",
+      "latest": "2026-11-01T20:00:00+00:00",
+      "station_ids": [
+        "KAPF",
+        "KBCT",
+        "KFLL",
+        "KFPR",
+        "KFXE",
+        "KMIA",
+        "KMLB",
+        "KOPF",
+        "KTMB"
+      ]
+    },
+    {
+      "file": "pirep_20261101.json",
+      "records": 151,
+      "time_field": "obsTime",
+      "earliest": "2026-11-01T14:00:00+00:00",
+      "latest": "2026-11-01T20:00:00+00:00",
+      "station_ids": [
+        "KMSC",
+        "KWBC"
+      ],
+      "inside_requested_bbox": 151
+    },
+    {
+      "file": "taf_20261101.json",
+      "records": 8,
+      "time_field": "validTimeFrom",
+      "earliest": "2026-11-01T18:00:00+00:00",
+      "latest": "2026-11-01T20:00:00+00:00",
+      "station_ids": [
+        "KAPF",
+        "KFLL",
+        "KFPR",
+        "KFXE",
+        "KMIA",
+        "KMLB",
+        "KOPF",
+        "KTMB"
+      ]
+    },
+    {
+      "file": "taf_20261101_17Z.json",
+      "records": 8,
+      "time_field": "validTimeFrom",
+      "earliest": "2026-11-01T12:00:00+00:00",
+      "latest": "2026-11-01T16:00:00+00:00",
+      "station_ids": [
+        "KAPF",
+        "KFLL",
+        "KFPR",
+        "KFXE",
+        "KMIA",
+        "KMLB",
+        "KOPF",
+        "KTMB"
+      ]
+    },
+    {
+      "file": "taf_20261101_18Z.json",
+      "records": 8,
+      "time_field": "validTimeFrom",
+      "earliest": "2026-11-01T18:00:00+00:00",
+      "latest": "2026-11-01T18:00:00+00:00",
+      "station_ids": [
+        "KAPF",
+        "KFLL",
+        "KFPR",
+        "KFXE",
+        "KMIA",
+        "KMLB",
+        "KOPF",
+        "KTMB"
+      ]
+    }
+  ],
+  "bulletin_coverage": [
+    {
+      "file": "AFDMFL_20261101_12-21Z.txt",
+      "bulletin_headers": 2,
+      "day_hour_minute": [
+        "011754",
+        "011923"
+      ],
+      "no_usable_bulletins": false,
+      "error_response": ""
+    },
+    {
+      "file": "AFDMLB_20261101_12-21Z.txt",
+      "bulletin_headers": 2,
+      "day_hour_minute": [
+        "011815",
+        "012027"
+      ],
+      "no_usable_bulletins": false,
+      "error_response": ""
+    },
+    {
+      "file": "AIRMET_20261101_12-21Z.txt",
+      "bulletin_headers": 0,
+      "day_hour_minute": [],
+      "no_usable_bulletins": true,
+      "error_response": "ERROR: Could not Find: AIRMET"
+    },
+    {
+      "file": "CWAJAX_20261101_12-21Z.txt",
+      "bulletin_headers": 0,
+      "day_hour_minute": [],
+      "no_usable_bulletins": true,
+      "error_response": "ERROR: Could not Find: CWAJAX"
+    },
+    {
+      "file": "CWAMIA_20261101_12-21Z.txt",
+      "bulletin_headers": 0,
+      "day_hour_minute": [],
+      "no_usable_bulletins": true,
+      "error_response": "ERROR: Could not Find: CWAMIA"
+    },
+    {
+      "file": "FTMAMX_20261101_12-21Z.txt",
+      "bulletin_headers": 0,
+      "day_hour_minute": [],
+      "no_usable_bulletins": true,
+      "error_response": "ERROR: Could not Find: FTMAMX"
+    },
+    {
+      "file": "FTMMLB_20261101_12-21Z.txt",
+      "bulletin_headers": 0,
+      "day_hour_minute": [],
+      "no_usable_bulletins": true,
+      "error_response": "ERROR: Could not Find: FTMMLB"
+    },
+    {
+      "file": "FTMPBI_20261101_12-21Z.txt",
+      "bulletin_headers": 0,
+      "day_hour_minute": [],
+      "no_usable_bulletins": true,
+      "error_response": "ERROR: Could not Find: FTMPBI"
+    },
+    {
+      "file": "SIGE_20261101_12-21Z.txt",
+      "bulletin_headers": 9,
+      "day_hour_minute": [
+        "011255",
+        "011355",
+        "011455",
+        "011555",
+        "011655",
+        "011755",
+        "011855",
+        "011955",
+        "012055"
+      ],
+      "no_usable_bulletins": false,
+      "error_response": ""
+    },
+    {
+      "file": "WARMFL_20261101_12-21Z.txt",
+      "bulletin_headers": 33,
+      "day_hour_minute": [
+        "011207",
+        "011355",
+        "011412",
+        "011505",
+        "011518",
+        "011528",
+        "011534",
+        "011549",
+        "011556",
+        "011607",
+        "011658",
+        "011700",
+        "011718",
+        "011723",
+        "011724",
+        "011735",
+        "011743",
+        "011749",
+        "011752",
+        "011804",
+        "011916",
+        "011917",
+        "011935",
+        "011944",
+        "011945",
+        "012020",
+        "012021",
+        "012032",
+        "012034",
+        "012049",
+        "012051"
+      ],
+      "no_usable_bulletins": false,
+      "error_response": ""
+    },
+    {
+      "file": "WARMLB_20261101_12-21Z.txt",
+      "bulletin_headers": 12,
+      "day_hour_minute": [
+        "011349",
+        "011448",
+        "011549",
+        "011610",
+        "011646",
+        "011739",
+        "011743",
+        "011758",
+        "011856",
+        "011908",
+        "011910",
+        "012052"
+      ],
+      "no_usable_bulletins": false,
+      "error_response": ""
+    }
+  ],
+  "event_soundings": [
+    {
+      "station": "USM00072201",
+      "nominal_utc": "2026-11-01T00:00:00Z",
+      "release_hhmm_utc": "2347",
+      "levels": 202,
+      "source_zip": "USM00072201-data-beg2026.txt.zip"
+    },
+    {
+      "station": "USM00072202",
+      "nominal_utc": "2026-11-01T00:00:00Z",
+      "release_hhmm_utc": "2301",
+      "levels": 256,
+      "source_zip": "USM00072202-data-beg2026.txt.zip"
+    },
+    {
+      "station": "USM00072202",
+      "nominal_utc": "2026-11-01T12:00:00Z",
+      "release_hhmm_utc": "1101",
+      "levels": 241,
+      "source_zip": "USM00072202-data-beg2026.txt.zip"
+    },
+    {
+      "station": "USM00072210",
+      "nominal_utc": "2026-11-01T00:00:00Z",
+      "release_hhmm_utc": "2308",
+      "levels": 290,
+      "source_zip": "USM00072210-data-beg2026.txt.zip"
+    },
+    {
+      "station": "USM00072210",
+      "nominal_utc": "2026-11-01T12:00:00Z",
+      "release_hhmm_utc": "1112",
+      "levels": 301,
+      "source_zip": "USM00072210-data-beg2026.txt.zip"
+    }
+  ],
+  "adsb": {
+    "status": "target_found",
+    "tar_members_scanned": 56983,
+    "archive_parts": [
+      {
+        "file": "data/public/2026-11-01/acquisition_20261102/flight_tracking/adsblol/archive/v2026.11.01-planes-readsb-prod-0.tar.aa",
+        "sha256": "62813665a44851df60676e2449435001cf1acbb5768b0f7fe756fc8145ae9aa3"
+      },
+      {
+        "file": "data/public/2026-11-01/acquisition_20261102/flight_tracking/adsblol/archive/v2026.11.01-planes-readsb-prod-0.tar.ab",
+        "sha256": "e083915f63d0f42fedb3af7ea1ab61b970d76265c1663af09ae8c4cf28e19179"
+      }
+    ],
+    "matches": [
+      {
+        "member": "./traces/17/trace_full_a9ab17.json",
+        "path": "data/public/2026-11-01/acquisition_20261102/flight_tracking/adsblol/extracted/traces/17/trace_full_a9ab17.json",
+        "sha256": "4ebab6b9897e4feefa69dcacd0065c1d353cac675f3d4da3541416cf0747dd95",
+        "size_bytes": 26333,
+        "icao": "a9ab17",
+        "registration": "N722BD",
+        "aircraft_type": "LJ60",
+        "points": 1028,
+        "first_utc": "2026-11-01T14:17:43.240000+00:00",
+        "last_utc": "2026-11-01T17:49:32.750000+00:00",
+        "event_window_points": 370,
+        "metadata_keys": [
+          "alert",
+          "alt_geom",
+          "baro_rate",
+          "category",
+          "emergency",
+          "flight",
+          "geom_rate",
+          "gva",
+          "nac_p",
+          "nac_v",
+          "nic",
+          "nic_baro",
+          "rc",
+          "sda",
+          "sil",
+          "sil_type",
+          "spi",
+          "squawk",
+          "track",
+          "type",
+          "version"
+        ]
+      }
+    ],
+    "license": "ODbL-1.0; ADSB.lol and contributors",
+    "limitation": "Processed trace; not raw 1090 MHz payloads. Shared upstream receivers possible."
+  },
+  "airspace": [
+    {
+      "file": "FAA_6_0100_webtext.json",
+      "records": 1,
+      "notam_id": "6/0100",
+      "text_present": true
+    },
+    {
+      "file": "FAA_6_3803_webtext.json",
+      "records": 1,
+      "notam_id": "6/3803",
+      "text_present": true
+    },
+    {
+      "file": "FAA_6_3963_webtext.json",
+      "records": 1,
+      "notam_id": "6/3963",
+      "text_present": true
+    }
+  ],
+  "limitations": [
+    "Integrity and format/date checks are not an independent validation of every measurement.",
+    "New material has not been integrated into the 3D radar/flight analysis.",
+    "Empty responses and inventory limits do not prove absence of weather, radar operations or restrictions."
+  ]
+}

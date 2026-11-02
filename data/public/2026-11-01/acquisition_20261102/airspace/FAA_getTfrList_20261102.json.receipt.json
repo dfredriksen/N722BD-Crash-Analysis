@@ -1,0 +1,31 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/airspace/FAA_getTfrList_20261102.json",
+  "kind": "faa_current_tfr_list",
+  "source_url": "https://tfr.faa.gov/tfrapi/getTfrList",
+  "final_url": "https://tfr.faa.gov/tfrapi/getTfrList",
+  "retrieved_utc": "2026-11-02T10:25:48.508747+00:00",
+  "http_status": 200,
+  "size_bytes": 14502,
+  "sha256": "fe418f2f26f83f19083f24d0f080d91992daf582c5a2bd177811eab3213f1e82",
+  "content_type": "application/json",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/airspace/FAA_getTfrList_20261102.json.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Proxy-agent": "Oracle-iPlanet-Web-Server/7.0",
+    "Content-Length": "14502",
+    "Expires": "Mon, 02 Nov 2026 10:25:49 GMT",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Pragma": "no-cache",
+    "Date": "Mon, 02 Nov 2026 10:25:49 GMT",
+    "Connection": "keep-alive",
+    "Server-Timing": "cdn-cache; desc=MISS, edge; dur=181, origin; dur=271, ak_p; desc=\"1793615148602_398977486_977093169_45135_15137_48_45_-\";dur=1",
+    "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains"
+  },
+  "omitted_headers": [
+    "Set-Cookie"
+  ]
+}

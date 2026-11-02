@@ -1,0 +1,25 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/TPBI_TV0_001.xml",
+  "kind": "inventory",
+  "source_url": "https://unidata-nexrad-level3.s3.amazonaws.com/?list-type=2&prefix=PBI_TV0_2026_11_01&max-keys=1000",
+  "final_url": "https://unidata-nexrad-level3.s3.amazonaws.com/?list-type=2&prefix=PBI_TV0_2026_11_01&max-keys=1000",
+  "retrieved_utc": "2026-11-02T10:25:47.375136+00:00",
+  "http_status": 200,
+  "size_bytes": 270,
+  "sha256": "dc26b7d2e150fd2d0c55182496d7e1dc349804f7804a01b9ea007474d59ea893",
+  "content_type": "application/xml",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/TPBI_TV0_001.xml.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "x-amz-id-2": "aCSbkALo2bmqxdD8oGbBNOGWBoFv1557ELkfT2oiY76mMEujtGcqi08koIALNIJZbH2tMcMl64Zt8rnt4aeq4g96cohPgzUa",
+    "x-amz-request-id": "S3T3T4MWCCTJK0QM",
+    "Server": "AmazonS3",
+    "Date": "Mon, 02 Nov 2026 10:25:48 GMT",
+    "x-amz-bucket-region": "us-east-1",
+    "Content-Type": "application/xml",
+    "Transfer-Encoding": "chunked"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/iem_afos_help.html",
+  "kind": "documentation",
+  "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?help=",
+  "final_url": "https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?help=",
+  "retrieved_utc": "2026-11-02T10:24:12.909621+00:00",
+  "http_status": 200,
+  "size_bytes": 32691,
+  "sha256": "70220bd32d3b66ec7354772d32849fceaf49d572faee04800af6b3afbefa5592",
+  "content_type": "text/html; charset=UTF-8",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/iem_afos_help.html.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:24:13 GMT",
+    "Server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.8 mod_fcgid/2.3.9 mod_wsgi/6.1.1 Python/3.14",
+    "X-IEM-ServerID": "iemvs39-dc.agron.iastate.edu",
+    "Access-Control-Allow-Origin": "*",
+    "Keep-Alive": "timeout=5, max=100",
+    "Connection": "Keep-Alive",
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "text/html; charset=UTF-8"
+  }
+}

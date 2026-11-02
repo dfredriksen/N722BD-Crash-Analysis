@@ -1,0 +1,28 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/radar/KMLB/KMLB20261101_181556_V06",
+  "kind": "nexrad_level2",
+  "source_url": "https://unidata-nexrad-level2.s3.amazonaws.com/2026/11/01/KMLB/KMLB20261101_181556_V06",
+  "final_url": "https://unidata-nexrad-level2.s3.amazonaws.com/2026/11/01/KMLB/KMLB20261101_181556_V06",
+  "retrieved_utc": "2026-11-02T10:22:25.424570+00:00",
+  "http_status": 200,
+  "size_bytes": 13272943,
+  "sha256": "33078194534d370d1d25691c4228dc13b39fffcaee453cf6473c50ad844920f7",
+  "content_type": "binary/octet-stream",
+  "content_encoding": "",
+  "etag": "\"c294d292c174c42714936dde399066c5\"",
+  "last_modified": "Sun, 01 Nov 2026 18:22:51 GMT",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/radar/KMLB/KMLB20261101_181556_V06.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "x-amz-id-2": "SVCAyhsA9VTWyimjvyxxestmgoXefijf8ZC9VQHlHkvNcn5oEOuQ2RdB+ZJm5eppA4fBT/5lMxw3Y5w70F+HO1WiaFgL2Zyp",
+    "x-amz-request-id": "2K8HY7M2S9CBNPM0",
+    "Server": "AmazonS3",
+    "Date": "Mon, 02 Nov 2026 10:22:26 GMT",
+    "Last-Modified": "Sun, 01 Nov 2026 18:22:51 GMT",
+    "ETag": "\"c294d292c174c42714936dde399066c5\"",
+    "x-amz-server-side-encryption": "AES256",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "13272943"
+  }
+}

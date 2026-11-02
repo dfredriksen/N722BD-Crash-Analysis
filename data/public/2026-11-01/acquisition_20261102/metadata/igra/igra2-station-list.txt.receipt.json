@@ -1,0 +1,30 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/igra/igra2-station-list.txt",
+  "kind": "station_metadata",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/igra/igra2-station-list.txt",
+  "final_url": "https://www.ncei.noaa.gov/pub/data/igra/igra2-station-list.txt",
+  "retrieved_utc": "2026-11-02T10:24:09.282441+00:00",
+  "http_status": 200,
+  "size_bytes": 260950,
+  "sha256": "ca522a98eb34bf83c4f75218a4ffcb63429554207401afad71e601ba2489145e",
+  "content_type": "text/plain",
+  "content_encoding": "",
+  "etag": "\"3fb56-65f3ecaca286f\"",
+  "last_modified": "Sun, 01 Nov 2026 22:45:55 GMT",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/igra/igra2-station-list.txt.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:24:09 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Last-Modified": "Sun, 01 Nov 2026 22:45:55 GMT",
+    "ETag": "\"3fb56-65f3ecaca286f\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "260950",
+    "Content-Type": "text/plain",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "X-Requested-With, Content-Type",
+    "Keep-Alive": "timeout=3, max=100",
+    "Connection": "Keep-Alive"
+  }
+}

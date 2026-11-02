@@ -373,6 +373,18 @@ Execution metadata and checksum audits accompany the generated datasets.
 - [NOAA NSSL Doppler interpretation guide](https://www.nssl.noaa.gov/publications/dopplerguide/chapter1.php)
 - [NWS half-power beam and range-folding explanation](https://www.weather.gov/lmk/radar_sample)
 
+### Supplementary acquisition after this reconstruction
+
+The [2 November public acquisition](public_data_acquisition.md) independently
+retrieved the five original KAMX volumes with identical SHA-256 hashes, additional
+KAMX/KMLB scans, an ADSB.lol N722BD trace with separate barometric/geometric fields,
+weather/satellite/sounding data, and three FAA NOTAM records. These are preserved
+and audited separately. The calculations above have **not** been rerun with this
+new evidence. In particular, the new trace's altitude discrepancy and the distinct
+VIP/security NOTAM intervals require review before revising the flight-state or
+airspace discussion. The previous proposed-circle calculation remains a geographic
+reference calculation, not a violation determination.
+
 The native reader's license and source hash are preserved under
 `scripts/vendor/`. Header timestamps and moment encodings are independently
 decoded; atmospheric truth and crash causation have not been established.

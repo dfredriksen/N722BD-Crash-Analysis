@@ -1,0 +1,28 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/satellite/ABI-L2-CMIPC/OR_ABI-L2-CMIPC-M6C13_G19_s20263051811176_e20263051813561_c20263051814051.nc",
+  "kind": "goes_abi_c13",
+  "source_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-CMIPC/2026/305/18/OR_ABI-L2-CMIPC-M6C13_G19_s20263051811176_e20263051813561_c20263051814051.nc",
+  "final_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-CMIPC/2026/305/18/OR_ABI-L2-CMIPC-M6C13_G19_s20263051811176_e20263051813561_c20263051814051.nc",
+  "retrieved_utc": "2026-11-02T10:23:45.742418+00:00",
+  "http_status": 200,
+  "size_bytes": 3975313,
+  "sha256": "b9fd8efe77930ba90ab7ded82eff5a9f39ebdfe072ef97836a0ad7c07777d03c",
+  "content_type": "binary/octet-stream",
+  "content_encoding": "",
+  "etag": "\"fafcab7249770cb3c12e375f04e46610\"",
+  "last_modified": "Sun, 01 Nov 2026 18:14:38 GMT",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/satellite/ABI-L2-CMIPC/OR_ABI-L2-CMIPC-M6C13_G19_s20263051811176_e20263051813561_c20263051814051.nc.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "x-amz-id-2": "hGEa9+3pm9zF4vIA14E7cMo/xgCkr5Por0E3R1DN+PI3o+3zGROf+d9x66orQgRdZqbBedy/lL+IHq+BsBaidjC7aEm8rlhs",
+    "x-amz-request-id": "BP2F8RMNM0X644KA",
+    "Server": "AmazonS3",
+    "Date": "Mon, 02 Nov 2026 10:23:46 GMT",
+    "Last-Modified": "Sun, 01 Nov 2026 18:14:38 GMT",
+    "ETag": "\"fafcab7249770cb3c12e375f04e46610\"",
+    "x-amz-server-side-encryption": "AES256",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "3975313"
+  }
+}

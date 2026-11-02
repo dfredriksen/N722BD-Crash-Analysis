@@ -1,0 +1,140 @@
+[
+  {
+    "file": "AFDMFL_20261101_12-21Z.txt",
+    "bulletin_headers": 2,
+    "day_hour_minute": [
+      "011754",
+      "011923"
+    ],
+    "no_usable_bulletins": false,
+    "error_response": ""
+  },
+  {
+    "file": "AFDMLB_20261101_12-21Z.txt",
+    "bulletin_headers": 2,
+    "day_hour_minute": [
+      "011815",
+      "012027"
+    ],
+    "no_usable_bulletins": false,
+    "error_response": ""
+  },
+  {
+    "file": "AIRMET_20261101_12-21Z.txt",
+    "bulletin_headers": 0,
+    "day_hour_minute": [],
+    "no_usable_bulletins": true,
+    "error_response": "ERROR: Could not Find: AIRMET"
+  },
+  {
+    "file": "CWAJAX_20261101_12-21Z.txt",
+    "bulletin_headers": 0,
+    "day_hour_minute": [],
+    "no_usable_bulletins": true,
+    "error_response": "ERROR: Could not Find: CWAJAX"
+  },
+  {
+    "file": "CWAMIA_20261101_12-21Z.txt",
+    "bulletin_headers": 0,
+    "day_hour_minute": [],
+    "no_usable_bulletins": true,
+    "error_response": "ERROR: Could not Find: CWAMIA"
+  },
+  {
+    "file": "FTMAMX_20261101_12-21Z.txt",
+    "bulletin_headers": 0,
+    "day_hour_minute": [],
+    "no_usable_bulletins": true,
+    "error_response": "ERROR: Could not Find: FTMAMX"
+  },
+  {
+    "file": "FTMMLB_20261101_12-21Z.txt",
+    "bulletin_headers": 0,
+    "day_hour_minute": [],
+    "no_usable_bulletins": true,
+    "error_response": "ERROR: Could not Find: FTMMLB"
+  },
+  {
+    "file": "FTMPBI_20261101_12-21Z.txt",
+    "bulletin_headers": 0,
+    "day_hour_minute": [],
+    "no_usable_bulletins": true,
+    "error_response": "ERROR: Could not Find: FTMPBI"
+  },
+  {
+    "file": "SIGE_20261101_12-21Z.txt",
+    "bulletin_headers": 9,
+    "day_hour_minute": [
+      "011255",
+      "011355",
+      "011455",
+      "011555",
+      "011655",
+      "011755",
+      "011855",
+      "011955",
+      "012055"
+    ],
+    "no_usable_bulletins": false,
+    "error_response": ""
+  },
+  {
+    "file": "WARMFL_20261101_12-21Z.txt",
+    "bulletin_headers": 33,
+    "day_hour_minute": [
+      "011207",
+      "011355",
+      "011412",
+      "011505",
+      "011518",
+      "011528",
+      "011534",
+      "011549",
+      "011556",
+      "011607",
+      "011658",
+      "011700",
+      "011718",
+      "011723",
+      "011724",
+      "011735",
+      "011743",
+      "011749",
+      "011752",
+      "011804",
+      "011916",
+      "011917",
+      "011935",
+      "011944",
+      "011945",
+      "012020",
+      "012021",
+      "012032",
+      "012034",
+      "012049",
+      "012051"
+    ],
+    "no_usable_bulletins": false,
+    "error_response": ""
+  },
+  {
+    "file": "WARMLB_20261101_12-21Z.txt",
+    "bulletin_headers": 12,
+    "day_hour_minute": [
+      "011349",
+      "011448",
+      "011549",
+      "011610",
+      "011646",
+      "011739",
+      "011743",
+      "011758",
+      "011856",
+      "011908",
+      "011910",
+      "012052"
+    ],
+    "no_usable_bulletins": false,
+    "error_response": ""
+  }
+]

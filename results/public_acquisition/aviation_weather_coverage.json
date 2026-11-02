@@ -1,0 +1,99 @@
+[
+  {
+    "file": "cwa_20261101.json",
+    "records": 8,
+    "time_field": "validTimeFrom",
+    "earliest": "2026-11-01T16:09:00+00:00",
+    "latest": "2026-11-01T18:00:00+00:00",
+    "station_ids": []
+  },
+  {
+    "file": "gairmet_20261101.json",
+    "records": 41,
+    "time_field": "validTime",
+    "earliest": "2026-11-01T18:00:00.000Z",
+    "latest": "2026-11-01T18:00:00.000Z",
+    "station_ids": []
+  },
+  {
+    "file": "metar_20261101.json",
+    "records": 118,
+    "time_field": "obsTime",
+    "earliest": "2026-11-01T14:00:00+00:00",
+    "latest": "2026-11-01T20:00:00+00:00",
+    "station_ids": [
+      "KAPF",
+      "KBCT",
+      "KFLL",
+      "KFPR",
+      "KFXE",
+      "KMIA",
+      "KMLB",
+      "KOPF",
+      "KTMB"
+    ]
+  },
+  {
+    "file": "pirep_20261101.json",
+    "records": 151,
+    "time_field": "obsTime",
+    "earliest": "2026-11-01T14:00:00+00:00",
+    "latest": "2026-11-01T20:00:00+00:00",
+    "station_ids": [
+      "KMSC",
+      "KWBC"
+    ],
+    "inside_requested_bbox": 151
+  },
+  {
+    "file": "taf_20261101.json",
+    "records": 8,
+    "time_field": "validTimeFrom",
+    "earliest": "2026-11-01T18:00:00+00:00",
+    "latest": "2026-11-01T20:00:00+00:00",
+    "station_ids": [
+      "KAPF",
+      "KFLL",
+      "KFPR",
+      "KFXE",
+      "KMIA",
+      "KMLB",
+      "KOPF",
+      "KTMB"
+    ]
+  },
+  {
+    "file": "taf_20261101_17Z.json",
+    "records": 8,
+    "time_field": "validTimeFrom",
+    "earliest": "2026-11-01T12:00:00+00:00",
+    "latest": "2026-11-01T16:00:00+00:00",
+    "station_ids": [
+      "KAPF",
+      "KFLL",
+      "KFPR",
+      "KFXE",
+      "KMIA",
+      "KMLB",
+      "KOPF",
+      "KTMB"
+    ]
+  },
+  {
+    "file": "taf_20261101_18Z.json",
+    "records": 8,
+    "time_field": "validTimeFrom",
+    "earliest": "2026-11-01T18:00:00+00:00",
+    "latest": "2026-11-01T18:00:00+00:00",
+    "station_ids": [
+      "KAPF",
+      "KFLL",
+      "KFPR",
+      "KFXE",
+      "KMIA",
+      "KMLB",
+      "KOPF",
+      "KTMB"
+    ]
+  }
+]

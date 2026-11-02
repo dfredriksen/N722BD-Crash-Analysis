@@ -1,0 +1,748 @@
+
+975 
+WGUS82 KMLB 011349
+FLSMLB
+
+Flood Statement
+National Weather Service Melbourne FL
+849 AM EST Sun Nov 1 2026
+
+...The Flood Warning continues for the following rivers in Florida...
+
+  St Johns River Near Astor affecting Volusia and Lake Counties.
+
+.Persistent east-northeast winds and downstream tidal effects on the
+St John River have slowed flow at Astor. Forecast rainfall may lead
+to additional rises within Moderate flood stage.
+
+For the St. Johns River...including Astor...Moderate flooding is
+forecast.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Motorists should not attempt to drive around barricades or drive cars
+through flooded areas.
+
+Caution is urged when walking near riverbanks.
+
+Additional information is available at www.weather.gov.
+
+The next statement will be issued this evening at 1100 PM EST.
+
+&&
+
+FLC069-127-020400-
+/O.CON.KMLB.FL.W.0003.000000T0000Z-000000T0000Z/
+/ASTF1.2.WT.261006T0945Z.261027T1630Z.000000T0000Z.NO/
+849 AM EST Sun Nov 1 2026
+
+...FLOOD WARNING REMAINS IN EFFECT UNTIL FURTHER NOTICE...
+
+* WHAT...Moderate flooding is occurring and moderate flooding is
+  forecast.
+
+* WHERE...St Johns River near Astor.
+
+* WHEN...Until further notice.
+
+* IMPACTS...At 3.5 feet, Canals have overflowed into yards. Homes on
+  or near Wildhog and Bonnet roads become inaccessible with several
+  inches of water inside homes along the river and canals. Docks at
+  Astor Bridge marina and throughout Astor are completely submerged.
+  Bartram Rd and Holiday Circle are inaccessible with yards
+  completely submerged. Clair Street is inaccessible. Roads flooded
+  in South Moon Fish Camp, docks and yards at condominiums on Juno
+  Trail and water breaches the sea wall at Blair's Jungle Den.
+
+* ADDITIONAL DETAILS...
+  - At 8:30 AM EST Sunday the stage was 3.4 feet.
+  - Bankfull stage is 2.0 feet.
+  - Recent Activity...The maximum river stage in the 24 hours ending
+    at 8:30 AM EST Sunday was 3.5 feet.
+  - Forecast...The river is expected to rise to a crest of 3.4 feet
+    this afternoon.
+  - Flood stage is 2.3 feet.
+  - http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 2908 8150 2932 8169 2935 8157 2910 8142
+
+
+$$
+
+Watson
+
+
+
+006 
+WGUS82 KMLB 011448
+FLSMLB
+
+Flood Advisory
+National Weather Service Melbourne FL
+948 AM EST Sun Nov 1 2026
+
+FLC093-111-011615-
+/O.NEW.KMLB.FA.Y.0148.261101T1448Z-261101T1615Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Okeechobee FL-St. Lucie FL-
+948 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1115 AM EST THIS MORNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...East Central Okeechobee County in east central Florida...
+  Northwestern St. Lucie County in east central Florida...
+
+* WHEN...Until 1115 AM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 948 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1.5 and 3 inches of rain
+    have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Country Hills Estates.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 2750 8068 2749 8057 2740 8054 2733 8072
+      2733 8082 2746 8081
+
+
+$$
+
+Watson
+
+
+
+775 
+WGUS82 KMLB 011549
+FLSMLB
+
+Flood Advisory
+National Weather Service Melbourne FL
+1049 AM EST Sun Nov 1 2026
+
+FLC093-011745-
+/O.NEW.KMLB.FA.Y.0149.261101T1549Z-261101T1745Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Okeechobee FL-
+1049 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1245 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Southeastern Okeechobee County in east central Florida...
+
+* WHEN...Until 1245 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1049 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 2 inches of rain have
+    fallen.
+  - Additional rainfall amounts of 2 to 3 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Treasure Island, Okeechobee, Four Seasons Estates, Taylor Creek,
+    Whispering Pines, Okeechobee Airport, Basswood Estates and Okee
+    Tantie Recreation Area.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2734 8084 2733 8069 2717 8073 2718 8074
+      2721 8079 2721 8080 2720 8083 2719 8083
+      2714 8087 2715 8087 2716 8088 2717 8088
+      2716 8089 2717 8090 2718 8091 2719 8091
+      2720 8093 2720 8094 2721 8094
+
+
+$$
+
+Haley
+
+
+
+373 
+WGUS52 KMLB 011610
+FFWMLB
+FLC093-011815-
+/O.NEW.KMLB.FF.W.0009.261101T1610Z-261101T1815Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Melbourne FL
+1110 AM EST Sun Nov 1 2026
+
+The National Weather Service in Melbourne has issued a
+
+* Flash Flood Warning for...
+  Southeastern Okeechobee County in east central Florida...
+
+* Until 115 PM EST.
+
+* At 1110 AM EST, Doppler radar indicated thunderstorms producing
+  heavy rain across the warned area. Between 2 and 3 inches of rain
+  have fallen. Additional rainfall amounts of 1 to 2 inches are
+  possible in the warned area. Flash flooding is ongoing or expected
+  to begin shortly.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Flash flooding of small creeks and streams, urban areas,
+           highways, streets and underpasses as well as other poor
+           drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Treasure Island, Okeechobee, Taylor Creek, Four Seasons Estates,
+  Okeechobee Airport, Whispering Pines and Basswood Estates.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2718 8085 2723 8092 2730 8087 2732 8081
+      2728 8076 2720 8078 2721 8079 2721 8080
+      2720 8081 2720 8083
+
+FLASH FLOOD...RADAR INDICATED
+
+$$
+
+Haley
+
+
+
+204 
+WGUS72 KMLB 011646
+FFSMLB
+
+Flash Flood Statement
+National Weather Service Melbourne FL
+1146 AM EST Sun Nov 1 2026
+
+FLC093-011815-
+/O.CON.KMLB.FF.W.0009.000000T0000Z-261101T1815Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Okeechobee FL-
+1146 AM EST Sun Nov 1 2026
+
+...FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 115 PM EST THIS
+AFTERNOON FOR SOUTHEASTERN OKEECHOBEE COUNTY...
+
+At 1146 AM EST, local law enforcement reported thunderstorms
+producing heavy rain across the warned area. Between 3 and 5 inches
+of rain have fallen. Additional rainfall amounts of 1 to 2 inches are
+possible in the warned area. Flash flooding is already occurring.
+
+HAZARD...Life threatening flash flooding. Thunderstorms producing
+         flash flooding.
+
+SOURCE...Law enforcement reported.
+
+IMPACT...Life threatening flash flooding of creeks and streams, urban
+         areas, highways, streets and underpasses.
+
+Some locations that will experience flash flooding include...
+  Treasure Island, Okeechobee, Taylor Creek, Four Seasons Estates,
+  Okeechobee Airport, Whispering Pines and Basswood Estates.
+
+Law enforcement reports portions of State Road 70 and US 441 in and
+around the City of Okeechobee are impassable. Motorists should avoid
+these roads. Water was also entering structures.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2718 8085 2723 8092 2730 8087 2732 8081
+      2728 8076 2720 8078 2721 8079 2721 8080
+      2720 8081 2720 8083
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+Haley
+
+
+
+839 
+WGUS62 KMLB 011739
+FFAMLB
+
+URGENT - IMMEDIATE BROADCAST REQUESTED
+Flood Watch
+National Weather Service Melbourne FL
+1239 PM EST Sun Nov 1 2026
+
+FLZ058-022000-
+/O.EXA.KMLB.FA.A.0003.000000T0000Z-261102T2000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Okeechobee-
+Including the cities of Okeechobee, Basinger, and Fort Drum
+1239 PM EST Sun Nov 1 2026
+
+...FLOOD WATCH IN EFFECT THROUGH MONDAY AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues to be
+  possible.
+
+* WHERE...A portion of east central Florida, including the following
+  county, Okeechobee.
+
+* WHEN...Through Monday afternoon.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers,
+  creeks, streams, and other low-lying and flood-prone locations.
+  Flooding may occur in poor drainage and urban areas.
+
+* ADDITIONAL DETAILS...
+  - An approaching disturbance from the Gulf is forecast to interact
+    with unusually rich moisture over portions of Central Florida,
+    causing bands of heavy rain today through Monday afternoon. The
+    ground is nearly saturated, especially along the Treasure Coast
+    urban corridor. Widespread amounts of 1-3 inches are forecast,
+    with localized amounts of 5 inches or more which may cause flash
+    flooding.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+You should monitor later forecasts and be alert for possible Flood
+Warnings. Those living in areas prone to flooding should be prepared
+to take action should flooding develop.
+
+&&
+
+$$
+
+FLZ154-159-164-247-254-259-264-347-447-547-647-747-022000-
+/O.CON.KMLB.FA.A.0003.000000T0000Z-261102T2000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Coastal Indian River-Coastal Saint Lucie-Coastal Martin-Inland
+Northern Brevard-Inland Indian River-Inland Saint Lucie-Inland
+Martin-Mainland Northern Brevard-Northern Brevard Barrier Islands-
+Inland Southern Brevard-Mainland Southern Brevard-Southern
+Brevard Barrier Islands-
+Including the cities of Satellite Beach, Rockledge, Port Saint Lucie,
+Indiantown, Jensen Beach, Saint Lucie West, Playalinda Beach,
+Sebastian, Hobe Sound, Vero Beach, Canaveral Groves,
+Fellsmere, Mims, Palm Bay west of I 95, Titusville, Cocoa, Cocoa
+Beach, Melbourne, Fort Pierce, Viera West, Stuart, Tradition,
+Melbourne Beach, Port Saint John, and Merritt Island Wildlife Refuge
+1239 PM EST Sun Nov 1 2026
+
+...FLOOD WATCH REMAINS IN EFFECT THROUGH MONDAY AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues to be
+  possible.
+
+* WHERE...A portion of east central Florida, including the following
+  areas, Coastal Indian River, Coastal Martin, Coastal Saint Lucie,
+  Inland Indian River, Inland Martin, Inland Northern Brevard, Inland
+  Saint Lucie, Inland Southern Brevard, Mainland Northern Brevard,
+  Mainland Southern Brevard, Northern Brevard Barrier Islands and
+  Southern Brevard Barrier Islands.
+
+* WHEN...Through Monday afternoon.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers,
+  creeks, streams, and other low-lying and flood-prone locations.
+  Flooding may occur in poor drainage and urban areas.
+
+* ADDITIONAL DETAILS...
+  - An approaching disturbance from the Gulf is forecast to interact
+    with unusually rich moisture over portions of Central Florida,
+    causing bands of heavy rain today through Monday afternoon. The
+    ground is nearly saturated, especially along the Treasure Coast
+    urban corridor. Widespread amounts of 1-3 inches are forecast,
+    with localized amounts of 5 inches or more which may cause flash
+    flooding.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+You should monitor later forecasts and be alert for possible Flood
+Warnings. Those living in areas prone to flooding should be prepared
+to take action should flooding develop.
+
+&&
+
+$$
+
+Watson
+
+
+
+845 
+WGUS82 KMLB 011743
+FLSMLB
+
+Flood Advisory
+National Weather Service Melbourne FL
+1243 PM EST Sun Nov 1 2026
+
+FLC093-011915-
+/O.EXT.KMLB.FA.Y.0149.000000T0000Z-261101T1915Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Okeechobee FL-
+1243 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY NOW IN EFFECT UNTIL 215 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Southeastern Okeechobee County in east central Florida...
+
+* WHEN...Until 215 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 1241 PM EST, local law enforcement reported heavy rain in the
+    advisory area due to thunderstorms. Minor flooding is already
+    occurring. Between 3 and 6 inches of rain have fallen.
+  - Additional rainfall amounts up to 2 inches are expected over the
+    area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Treasure Island, Okeechobee, Four Seasons Estates, Taylor Creek,
+    Whispering Pines, Okeechobee Airport, Basswood Estates and Okee
+    Tantie Recreation Area.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2734 8084 2733 8069 2717 8073 2718 8074
+      2721 8079 2721 8080 2720 8083 2719 8083
+      2714 8087 2715 8087 2716 8088 2717 8088
+      2716 8089 2717 8090 2718 8091 2719 8091
+      2720 8093 2720 8094 2721 8094
+
+
+$$
+
+Haley
+
+
+
+776 
+WGUS52 KMLB 011758
+FFWMLB
+FLC093-011915-
+/O.EXT.KMLB.FF.W.0009.000000T0000Z-261101T1915Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Melbourne FL
+1258 PM EST Sun Nov 1 2026
+
+The National Weather Service in Melbourne has extended the
+
+* Flash Flood Warning for...
+  Southeastern Okeechobee County in east central Florida...
+
+* Until 215 PM EST.
+
+* At 1258 PM EST, local law enforcement reported thunderstorms
+  producing heavy rain across the warned area. Between 3 and 6 inches
+  of rain have fallen. Additional rainfall amounts up to 2 inches are
+  possible in the warned area. Flash flooding is already occurring.
+
+  HAZARD...Life threatening flash flooding. Thunderstorms producing
+           flash flooding.
+
+  SOURCE...Law enforcement reported.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+  Treasure Island, Okeechobee, Taylor Creek, Four Seasons Estates,
+  Okeechobee Airport, Whispering Pines and Basswood Estates.
+
+Law enforcement reports portions of SR 70 and US 441 in and around
+the City of Okeechobee are impassable. Motorists should avoid these
+roads. Water was also entering structures.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 2718 8085 2723 8092 2730 8087 2732 8081
+      2728 8076 2720 8078 2721 8079 2721 8080
+      2720 8081 2720 8083
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+Haley
+
+
+
+328 
+NWUS52 KMLB 011856
+LSRMLB
+
+Preliminary Local Storm Report
+National Weather Service Melbourne FL
+156 PM EST Sun Nov 1 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1136 AM     Flash Flood      1 W Okeechobee          27.24N 80.85W
+11/01/2026                   Okeechobee         FL   Law Enforcement
+
+            Law enforcement reports portions of SR 70 in
+            Okeechobee City impassable due to flooding.
+
+1136 AM     Flash Flood      1 N Okeechobee          27.25N 80.83W
+11/01/2026                   Okeechobee         FL   Law Enforcement
+
+            Law enforcement reports portions of US 441
+            in Okeechobee city impassable due to
+            flooding.
+
+1136 AM     Flash Flood      Okeechobee              27.24N 80.83W
+11/01/2026                   Okeechobee         FL   Law Enforcement
+
+            Law enforcement reports flood water entering
+            buildings near the intersection of SW Park
+            St and SW 4th Ave.
+
+&&
+
+$$
+RH
+
+
+
+121 
+WGUS82 KMLB 011908
+FLSMLB
+
+Flood Advisory
+National Weather Service Melbourne FL
+208 PM EST Sun Nov 1 2026
+
+FLC061-085-093-111-012215-
+/O.NEW.KMLB.FA.Y.0150.261101T1908Z-261101T2215Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Indian River FL-Martin FL-Okeechobee FL-St. Lucie FL-
+208 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 515 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Southeastern Indian River County in east central Florida...
+  Northwestern Martin County in east central Florida...
+  Southeastern Okeechobee County in east central Florida...
+  St. Lucie County in east central Florida...
+
+* WHEN...Until 515 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 206 PM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 2 and 5 inches of rain have
+    fallen across much of the advisory area. Up to 8 inches of rain
+    have fallen in portions of Okeechobee County.
+  - Additional rainfall amounts of 2 to 3 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Port Saint Lucie, Fort Pierce, Vero Beach, Treasure Island,
+    Okeechobee, White City, Indrio, Vero Beach South, Fort Pierce
+    Inlet, Saint Lucie Nuclear Power Plant, Gifford, Tradition, Saint
+    Lucie West, Fort Pierce South, Four Seasons Estates, Fort Pierce
+    North, Saint Lucie Airport, Port Saint Lucie River Park and
+    Lakewood Park.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2727 8100 2752 8079 2769 8034 2758 8031
+      2757 8029 2736 8021 2704 8064 2711 8066
+      2718 8074 2721 8080 2719 8083 2714 8087
+      2717 8088 2717 8090 2719 8091 2720 8094
+      2722 8095 2722 8097 2723 8098 2725 8098
+
+
+$$
+
+Haley
+
+
+
+145 
+WGUS52 KMLB 011910
+FFWMLB
+FLC093-012115-
+/O.NEW.KMLB.FF.W.0010.261101T1910Z-261101T2115Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Melbourne FL
+210 PM EST Sun Nov 1 2026
+
+The National Weather Service in Melbourne has issued a
+
+* Flash Flood Warning for...
+  Southeastern Okeechobee County in east central Florida...
+
+* Until 415 PM EST.
+
+* At 210 PM EST, local law enforcement reported thunderstorms
+  producing heavy rain across the warned area. Between 4 and 7 inches
+  of rain have fallen. Additional rainfall amounts of 2 to 3 inches
+  are possible in the warned area. Flash flooding is already
+  occurring.
+
+  HAZARD...Life threatening flash flooding. Thunderstorms producing
+           flash flooding.
+
+  SOURCE...Law enforcement reported.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+  Treasure Island, Okeechobee, Four Seasons Estates, Taylor Creek,
+  Whispering Pines, Okeechobee Airport and Basswood Estates.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2723 8095 2731 8088 2735 8076 2729 8069
+      2719 8075 2720 8078 2721 8079 2721 8080
+      2720 8083 2719 8083 2716 8086
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+Haley
+
+
+
+009 
+WGUS82 KMLB 012052
+FLSMLB
+
+Flood Advisory
+National Weather Service Melbourne FL
+352 PM EST Sun Nov 1 2026
+
+FLC085-111-012245-
+/O.NEW.KMLB.FA.Y.0151.261101T2052Z-261101T2245Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Martin FL-St. Lucie FL-
+352 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 545 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Martin County in east central Florida...
+  Southeastern St. Lucie County in east central Florida...
+
+* WHEN...Until 545 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 352 PM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 2.5 and 4 inches of rain
+    have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Walton, Stuart, Indiantown, Jupiter Island, Palm City, Port
+    Salerno, Jensen Beach, Hobe Sound, Sewall's Point, Witham Field,
+    North River Shores, Hobe Sound Beach, Nettles Island, Jonathan
+    Dickinson State Park, Ocean Breeze Park, Rio, Hobe Sound Wildlife
+    Refuge, Waveland and Hutchinson Island South.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2704 8064 2736 8021 2727 8018 2726 8017
+      2718 8013 2717 8013 2704 8008 2698 8006
+      2697 8006 2697 8014 2696 8014 2696 8061
+      2699 8062
+
+
+$$
+
+Watson
+
+

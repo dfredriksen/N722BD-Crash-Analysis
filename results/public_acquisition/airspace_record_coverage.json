@@ -1,0 +1,20 @@
+[
+  {
+    "file": "FAA_6_0100_webtext.json",
+    "records": 1,
+    "notam_id": "6/0100",
+    "text_present": true
+  },
+  {
+    "file": "FAA_6_3803_webtext.json",
+    "records": 1,
+    "notam_id": "6/3803",
+    "text_present": true
+  },
+  {
+    "file": "FAA_6_3963_webtext.json",
+    "records": 1,
+    "notam_id": "6/3963",
+    "text_present": true
+  }
+]

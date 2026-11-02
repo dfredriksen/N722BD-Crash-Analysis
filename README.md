@@ -16,6 +16,8 @@ The report separates preserved source observations and decoded measurements, mod
 **Timing caution:** Two radar volumes have nominal timestamps after the last flight-tracking CSV record. This does not establish that any radar feature coincides with the aircraft; align actual radar sweep times and aircraft timestamps before making comparisons.
 
 ## Repository layout
+- `data/public/2026-11-01/acquisition_20261102/`: supplementary public-source acquisition; see the [download inventory, coverage and limitations](docs/public_data_acquisition.md). Bulk files are local downloads restored by manifest, not ordinary Git objects.
+- `results/public_acquisition/`: checksums, actual coverage and a separately sourced N722BD trace; not yet integrated into the original reconstruction.
 - `data/flight_tracking/`: original CSV and source details
 - `data/radar/KAMX/`: unmodified Level II radar volumes
 - `data/supplied_artifacts/`: unmodified supplied scripts, figures, logs and preliminary results

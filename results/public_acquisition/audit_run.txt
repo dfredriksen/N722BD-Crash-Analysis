@@ -1,0 +1,66 @@
+Decoded KAMX20261101_165812_V06: 9720 rays
+Decoded KAMX20261101_170320_V06: 9720 rays
+Decoded KAMX20261101_170836_V06: 9720 rays
+Decoded KAMX20261101_171402_V06: 9720 rays
+Decoded KAMX20261101_171918_V06: 9720 rays
+Decoded KAMX20261101_172434_V06: 9720 rays
+Decoded KAMX20261101_172950_V06: 9720 rays
+Decoded KAMX20261101_173507_V06: 9720 rays
+Decoded KAMX20261101_174032_V06: 9720 rays
+Decoded KAMX20261101_174548_V06: 9720 rays
+Decoded KAMX20261101_175104_V06: 9720 rays
+Decoded KAMX20261101_175621_V06: 9720 rays
+Decoded KAMX20261101_180129_V06: 9720 rays
+Decoded KAMX20261101_180646_V06: 9720 rays
+Decoded KAMX20261101_181155_V06: 9720 rays
+Decoded KAMX20261101_181656_V06: 9720 rays
+Decoded KAMX20261101_182206_V06: 9720 rays
+Decoded KAMX20261101_182715_V06: 9720 rays
+Decoded KMLB20261101_165445_V06: 10080 rays
+Decoded KMLB20261101_170129_V06: 10080 rays
+Decoded KMLB20261101_170811_V06: 10080 rays
+Decoded KMLB20261101_171501_V06: 10080 rays
+Decoded KMLB20261101_172139_V06: 10080 rays
+Decoded KMLB20261101_172816_V06: 10080 rays
+Decoded KMLB20261101_173454_V06: 10080 rays
+Decoded KMLB20261101_174131_V06: 10080 rays
+Decoded KMLB20261101_174835_V06: 10080 rays
+Decoded KMLB20261101_175513_V06: 10080 rays
+Decoded KMLB20261101_180216_V06: 10080 rays
+Decoded KMLB20261101_180918_V06: 10080 rays
+Decoded KMLB20261101_181556_V06: 10080 rays
+Decoded KMLB20261101_182300_V06: 10080 rays
+Decoded KMLB20261101_182949_V06: 10080 rays
+{
+  "public_http_responses": 379,
+  "response_bytes": 3744758386,
+  "counts_by_kind": {
+    "faa_notam_webtext": 3,
+    "faa_current_tfr_list": 1,
+    "faa_notam_xml": 3,
+    "adsblol_archive_part": 2,
+    "license": 1,
+    "documentation": 6,
+    "release_inventory": 1,
+    "availability_only": 4,
+    "inventory": 10,
+    "station_metadata": 1,
+    "nexrad_level2": 33,
+    "goes_abi_c13": 18,
+    "goes_glm": 270,
+    "igra_sounding": 3,
+    "aviation_weather": 7,
+    "metar_rolling_snapshot": 5,
+    "nws_bulletin_bundle": 11
+  },
+  "all_download_sha256_verified": true,
+  "supplied_manifest_checks": 30,
+  "supplied_radar_exact_matches": 5,
+  "decoded_radar_volumes": 33,
+  "satellite_files_opened": 288,
+  "limitations": [
+    "Integrity and format/date checks are not an independent validation of every measurement.",
+    "New material has not been integrated into the 3D radar/flight analysis.",
+    "Empty responses and inventory limits do not prove absence of weather, radar operations or restrictions."
+  ]
+}
