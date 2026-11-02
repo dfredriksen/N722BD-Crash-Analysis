@@ -11,6 +11,7 @@ import json
 import os
 from pathlib import Path
 import subprocess
+import shutil
 import sys
 import time
 
@@ -35,11 +36,29 @@ def source_audit():
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--log-dir',type=Path,required=True)
-    args=parser.parse_args(); logs=args.log_dir.resolve();logs.mkdir(parents=True,exist_ok=True)
+    parser.add_argument('--clear-generated',action='store_true',
+                        help='Back up then remove generated results before rerunning; preserves static documentation/audits')
+    args=parser.parse_args(); logs=args.log_dir.resolve()
+    if any(logs.is_relative_to((ROOT/folder).resolve()) for folder in ('data','results')):
+        raise ValueError('Logs/backups must be outside evidence and result directories')
+    logs.mkdir(parents=True,exist_ok=True)
     before=source_audit()
     (logs/'source_audit_before.json').write_text(json.dumps(before,indent=2))
     baseline={str(p.relative_to(ROOT)):sha(p) for folder in ('independent','review')
               for p in (ROOT/'results'/folder).glob('*') if p.is_file()}
+    if args.clear_generated:
+        static={'README.md','git_blob_integrity.csv','git_file_size_audit.csv',
+                'unchanged_science_from_838f10d.json'}
+        for relative, expected in baseline.items():
+            path=(ROOT/relative).resolve()
+            if path.name in static:continue
+            if not path.is_relative_to((ROOT/'results').resolve()):
+                raise ValueError('Generated target escaped results directory')
+            backup=logs/'baseline'/relative
+            backup.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copyfile(path,backup)
+            if sha(backup)!=expected:raise ValueError('Baseline backup verification failed')
+            path.unlink()
     env=os.environ.copy();env.pop('PYTHONPATH',None)
     env.update(PYTHONNOUSERSITE='1',MPLCONFIGDIR=str(logs/'font-cache'),PYTHONIOENCODING='utf-8')
     stages=[('environment',['-c','import sys,json,importlib.metadata as m; print(json.dumps(dict(python=sys.version,prefix=sys.prefix,base_prefix=sys.base_prefix,packages={x.metadata["Name"]:x.version for x in m.distributions()}),indent=2))']),
@@ -71,13 +90,16 @@ def main():
     if before!=after:raise ValueError('Original evidence changed during analysis')
     differences=[]
     for path,old in baseline.items():
-        current=sha(ROOT/path)
+        current=sha(ROOT/path) if (ROOT/path).exists() else None
         differences.append(dict(file=path,before_sha256=old,after_sha256=current,byte_identical=old==current))
     (logs/'output_comparison.json').write_text(json.dumps(differences,indent=2))
     (logs/'run.json').write_text(json.dumps(dict(source_entries_verified=len(after),
-        original_evidence_unchanged=True,stages_passed=len(status),baseline_artifacts=len(baseline),
+        original_evidence_unchanged=True,generated_outputs_cleared_before_run=args.clear_generated,
+        stages_passed=len(status),baseline_artifacts=len(baseline),
         byte_identical=sum(x['byte_identical'] for x in differences),
         differences=[x['file'] for x in differences if not x['byte_identical']]),indent=2))
+    if any(x['after_sha256'] is None for x in differences):
+        raise ValueError('Expected output was not regenerated; see output_comparison.json')
 
 
 if __name__=='__main__':main()

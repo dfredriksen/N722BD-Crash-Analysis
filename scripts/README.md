@@ -28,13 +28,15 @@ python scripts/review/flight_evidence_check.py
 python -m unittest discover -s tests -v
 ```
 
-Alternatively, `python scripts/reproduce.py --log-dir ../N722BD-run-logs` runs
+Alternatively, `python scripts/reproduce.py --clear-generated --log-dir ../N722BD-run-logs` runs
 all these stages with per-stage logs, source hashes before/after, environment
-versions, and output SHA-256 comparison. Use a separate clone and fresh locked
+versions, and output SHA-256 comparison. Generated products are backed up and
+removed first, so stale outputs cannot stand in for regeneration. Static README
+and prior Git/baseline audit snapshots are retained. Use a separate clone and fresh locked
 virtual environment for an isolated reproduction. The original ZIP need not be
 present; the 24 committed original members suffice.
 
-The 24-test suite includes twenty boundary/plot/adversarial checks and four recorded-result
+The 25-test suite includes twenty-one boundary/plot/adversarial checks and four recorded-result
 regressions against committed per-ray/per-match CSVs. The regressions check the
 reviewed decoder counts, missing SW moments, and the distinction between nominal
 geometric overlap and valid moment measurements. They do not rerun the raw radar

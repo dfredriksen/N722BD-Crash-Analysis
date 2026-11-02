@@ -12,6 +12,12 @@ accident finding or authorization to merge PR #1.
 | F3: inconsistent edge point and rectangular joint beam test | Medium | Fixed-ground vertical projections; explicit circular 3D cone; aircraft-point slant range and native gate containment; separately retained beam-axis samples; cone altitude intervals and revised overlays | Axis round trips, diagonal false-overlap fixture, target scenarios, and separate all-ray/geometry implementation |
 | F4: nominal selection restricts shifted clock scenarios | Low | Every ray evaluated before nominal filtering for each shift; full coverage ledger plus selected-neighbor detail | Synthetic state unavailable nominally but recovered after shift; independent comparison of all 243,000 coverage/overlap flags |
 
+The further pass also replaces a 12-km endpoint shortcut in the proposed-circle
+segment search with a triangle-inequality lower bound. A regression ensures that
+distant endpoints cannot hide a crossing segment. The 3.363040-NM minimum is
+unchanged. Clean reproduction backs up and removes generated products before
+execution to exclude stale-output dependence.
+
 Implementation: `scripts/check_highlevel_api.py`, `scripts/summarize_validation.py`,
 `scripts/radar_geometry.py`, `scripts/run_investigation.py`, and
 `scripts/make_overlays.py`. Reproduction, boundary tests and independent checks

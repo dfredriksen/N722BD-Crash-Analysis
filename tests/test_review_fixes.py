@@ -12,6 +12,8 @@ from check_highlevel_api import (REQUIRED_METADATA, METADATA_TOLERANCES,
 from summarize_validation import field_summary
 from radar_geometry import point_geometry, height_at_ground, altitude_interval_overlap, slant_from_ground
 from run_investigation import clock_case, distance_bearing
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts/review'))
+from perimeter_check import segment_distance_lower_bound
 
 
 class ValidationGuardTests(unittest.TestCase):
@@ -78,6 +80,11 @@ class ValidationGuardTests(unittest.TestCase):
 
 
 class ThreeDimensionalGeometryTests(unittest.TestCase):
+    def test_perimeter_search_does_not_skip_long_crossing_segment(self):
+        # Distant endpoints alone cannot rule out a closer point between them.
+        self.assertEqual(segment_distance_lower_bound(13000.,13000.,26000.),0.)
+        self.assertGreater(segment_distance_lower_bound(13000.,13000.,100.),6200.)
+
     def test_point_on_axis_roundtrip(self):
         for k in (1., 4/3, 1.5):
             height = height_at_ground(100000., 6., 33., k)

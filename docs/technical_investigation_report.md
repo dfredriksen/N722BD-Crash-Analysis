@@ -22,7 +22,7 @@ authentic or complete. Agreement between the custom decoder and Py-ART supports
 decoding consistency on the compared data; it is not independent validation of
 the weather, aircraft state or accident narrative.
 
-The current suite has 24 tests: twenty boundary/plot/adversarial tests and four recorded-result
+The current suite has 25 tests: twenty-one boundary/plot/adversarial tests and four recorded-result
 regressions. The latter recompute the reviewed 48,600/29,556 ray counts and
 3,929 SW omissions from committed per-ray CSVs, and check that nominal geometric
 overlap with masked moments is distinct from a valid moment measurement.
@@ -257,6 +257,15 @@ cannot jointly be treated as an exact synchronized altitude history. This
 discrepancy requires source/transponder evidence; it does not establish a
 level-off, terminal speed, impact or failure mechanism. The supporting rows are
 in `results/review/reported_descent_observations.csv`.
+
+An additional **encoding hypothesis** warrants checking: standard ADS-B airborne
+velocity (TC19) uses a 9-bit vertical-rate magnitude with 64 ft/min steps and a
+one-count offset. Its largest decoded magnitude is (511−1)×64 = **32,640 ft/min**,
+exactly the reported extreme. This numerical match is not proof of clipping or
+proof that the CSV value came from that message type. The original payloads,
+vertical-rate source bit (barometric versus GNSS), and provider processing are
+needed to determine its meaning. It should not be treated as a precise terminal
+descent rate. [Junzi Sun, airborne-velocity decoding](https://mode-s.org/1090mhz/content/ads-b/5-airborne-velocity.html).
 
 The last jointly position-and-altitude-supported neighboring ray is at
 **17:49:16.422 UTC**. The ray near **17:49:29.286 UTC** can be screened against

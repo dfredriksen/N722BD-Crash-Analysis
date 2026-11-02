@@ -13,6 +13,11 @@ from scientific_challenges import vincenty
 from review_context import HERE, REPO
 G=Geod(ellps='WGS84')
 
+def segment_distance_lower_bound(endpoint_a, endpoint_b, length):
+    """Triangle-inequality bound, valid even if a long segment crosses the circle."""
+    return max(0., (endpoint_a+endpoint_b-length)/2)
+
+
 def main():
     lat=26+40/60+37/3600;lon=-(80+2/60+16/3600)
     raw=pd.read_csv(next((REPO/'data/flight_tracking').glob('*.csv')))
@@ -30,8 +35,8 @@ def main():
     pts=list(p.itertuples())
     for a,b in zip(pts,pts[1:]):
         if (b.time-a.time).total_seconds()>20:continue
-        if min(a.distance_m,b.distance_m)>12000:continue
         bearing,_,length=G.inv(a.longitude,a.latitude,b.longitude,b.latitude)
+        if segment_distance_lower_bound(a.distance_m,b.distance_m,length)>=best[0]:continue
         def distance_at(fraction):
             xx,yy,_=G.fwd(a.longitude,a.latitude,bearing,length*fraction)
             return G.inv(lon,lat,xx,yy)[2]
