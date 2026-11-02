@@ -18,10 +18,15 @@ distant endpoints cannot hide a crossing segment. The 3.363040-NM minimum is
 unchanged. Clean reproduction backs up and removes generated products before
 execution to exclude stale-output dependence.
 
-Implementation: `scripts/check_highlevel_api.py`, `scripts/summarize_validation.py`,
-`scripts/radar_geometry.py`, `scripts/run_investigation.py`, and
-`scripts/make_overlays.py`. Reproduction, boundary tests and independent checks
-are described in [scripts/README.md](../scripts/README.md).
+Implementation references at the tested commit:
+[F1 metadata guards, line 22](https://github.com/dfredriksen/N722BD-Crash-Analysis/blob/860c9e27cb15a48edbf52f24f73b83506a861a51/scripts/check_highlevel_api.py#L22),
+[F2 summary, line 7](https://github.com/dfredriksen/N722BD-Crash-Analysis/blob/860c9e27cb15a48edbf52f24f73b83506a861a51/scripts/summarize_validation.py#L7),
+[F3 geometry, line 27](https://github.com/dfredriksen/N722BD-Crash-Analysis/blob/860c9e27cb15a48edbf52f24f73b83506a861a51/scripts/radar_geometry.py#L27),
+[F4 all-ray evaluation, line 256](https://github.com/dfredriksen/N722BD-Crash-Analysis/blob/860c9e27cb15a48edbf52f24f73b83506a861a51/scripts/run_investigation.py#L256).
+The [clean reproduction report](reproducibility_report.md) records all 14 stages
+and 25 tests passing after generated outputs were removed first. All scientific
+products reproduce byte for byte. Commands are in
+[scripts/README.md](../scripts/README.md).
 
 ## What changed scientifically
 

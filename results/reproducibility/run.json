@@ -1,0 +1,12 @@
+{
+  "source_entries_verified": 30,
+  "original_evidence_unchanged": true,
+  "generated_outputs_cleared_before_run": true,
+  "stages_passed": 14,
+  "baseline_artifacts": 49,
+  "byte_identical": 47,
+  "differences": [
+    "results\\independent\\execution.json",
+    "results\\independent\\package_audit.json"
+  ]
+}

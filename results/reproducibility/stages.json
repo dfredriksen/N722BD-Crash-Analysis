@@ -1,0 +1,130 @@
+[
+  {
+    "stage": "environment",
+    "returncode": 0,
+    "seconds": 0.48399999999674037,
+    "command": [
+      "-c",
+      "import sys,json,importlib.metadata as m; print(json.dumps(dict(python=sys.version,prefix=sys.prefix,base_prefix=sys.base_prefix,packages={x.metadata[\"Name\"]:x.version for x in m.distributions()}),indent=2))"
+    ]
+  },
+  {
+    "stage": "audit",
+    "returncode": 0,
+    "seconds": 1.4530000000377186,
+    "command": [
+      "scripts/audit_evidence.py",
+      "--extract"
+    ]
+  },
+  {
+    "stage": "full_pyart",
+    "returncode": 0,
+    "seconds": 38.81299999996554,
+    "command": [
+      "scripts/validate_n722bd_pyart.py",
+      "<clean-checkout>\\data\\radar\\KAMX\\KAMX20261101_173507_V06",
+      "<clean-checkout>\\data\\radar\\KAMX\\KAMX20261101_174032_V06(2)",
+      "<clean-checkout>\\data\\radar\\KAMX\\KAMX20261101_174548_V06(1)",
+      "<clean-checkout>\\data\\radar\\KAMX\\KAMX20261101_175104_V06(1)",
+      "<clean-checkout>\\data\\radar\\KAMX\\KAMX20261101_175621_V06",
+      "--all-rays",
+      "--output",
+      "results/independent/pyart_highlevel_samples.csv"
+    ]
+  },
+  {
+    "stage": "api_consistency",
+    "returncode": 0,
+    "seconds": 36.28100000001723,
+    "command": [
+      "scripts/check_highlevel_api.py"
+    ]
+  },
+  {
+    "stage": "investigation",
+    "returncode": 0,
+    "seconds": 47.5,
+    "command": [
+      "scripts/run_investigation.py",
+      "--extracted"
+    ]
+  },
+  {
+    "stage": "flight_state",
+    "returncode": 0,
+    "seconds": 4.5310000000172295,
+    "command": [
+      "scripts/flight_state_timeline.py"
+    ]
+  },
+  {
+    "stage": "overlays",
+    "returncode": 0,
+    "seconds": 7.687999999965541,
+    "command": [
+      "scripts/make_overlays.py"
+    ]
+  },
+  {
+    "stage": "summary",
+    "returncode": 0,
+    "seconds": 1.1089999999967404,
+    "command": [
+      "scripts/summarize_validation.py"
+    ]
+  },
+  {
+    "stage": "independent_decode",
+    "returncode": 0,
+    "seconds": 30.89100000000326,
+    "command": [
+      "scripts/review/independent_decode.py"
+    ]
+  },
+  {
+    "stage": "custom_coverage",
+    "returncode": 0,
+    "seconds": 21.43700000003446,
+    "command": [
+      "scripts/review/custom_coverage_check.py"
+    ]
+  },
+  {
+    "stage": "scientific_challenges",
+    "returncode": 0,
+    "seconds": 26.875,
+    "command": [
+      "scripts/review/scientific_challenges.py"
+    ]
+  },
+  {
+    "stage": "perimeter",
+    "returncode": 0,
+    "seconds": 6.202999999979511,
+    "command": [
+      "scripts/review/perimeter_check.py"
+    ]
+  },
+  {
+    "stage": "flight_evidence",
+    "returncode": 0,
+    "seconds": 1.3599999999860302,
+    "command": [
+      "scripts/review/flight_evidence_check.py"
+    ]
+  },
+  {
+    "stage": "tests",
+    "returncode": 0,
+    "seconds": 6.547000000020489,
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ]
+  }
+]
