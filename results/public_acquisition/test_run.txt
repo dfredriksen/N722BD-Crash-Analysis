@@ -1,0 +1,12 @@
+.............................                       [100%]
+============================== warnings summary ===============================
+.venv\Lib\site-packages\pyart\graph\max_cappi.py:20
+  C:\Users\Dan\Desktop\Projects\N722BD-Crash-Analysis\.venv\Lib\site-packages\pyart\graph\max_cappi.py:20: DeprecationWarning: The LATITUDE_FORMATTER module-level attribute was deprecated in Cartopy 0.26. Use LatitudeFormatter instead.
+    from cartopy.mpl.gridliner import LATITUDE_FORMATTER, LONGITUDE_FORMATTER
+
+.venv\Lib\site-packages\pyart\graph\max_cappi.py:20
+  C:\Users\Dan\Desktop\Projects\N722BD-Crash-Analysis\.venv\Lib\site-packages\pyart\graph\max_cappi.py:20: DeprecationWarning: The LONGITUDE_FORMATTER module-level attribute was deprecated in Cartopy 0.26. Use LongitudeFormatter instead.
+    from cartopy.mpl.gridliner import LATITUDE_FORMATTER, LONGITUDE_FORMATTER
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+29 passed, 2 warnings, 21 subtests passed in 9.87s

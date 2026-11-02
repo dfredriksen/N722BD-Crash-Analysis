@@ -1,0 +1,76 @@
+# Reproduction
+
+Use Python 3.11 and `requirements.lock`. Run from the repository root after
+activating the environment. Analysis scripts read the retained source ZIP when
+present and otherwise use committed byte-identical original members, mapped by
+`docs/supplied_package_manifest.csv`. A fresh clone is sufficient to rerun the
+analysis. Rechecking the ZIP itself requires the original package. See
+`data/README.md` for provenance.
+
+```powershell
+uv python install 3.11
+uv venv --python 3.11 .venv
+uv pip sync --python .venv/Scripts/python.exe requirements.lock
+.venv/Scripts/Activate.ps1
+python scripts/audit_evidence.py --extract
+$radarFiles = Get-ChildItem data/radar/KAMX -File | Sort-Object Name | ForEach-Object FullName
+python scripts/validate_n722bd_pyart.py @radarFiles --all-rays --output results/independent/pyart_highlevel_samples.csv
+python scripts/check_highlevel_api.py
+python scripts/run_investigation.py
+python scripts/flight_state_timeline.py
+python scripts/make_overlays.py
+python scripts/summarize_validation.py
+python scripts/review/independent_decode.py
+python scripts/review/custom_coverage_check.py
+python scripts/review/scientific_challenges.py
+python scripts/review/perimeter_check.py
+python scripts/review/flight_evidence_check.py
+python -m unittest discover -s tests -v
+```
+
+Alternatively, `python scripts/reproduce.py --clear-generated --log-dir ../N722BD-run-logs` runs
+all these stages with per-stage logs, source hashes before/after, environment
+versions, and output SHA-256 comparison. Generated products are backed up and
+removed first, so stale outputs cannot stand in for regeneration. Static README
+and prior Git/baseline audit snapshots are retained. Use a separate clone and fresh locked
+virtual environment for an isolated reproduction. The original ZIP need not be
+present; the 24 committed original members suffice.
+
+The 25-test suite includes twenty-one boundary/plot/adversarial checks and four recorded-result
+regressions against committed per-ray/per-match CSVs. The regressions check the
+reviewed decoder counts, missing SW moments, and the distinction between nominal
+geometric overlap and valid moment measurements. They do not rerun the raw radar
+pipeline or authenticate the source evidence. PNG track lines share the GeoJSON
+20-second gap rule and retain isolated observations as points.
+
+The review checks independently implement a bounded Message-31 byte walker,
+Vincenty geodesics, flight bracketing, and vectorized effective-radius geometry;
+they do not import the production geometry/interpolation. They test 55 declared
+sensitivity cases. They were authored by the same assistant, not an independent
+organization. See `results/review/README.md` for limits and output definitions.
+
+The full API validator samples one common-grid gate near 117.467 km on every ray.
+It sets `linear_interp=False` explicitly. `check_highlevel_api.py` compares these
+samples and metadata against native Py-ART records. That is an internal API
+consistency check, not a third independent implementation.
+
+`run_investigation.py` independently compares the supplied custom decoder against
+native Py-ART records across all five volumes, all shared rays and all returned
+REF/VEL/SW gates. It extracts only the custom parser function definitions through
+AST, avoiding the supplied scripts' `/mnt/data` assumptions and side effects.
+Native gates and per-ray moment metadata are used for aircraft matching, avoiding
+common-grid interpolation. The BSD-licensed reader under `vendor/` is unmodified.
+
+The following scripts are historical supplied analyses: `decode_n722bd.py`,
+`analyze_3d_n722bd.py`, `moving_match_n722bd.py`, `neighbor_beam_screen.py`, and
+`N722BD_beam_sensitivity.py`. They contain environment-specific paths and known
+decoder/geometry limitations. They are retained for provenance, not used as the
+authoritative reconstruction. Exact received versions are under
+`data/supplied_artifacts/scripts/`. The enhanced API validator adds `--all-rays`
+because its original fixed-bearing/time window excludes much of the evidence.
+
+The initial full-stack installation failed for lack of disk space. A Python 3.14
+low-level-reader fallback identified the decoder coverage discrepancy. After
+space became available, the environment was installed and the authoritative
+analysis rerun under Python 3.11.15. Only the final execution metadata describe
+the delivered results.

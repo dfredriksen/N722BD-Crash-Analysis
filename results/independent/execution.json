@@ -1,0 +1,18 @@
+{
+  "python": "3.11.15",
+  "numpy": "2.4.6",
+  "pandas": "3.1.0",
+  "matplotlib": "3.11.2",
+  "decoder": "unmodified Py-ART 2.3.0 low-level NEXRADLevel2File; not full read_nexrad_archive",
+  "reader_sha256": "9fef39126f56ef28ca29cc1bea4dac4d291c58772628bdf3ea48045c16708e73",
+  "zip_sha256": null,
+  "evidence_source": "committed_original_members",
+  "interpolation_max_each_side_s": 10,
+  "azimuth_screen_deg": 2,
+  "nominal_full_width_deg": 1,
+  "altitude_units": "ft per supplied analyses; source datum unverified",
+  "geodesy": "WGS84 inverse geodesic; spherical 6371km effective-radius vertical model",
+  "beam_model": "circular angular cone; ground-consistent vertical projections; aircraft-point native gates",
+  "clock_scenarios": "all 48600 rays evaluated independently for each shift; positive queries later FR24 time",
+  "run_utc": "2026-11-02T09:53:52.235323+00:00"
+}

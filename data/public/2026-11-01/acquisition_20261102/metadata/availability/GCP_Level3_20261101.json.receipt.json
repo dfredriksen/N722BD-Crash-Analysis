@@ -1,0 +1,28 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/availability/GCP_Level3_20261101.json",
+  "kind": "availability_only",
+  "source_url": "https://storage.googleapis.com/storage/v1/b/gcp-public-data-nexrad-l3/o?prefix=2026%2F11%2F01%2F&delimiter=%2F&maxResults=1000",
+  "final_url": "https://storage.googleapis.com/storage/v1/b/gcp-public-data-nexrad-l3/o?prefix=2026%2F11%2F01%2F&delimiter=%2F&maxResults=1000",
+  "retrieved_utc": "2026-11-02T10:25:47.958931+00:00",
+  "http_status": 200,
+  "size_bytes": 32,
+  "sha256": "c3388ed74e1296bcc7f0f38033f2bf7f9ac2798c6c003f0df4d1f37d31e16057",
+  "content_type": "application/json; charset=UTF-8",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/availability/GCP_Level3_20261101.json.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Content-Type": "application/json; charset=UTF-8",
+    "X-GUploader-UploadID": "AFy3sg2mn3bPAiJ7nQ8vHPzLYWInd9cdfu2evEPCtVlr8JPF9sikq4Atn9ZAmzxG4lQNR2K5",
+    "Date": "Mon, 02 Nov 2026 10:25:48 GMT",
+    "Vary": "Origin, X-Origin",
+    "Cache-Control": "private, max-age=0, must-revalidate, no-transform",
+    "Expires": "Mon, 02 Nov 2026 10:25:48 GMT",
+    "X-Goog-Gcs-Base-Ts": "1a19bcb3477",
+    "Content-Length": "32",
+    "Server": "UploadServer",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  }
+}

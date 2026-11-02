@@ -1,0 +1,22 @@
+{
+  "execution.json": {
+    "run_utc": {
+      "committed": "2026-11-02T09:53:52.235323+00:00",
+      "clean_run": "2026-11-02T10:06:31.733672+00:00"
+    }
+  },
+  "package_audit.json": {
+    "size_bytes": {
+      "committed": 78116546,
+      "clean_run": null
+    },
+    "evidence_source": {
+      "committed": "retained_zip",
+      "clean_run": "committed_original_members"
+    },
+    "sha256": {
+      "committed": "4796e260f7ac30527d2760530a275c1e7562a13ce8bb8e069101a3a19fde08a0",
+      "clean_run": null
+    }
+  }
+}

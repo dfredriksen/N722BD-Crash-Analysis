@@ -1,0 +1,35 @@
+{
+  "python": "3.11.15",
+  "pyart": "2.3.0",
+  "numpy": "2.4.6",
+  "native_rays": 48600,
+  "api_rays": 48600,
+  "matched_rays": 48600,
+  "validation_passed": true,
+  "fields": {
+    "REF": {
+      "mask_mismatches": 0,
+      "compared_mask_rays": 48600,
+      "max_value_difference": 0.0,
+      "comparable_valid_rays": 13404
+    },
+    "VEL": {
+      "mask_mismatches": 0,
+      "compared_mask_rays": 48600,
+      "max_value_difference": 0.0,
+      "comparable_valid_rays": 8211
+    },
+    "SW": {
+      "mask_mismatches": 0,
+      "compared_mask_rays": 48600,
+      "max_value_difference": 0.0,
+      "comparable_valid_rays": 8207
+    }
+  },
+  "azimuth_max_difference_deg": 0.0,
+  "elevation_max_difference_deg": 0.0,
+  "radar_height_max_difference_m": 0.0,
+  "radar_latitude_max_difference_deg": 0.0,
+  "radar_longitude_max_difference_deg": 0.0,
+  "ray_index_max_difference": 0.0
+}

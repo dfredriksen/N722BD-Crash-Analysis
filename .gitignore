@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/evidence_packages/*.zip
+
+# Supplemental public bulk downloads remain local; exact URLs/hashes and HTTP
+# receipts are committed. Restore with collect_public_data.py --restore.
+/data/public/**/radar/*/*
+!/data/public/**/radar/*/*.receipt.json
+/data/public/**/*.nc
+/data/public/**/flight_tracking/adsblol/archive/*.tar.*
+!/data/public/**/flight_tracking/adsblol/archive/*.receipt.json
+/public_*_progress.log
+/results/public_acquisition/restoration_receipts/

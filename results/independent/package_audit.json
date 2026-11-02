@@ -1,0 +1,45 @@
+{
+  "package_name": "N722BD_remaining_GitHub_upload.zip",
+  "size_bytes": 78116546,
+  "sha256": "4796e260f7ac30527d2760530a275c1e7562a13ce8bb8e069101a3a19fde08a0",
+  "evidence_source": "retained_zip",
+  "extracted": true,
+  "evidence": [
+    {
+      "repository_target": "data/flight_tracking/Flightradar24_N722BD_Granular_Data(1).csv",
+      "actual_size_bytes": 4223095,
+      "actual_sha256": "8f7887a0c5d1efe47da78ce653721cfb5264f160f71debdeeda93e7bd2c771cd",
+      "verified": true
+    },
+    {
+      "repository_target": "data/radar/KAMX/KAMX20261101_173507_V06",
+      "actual_size_bytes": 14149960,
+      "actual_sha256": "b1412b40c997af3849bf941a7f64c38629c008087f0c77efb22e2e0de8b39c67",
+      "verified": true
+    },
+    {
+      "repository_target": "data/radar/KAMX/KAMX20261101_174032_V06(2)",
+      "actual_size_bytes": 14145385,
+      "actual_sha256": "3136f380eb85b3372f146fd7a3053e6844e4d894bf19484aca6cdf3e04dbb73c",
+      "verified": true
+    },
+    {
+      "repository_target": "data/radar/KAMX/KAMX20261101_174548_V06(1)",
+      "actual_size_bytes": 14199175,
+      "actual_sha256": "79d1f6bebdddcf9a456839aeb3753b9ce1f35bc20be0c5ea92651830b49675a3",
+      "verified": true
+    },
+    {
+      "repository_target": "data/radar/KAMX/KAMX20261101_175104_V06(1)",
+      "actual_size_bytes": 14280182,
+      "actual_sha256": "c767e4e177c8e4b025ca57444e6966a528312313094901bd1cd44a672aa2a1cd",
+      "verified": true
+    },
+    {
+      "repository_target": "data/radar/KAMX/KAMX20261101_175621_V06",
+      "actual_size_bytes": 14189940,
+      "actual_sha256": "3fe8f59014433363b06577f7b23b3209bb35e88dfcd5aa105fd17ec5dea5354b",
+      "verified": true
+    }
+  ]
+}

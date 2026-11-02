@@ -1,0 +1,19 @@
+{
+  "source": "preserved FR24 CSV; source units inherited and altitude datum unverified",
+  "last_reported_35000ft_utc": "2026-11-01T17:48:24.780576000Z",
+  "first_reported_8750ft_utc": "2026-11-01T17:49:22.955011000Z",
+  "reported_altitude_difference_ft": -26250.0,
+  "elapsed_s": 58.174435,
+  "endpoint_difference_ft_min": -27073.74811633323,
+  "altitude_observations_in_interval": 118,
+  "positive_steps": 0,
+  "negative_steps": 117,
+  "unchanged_steps": 0,
+  "largest_altitude_observation_gap_s": 0.59641,
+  "final_repeated_altitude_observations": 4,
+  "final_plateau_duration_s": 1.6366990000000001,
+  "contemporaneous_reported_vertical_rate_count": 3,
+  "contemporaneous_reported_vertical_rate_min_ft_min": -32640.0,
+  "contemporaneous_reported_vertical_rate_max_ft_min": -32640.0,
+  "interpretation": "A decreasing provider-reported altitude sequence; rates and final plateau are not a verified aircraft trajectory, level-off or impact state"
+}

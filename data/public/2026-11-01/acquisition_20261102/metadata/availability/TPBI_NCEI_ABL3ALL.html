@@ -1,0 +1,341 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<script type="text/javascript">
+<!--
+	function popup(mylink, windowname) {
+		if (! window.focus)return true;
+		var href;
+		if (typeof(mylink) == 'string')
+		   href=mylink;
+		else
+		   href=mylink.href;
+		window.open(href, windowname, 'width=500,height=600,scrollbars=yes');
+		return false;
+	}
+
+
+
+	function validateForm(orderform) {
+		if(""==document.forms.orderform.emailadd.value) {
+		    alert("Please enter your email address.");
+	    	document.forms.orderform.emailadd.focus();
+		    return false;
+		}
+		if(document.forms.orderform.emailadd.value.indexOf('@') == -1) {
+		    alert("Please enter a valid email address.");
+		    document.forms.orderform.emailadd.focus();
+		    return false;
+		}
+
+		document.forms.orderform.submitbutton.disabled=true;
+		document.forms.orderform.submitbutton.value='Processing...';
+	}
+
+
+
+	function setImage() {
+
+		var invImage = "/nexradinv-ws/graph?siteid=TPBI&dsi=7000&product=ALL&dateRange=20261101";
+		if (document.images['graphimg']) {
+			document.images['graphimg'].src = eval("invImage");
+		}
+
+
+
+	}
+	
+//-->
+</script>
+
+
+
+
+
+<title>NEXRAD Data Inventory Search | National Centers for Environmental Information</title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="Description" content="The National Centers for Environmental Information (NCEI) archives all of the National Weather Service Radar Data from the WSR-88D NEXRAD Radars.  NCEI is the world's largest active archive of weather data. NCEI produces numerous climate publications and responds to data requests from all over the world." />
+<meta name="Keywords" content="ncdc, noaa, nws, nexrad, radar, doppler, velocity, tornado, hail, precipitation, rainfall, Sqpe, echo, dbz" />
+<meta name="author" content="NCDC" />
+
+<link rel="shortcut icon" href="/stormevents/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="/nexradinv/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/nexradinv/css/application.css" />
+<link rel="stylesheet" type="text/css" href="/nexradinv/css/nexradinv.css" />
+
+</head>
+
+<body>
+
+
+
+<div id="background">
+
+	<div id="wrap">
+		<div id="main">
+			
+
+<!-- Header -->
+
+<!-- <div id="topnav"> -->
+<!-- 	<ul> -->
+<!-- 		<li><a href="http://www.noaa.gov/">NOAA Home</a></li> -->
+<!-- 		<li><a href="http://www.noaa.gov/wx.html">Weather</a></li> -->
+<!-- 		<li><a href="http://www.noaa.gov/ocean.html">Oceans</a></li> -->
+<!-- 		<li><a href="http://www.noaa.gov/fisheries.html">Fisheries</a></li> -->
+<!-- 		<li><a href="http://www.noaa.gov/charts.html">Charting</a></li> -->
+
+<!-- 		<li><a href="http://www.noaa.gov/satellites.html">Satellites</a></li> -->
+<!-- 		<li><a href="http://www.noaa.gov/climate.html">Climate</a></li> -->
+<!-- 		<li><a href="http://www.noaa.gov/research.html">Research</a></li> -->
+<!-- 		<li><a href="http://www.noaa.gov/coasts.html">Coasts</a></li> -->
+<!-- 		<li><a href="http://www.careers.noaa.gov/">Careers</a></li> -->
+<!-- 	</ul> -->
+
+<!-- </div> -->
+
+<div id="header">
+	<div class="inset">
+		<div class="title"><a href="/" title="National Centers for Environmental Information">National Centers for Environmental Information<span></span></a></div>
+		<a href="//www.commerce.gov" id="headDOC" title="Click to visit the U.S. Department of Commerce Website"></a>
+	</div>
+</div>
+
+<div id="nav">
+	<ul class="topLinks">
+		<li><a href="/">Home</a></li>
+		<li><a href="//www.ncdc.noaa.gov/customer-support">Contact Us</a></li>
+		<li><a href="//www.ncdc.noaa.gov/about">About NCEI</a></li>
+		<li><a href="//www.ncdc.noaa.gov/customer-support">Help</a></li>
+	</ul>
+</div>
+
+<div class="clear"></div>
+
+</div>
+<!-- /Header -->
+
+			<!-- Main Content Area -->
+			<div id="content">
+
+
+
+
+
+
+
+	<!-- Must remain outside of "pad" div -->
+	<div id="crumbs">
+ 
+<a href="/">NCEI</a> &gt; 
+<a href="http://www.ncdc.noaa.gov/data-access/radar-data">Radar Data</a> &gt;
+<a href="/nexradinv/">NEXRAD Inventory</a> &gt;
+ <!-- Get top bar html -->
+
+<a href="chooseday.jsp?id=TPBI&amp;yyyy=2026&amp;mm=11&amp;dd=01&amp;product=ABL3ALL" title="Back to product and date selection page">Choose Date / Product</a>
+
+
+</div>
+	<!-- / -->
+	<div class="pad">
+			
+		<div class="col-2-left-220">
+<div class="boxblock">
+        <div class="header"><h4>NEXRAD Archive Access</h4></div>
+        <div class="pad">
+                <ul>
+                        <li class="subheader">Data Access</li>
+                        <li><a href="index.jsp">Home</a></li>
+                        <li><a href="map.jsp">Select By Map</a></li>
+                        <li><a href="choosesite.jsp">Select By List</a></li>
+                        <li><a href="//www.ncdc.noaa.gov/cdo-web/datatools/selectlocation"> Select By County, City, Zip Code <br/>(Climate Data Online) </a></li>
+                        <li><a href="//www.ncdc.noaa.gov/data-access/radar-data/radar-map-tool"> Historical Reflectivity and <br/>Coverage Maps  </a></li>
+                        <li><a href="//www.ncdc.noaa.gov/has/has.dsselect"> Select By Archive File (Bulk Order) </a></li>
+                        
+                        <li class="subheader">Documentation</li>
+                        <li><a href="stats.jsp">Archive and Access Statistics</a></li>
+                        <li><a href="//www.ncdc.noaa.gov/data-access/radar-data"> Overview, History </a></li>
+                        <li><a href="https://www.ncei.noaa.gov/products/radar/next-generation-weather-radar"> NEXRAD Product List </a></li>
+                        <li><a href="//www.ncdc.noaa.gov/homr/"> Network Metadata </a></li>
+                        <li><a href="//www.roc.noaa.gov/WSR88D/"> Radar Operations Center </a></li>
+                        
+                        <li class="subheader">External Resources</li>
+                        <li><a href="//www.nws.noaa.gov/radar_tab.php">NOAA/NWS Current Radar</a></li>
+                        <li><a href="//www.wdtb.noaa.gov/">NOAA Training (WDTB)</a></li>
+
+                </ul>
+
+        </div>
+</div>
+
+
+       </div>
+
+	   <div class="col-2-right-700">
+						
+
+
+
+
+
+<h3>NEXRAD Inventory: View Results and Order Data</h3>
+<hr/>
+
+
+<br/>
+
+   	<center>	
+   
+   
+
+		<strong>TPBI - PALM BEACH </strong> <br/>
+		<a target="_blank" href="http://www.ncdc.noaa.gov/homr/#qid=icao:tpbi">(Site Metadata)</a>
+		<br/><br/>
+
+
+<strong>Period of Record:</strong><br/>
+
+
+
+
+	Level-III: 11/20/2008 to 08/03/2026 <br/><br/>
+	
+	<div class="grid3Section">
+		<a href="?yyyy=2026&amp;mm=10&amp;dd=31&amp;id=TPBI&amp;product=ABL3ALL"> 10 / 31 / 2026 </a>
+	</div>
+	<div class="grid3Section">
+		<strong> 11 / 01 / 2026</strong>
+	</div>
+	<div class="grid3Section">
+		<a href="?yyyy=2026&amp;mm=11&amp;dd=02&amp;id=TPBI&amp;product=ABL3ALL"> 11 / 02 / 2026 </a>
+	</div>
+	
+	<br/>
+
+
+		<br/><br/>
+		<strong> The selected date (11/01/2026) is outside the period of record. </strong>
+		<br/><br/><br/>
+
+
+
+
+
+
+
+   	</center>
+   
+   
+   
+<div class="block">
+   <p>The graph above shows the presence of files for the day selected.  
+Please note that the 24 hour period is in GMT/UTC time, not local time.
+There are occasional gaps and missing data for each site in the archive. 
+These gaps are caused by a number of reasons, including scheduled maintenance 
+at the Radar sites, unplanned downtime due to severe weather, communications problems 
+or archival problems.  Most locations have coverage from multiple Radar sites and the
+next closest site may provide sufficient information during data gaps.  
+The <a href="https://www.ncdc.noaa.gov/data-access/radar-data/radar-map-tool">NCEI Interactive Map Tool</a>
+includes site locations and coverage maps.
+</p>
+
+<p>
+Due to the size of the NEXRAD Archive, instantaneous access is not possible. 
+The user is emailed when the ordered data has posted to the NCEI order download site.
+Orders typically take between 5 and 25 minutes to complete.</p>
+
+   <p>
+	Orders from this system are limited to a single day and site.  
+	Download data for multiple days and from multiple sites 
+	(up to 250 GB per order) from the
+	<a href="http://www.ncdc.noaa.gov/cdo-web/">NCEI Climate Data Online (CDO) System</a> or  
+	<a href="http://has.ncdc.noaa.gov/">NCEI Archive Access System</a>. 
+   </p>
+</div>
+   
+   
+   
+
+
+
+
+
+
+
+<!-- Replaces body onload event -->
+
+
+					</div>					
+					<div class="clear"></div>
+				</div><!-- /pad -->
+
+
+
+                  </div><!-- /content -->
+		</div><!-- /main -->
+
+		
+
+<div id="footer">
+	<div class="links"><a href="http://www.noaa.gov/privacy.html" title="Privacy Policy">Privacy Policy</a> | 
+	<a href="http://www.rdc.noaa.gov/%7Efoia/" title="FOIA">FOIA</a> | 
+	<a href="http://www.cio.noaa.gov/services_programs/info_quality.html" title="Information Quality">Information Quality</a> | 
+	<a href="http://www.noaa.gov/disclaimer.html" title="Disclaimer">Disclaimer</a> | 
+	<a href="http://www.ncdc.noaa.gov/oa/about/ncdccontacts.html" title="User Comments">Contact Us</a></div>
+
+	<div class="subfooter">
+		<a href="http://www.commerce.gov/"><img src="/stormevents/images/logos/logo_doc.png;jsessionid=38972E24EEF1087C365E4CAAD0517077.lwf3" alt="Department of Commerce" title="Department of Commerce" /></a>
+		<a href="http://www.usa.gov"><img src="/stormevents/images/logos/logo_usagov.png;jsessionid=38972E24EEF1087C365E4CAAD0517077.lwf3" alt="USA.gov" title="USA.gov" /></a>
+		<a href="http://www.ready.gov"><img src="/stormevents/images/logos/logo_ready.png;jsessionid=38972E24EEF1087C365E4CAAD0517077.lwf3" alt="Ready.gov" title="Ready.gov" /></a>
+	</div><!-- /subfooter -->
+
+</div><!-- /footer -->
+
+</div> <!--/wrap -->
+
+
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42795060-3', 'noaa.gov');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NOAA"></script></body>
+</html>
+

@@ -1,0 +1,32 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/weather/awc/metar_20261101.json",
+  "kind": "aviation_weather",
+  "source_url": "https://aviationweather.gov/api/data/metar?ids=KPBI%2CKBCT%2CKFLL%2CKMIA%2CKFXE%2CKOPF%2CKFPR%2CKAPF%2CKMLB%2CKTMB&format=json&date=2026-11-01T20%3A00%3A00Z&hours=6",
+  "final_url": "https://aviationweather.gov/api/data/metar?ids=KPBI%2CKBCT%2CKFLL%2CKMIA%2CKFXE%2CKOPF%2CKFPR%2CKAPF%2CKMLB%2CKTMB&format=json&date=2026-11-01T20%3A00%3A00Z&hours=6",
+  "retrieved_utc": "2026-11-02T10:22:28.628220+00:00",
+  "http_status": 200,
+  "size_bytes": 68448,
+  "sha256": "157a2b78cfcc2a7301264c2b89ef15532dd15a47c8a5b1969b416a7d7e9c3b69",
+  "content_type": "application/json; charset=utf-8",
+  "content_encoding": "",
+  "etag": "W/\"10b60-91sPVuFLs/JR79jeXaR5pkp8YNU\"",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/weather/awc/metar_20261101.json.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:22:28 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "68448",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Cache-control": "max-age=60",
+    "ETag": "W/\"10b60-91sPVuFLs/JR79jeXaR5pkp8YNU\"",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Security-Policy": "frame-ancestors 'self' *.weather.gov",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "x-azure-ref": "20261102T102228Z-r1d4bcfd98bj2277hC1LAXrd080000000600000000002wcf",
+    "x-fd-int-roxy-purgeid": "66959013",
+    "X-Cache": "TCP_MISS",
+    "Accept-Ranges": "bytes"
+  }
+}

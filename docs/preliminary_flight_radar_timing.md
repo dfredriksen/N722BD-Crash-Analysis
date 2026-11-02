@@ -1,3 +1,5 @@
+> Historical preliminary analysis. Superseded by the [November 2 independent validation and reconstruction](technical_investigation_report.md). Original numerical claims below are retained for provenance.
+
 # N722BD preliminary flight and KAMX radar timing analysis
 
 Date analyzed: 2026-11-01 (UTC). Source: uploaded Flightradar24 granular CSV and five KAMX Level II archives.

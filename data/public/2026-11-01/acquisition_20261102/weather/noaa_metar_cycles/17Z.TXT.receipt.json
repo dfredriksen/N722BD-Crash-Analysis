@@ -1,0 +1,37 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/weather/noaa_metar_cycles/17Z.TXT",
+  "kind": "metar_rolling_snapshot",
+  "source_url": "https://tgftp.nws.noaa.gov/data/observations/metar/cycles/17Z.TXT",
+  "final_url": "https://tgftp.nws.noaa.gov/data/observations/metar/cycles/17Z.TXT",
+  "retrieved_utc": "2026-11-02T10:22:36.067011+00:00",
+  "http_status": 200,
+  "size_bytes": 2166635,
+  "sha256": "39d837709c3a9e20cc62511abefeee549597bc34d42735efd24e3b638f62802a",
+  "content_type": "text/plain; charset=utf-8",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "Sun, 01 Nov 2026 18:38:04 GMT",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/weather/noaa_metar_cycles/17Z.TXT.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:22:36 GMT",
+    "Server": "Apache",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Content-Security-Policy": "script-src 'self'",
+    "Referrer-Policy": "no-referrer",
+    "Strict-Transport-Security": "max-age=31536000, max-age=31536000; includeSubdomains; preload",
+    "Cache-Control": "no-cache, private",
+    "Last-Modified": "Sun, 01 Nov 2026 18:38:04 GMT",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "2166635",
+    "Vary": "Accept-Encoding",
+    "Keep-Alive": "timeout=300, max=100",
+    "Connection": "Keep-Alive",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "omitted_headers": [
+    "Set-Cookie"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/igra/data-y2d.html",
+  "kind": "inventory",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/igra/data/data-y2d/",
+  "final_url": "https://www.ncei.noaa.gov/pub/data/igra/data/data-y2d/",
+  "retrieved_utc": "2026-11-02T10:24:10.978052+00:00",
+  "http_status": 200,
+  "size_bytes": 148757,
+  "sha256": "b893739d979af6ec0dea6139ecb6639aab8845aba4bf36486e1f9e3da89254c0",
+  "content_type": "text/html; charset=UTF-8",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/igra/data-y2d.html.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:24:11 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Vary": "Accept-Encoding",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "X-Requested-With, Content-Type",
+    "Keep-Alive": "timeout=3, max=100",
+    "Connection": "Keep-Alive",
+    "Transfer-Encoding": "chunked"
+  }
+}

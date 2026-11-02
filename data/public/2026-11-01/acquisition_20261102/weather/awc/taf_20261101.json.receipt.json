@@ -1,0 +1,31 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/weather/awc/taf_20261101.json",
+  "kind": "aviation_weather",
+  "source_url": "https://aviationweather.gov/api/data/taf?ids=KPBI%2CKBCT%2CKFLL%2CKMIA%2CKFXE%2CKOPF%2CKFPR%2CKAPF%2CKMLB%2CKTMB&format=json&date=2026-11-01T20%3A00%3A00Z",
+  "final_url": "https://aviationweather.gov/api/data/taf?ids=KPBI%2CKBCT%2CKFLL%2CKMIA%2CKFXE%2CKOPF%2CKFPR%2CKAPF%2CKMLB%2CKTMB&format=json&date=2026-11-01T20%3A00%3A00Z",
+  "retrieved_utc": "2026-11-02T10:22:29.033131+00:00",
+  "http_status": 200,
+  "size_bytes": 21112,
+  "sha256": "d02dac359f74ef74ff94d00beeaba124f95d685ecfd6e411a5a024bfaa3d1487",
+  "content_type": "application/json; charset=utf-8",
+  "content_encoding": "",
+  "etag": "W/\"5278-C+v0544jTwh+fr+7BbDGbJAldMo\"",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/weather/awc/taf_20261101.json.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:22:34 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "21112",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Cache-control": "max-age=60",
+    "ETag": "W/\"5278-C+v0544jTwh+fr+7BbDGbJAldMo\"",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Security-Policy": "frame-ancestors 'self' *.weather.gov",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "x-azure-ref": "20261102T102229Z-r1d4bcfd98bgqn49hC1LAXc0yc00000003h00000000046qm",
+    "X-Cache": "CONFIG_NOCACHE",
+    "Accept-Ranges": "bytes"
+  }
+}

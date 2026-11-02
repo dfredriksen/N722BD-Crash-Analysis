@@ -1,0 +1,32 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/weather/awc/gairmet_20261101.json",
+  "kind": "aviation_weather",
+  "source_url": "https://aviationweather.gov/api/data/gairmet?format=json&date=2026-11-01T18%3A00%3A00Z",
+  "final_url": "https://aviationweather.gov/api/data/gairmet?format=json&date=2026-11-01T18%3A00%3A00Z",
+  "retrieved_utc": "2026-11-02T10:22:35.480829+00:00",
+  "http_status": 200,
+  "size_bytes": 42872,
+  "sha256": "73fb32b55c772c08baf48c322ad7aa114a6264d2a9c6aeaeaf080e818b096598",
+  "content_type": "application/json; charset=utf-8",
+  "content_encoding": "",
+  "etag": "W/\"a778-axvfOQ5io2VD6fIcSXIgILyhwp0\"",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/weather/awc/gairmet_20261101.json.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:22:35 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "42872",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Cache-control": "max-age=60",
+    "ETag": "W/\"a778-axvfOQ5io2VD6fIcSXIgILyhwp0\"",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Security-Policy": "frame-ancestors 'self' *.weather.gov",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "x-azure-ref": "20261102T102235Z-r1d4bcfd98btm6lbhC1LAXzxzs00000005xg00000000k33p",
+    "x-fd-int-roxy-purgeid": "66959013",
+    "X-Cache": "TCP_MISS",
+    "Accept-Ranges": "bytes"
+  }
+}

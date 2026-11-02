@@ -1,0 +1,40 @@
+test_no_bearing_slice_is_not_altitude_overlap (test_review_fixes.ThreeDimensionalGeometryTests.test_no_bearing_slice_is_not_altitude_overlap) ... ok
+test_perimeter_search_does_not_skip_long_crossing_segment (test_review_fixes.ThreeDimensionalGeometryTests.test_perimeter_search_does_not_skip_long_crossing_segment) ... ok
+test_point_on_axis_roundtrip (test_review_fixes.ThreeDimensionalGeometryTests.test_point_on_axis_roundtrip) ... ok
+test_separate_projections_do_not_define_circular_cone (test_review_fixes.ThreeDimensionalGeometryTests.test_separate_projections_do_not_define_circular_cone) ... ok
+test_shift_can_recover_state_excluded_at_nominal_time (test_review_fixes.ThreeDimensionalGeometryTests.test_shift_can_recover_state_excluded_at_nominal_time) ... ok
+test_target_altitude_and_width_scenarios (test_review_fixes.ThreeDimensionalGeometryTests.test_target_altitude_and_width_scenarios) ... ok
+test_all_masked_is_null_not_agreement_on_valid_values (test_review_fixes.ValidationGuardTests.test_all_masked_is_null_not_agreement_on_valid_values) ... ok
+test_geometry_failure_survives_unavailable_raw_comparison (test_review_fixes.ValidationGuardTests.test_geometry_failure_survives_unavailable_raw_comparison) ... ok
+test_nan_comparisons_and_incomplete_coverage_rejected (test_review_fixes.ValidationGuardTests.test_nan_comparisons_and_incomplete_coverage_rejected) ... ok
+test_nonfinite_required_metadata_rejected (test_review_fixes.ValidationGuardTests.test_nonfinite_required_metadata_rejected) ... ok
+test_site_coordinate_disagreements_rejected (test_review_fixes.ValidationGuardTests.test_site_coordinate_disagreements_rejected) ... ok
+test_geometric_overlap_is_not_a_valid_radar_detection (test_science.RecordedFindingsTests.test_geometric_overlap_is_not_a_valid_radar_detection) ... ok
+test_reviewed_decoder_coverage (test_science.RecordedFindingsTests.test_reviewed_decoder_coverage) ... ok
+test_reviewed_spectrum_width_omissions (test_science.RecordedFindingsTests.test_reviewed_spectrum_width_omissions) ... ok
+test_valid_moments_do_not_establish_geometric_overlap (test_science.RecordedFindingsTests.test_valid_moments_do_not_establish_geometric_overlap) ... ok
+test_brackets_and_linear_interpolation (test_science.ScienceTests.test_brackets_and_linear_interpolation) ... ok
+test_exact_endpoint_is_valid (test_science.ScienceTests.test_exact_endpoint_is_valid) ... ok
+test_gate_flags_not_wind_or_missing_as_zero (test_science.ScienceTests.test_gate_flags_not_wind_or_missing_as_zero) ... ok
+test_geographic_axis_order (test_science.ScienceTests.test_geographic_axis_order) ... ok
+test_height_reference_and_refraction (test_science.ScienceTests.test_height_reference_and_refraction) ... ok
+test_no_extrapolation_or_long_gap (test_science.ScienceTests.test_no_extrapolation_or_long_gap) ... ok
+test_path_breaks_across_missing_positions (test_science.ScienceTests.test_path_breaks_across_missing_positions) ... ok
+test_png_track_breaks_gaps_and_keeps_isolated_observations (test_science.ScienceTests.test_png_track_breaks_gaps_and_keeps_isolated_observations) ... ok
+test_sha256 (test_science.ScienceTests.test_sha256) ... ok
+test_slant_ground_roundtrip (test_science.ScienceTests.test_slant_ground_roundtrip) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.232s
+
+OK
+
+## You are using the Python ARM Radar Toolkit (Py-ART), an open source
+## library for working with weather radar data. Py-ART is partly supported
+## by the U.S. Department of Energy Office of Science as part of
+## the Atmospheric Radiation Measurement (ARM) User Facility.
+##
+## If you use this software to prepare a publication, please cite:
+##
+##     JJ Helmus and SM Collis, JORS 2016, doi: 10.5334/jors.119
+

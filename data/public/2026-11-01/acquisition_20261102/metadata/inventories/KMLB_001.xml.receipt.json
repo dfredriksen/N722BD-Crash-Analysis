@@ -1,0 +1,25 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/KMLB_001.xml",
+  "kind": "inventory",
+  "source_url": "https://unidata-nexrad-level2.s3.amazonaws.com/?list-type=2&prefix=2026%2F11%2F01%2FKMLB%2F&max-keys=1000",
+  "final_url": "https://unidata-nexrad-level2.s3.amazonaws.com/?list-type=2&prefix=2026%2F11%2F01%2FKMLB%2F&max-keys=1000",
+  "retrieved_utc": "2026-11-02T10:21:48.131495+00:00",
+  "http_status": 200,
+  "size_bytes": 92609,
+  "sha256": "411b8e8199217254b917ee72b7a206c078f7c075f995762ef306212c7a474a29",
+  "content_type": "application/xml",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/KMLB_001.xml.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "x-amz-id-2": "ss5exJn5C8iHemgdL5J2P5KOaIIC//36/6O9J9LVjholFBi4/dHL2fEBfWl56kROp5hpqU9ZCK7Sym+b8UAaAV+VqCVBYihq",
+    "x-amz-request-id": "50F927P3YHXKKT04",
+    "Server": "AmazonS3",
+    "Date": "Mon, 02 Nov 2026 10:21:49 GMT",
+    "x-amz-bucket-region": "us-east-1",
+    "Content-Type": "application/xml",
+    "Transfer-Encoding": "chunked"
+  }
+}

@@ -1,3 +1,5 @@
+> Historical preliminary analysis. Superseded by the [November 2 independent validation and reconstruction](technical_investigation_report.md). Original numerical claims below are retained for provenance.
+
 # N722BD: aircraft-azimuth radar samples (preliminary)
 
 Data: uploaded FR24 CSV and five KAMX Level II volumes, 2026-11-01 UTC. This is a **fixed-last-position** radar sampling exercise, not a time-varying 3D aircraft encounter reconstruction.

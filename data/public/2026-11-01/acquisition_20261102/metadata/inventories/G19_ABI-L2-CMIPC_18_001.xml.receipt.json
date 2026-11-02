@@ -1,0 +1,25 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/G19_ABI-L2-CMIPC_18_001.xml",
+  "kind": "inventory",
+  "source_url": "https://noaa-goes19.s3.amazonaws.com/?list-type=2&prefix=ABI-L2-CMIPC%2F2026%2F305%2F18%2F&max-keys=1000",
+  "final_url": "https://noaa-goes19.s3.amazonaws.com/?list-type=2&prefix=ABI-L2-CMIPC%2F2026%2F305%2F18%2F&max-keys=1000",
+  "retrieved_utc": "2026-11-02T10:23:42.408772+00:00",
+  "http_status": 200,
+  "size_bytes": 74045,
+  "sha256": "23f4681ac1022cbfa1f1b7520887ac74dd896f39626a415c04713d2fe2d0f6f5",
+  "content_type": "application/xml",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/G19_ABI-L2-CMIPC_18_001.xml.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "x-amz-id-2": "KYBZkNsLdZk3lq2VUncqXBcrRBY0nPI1Rli/zFiXbtFY5mXTvroLHT9EhJWrKYxFBMurhf8f73s=",
+    "x-amz-request-id": "ZZ0GC0616WTN2VZ2",
+    "Server": "AmazonS3",
+    "Date": "Mon, 02 Nov 2026 10:23:43 GMT",
+    "x-amz-bucket-region": "us-east-1",
+    "Content-Type": "application/xml",
+    "Transfer-Encoding": "chunked"
+  }
+}

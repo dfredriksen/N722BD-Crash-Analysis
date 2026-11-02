@@ -1,0 +1,33 @@
+
+## You are using the Python ARM Radar Toolkit (Py-ART), an open source
+## library for working with weather radar data. Py-ART is partly supported
+## by the U.S. Department of Energy Office of Science as part of
+## the Atmospheric Radiation Measurement (ARM) User Facility.
+##
+## If you use this software to prepare a publication, please cite:
+##
+##     JJ Helmus and SM Collis, JORS 2016, doi: 10.5334/jors.119
+
+{
+  "source": "https://public-inspection.federalregister.gov/2026-17957.pdf",
+  "source_status": "NPRM proposed geometry; not evidence of operative restrictions on 2026-11-01",
+  "reference_center_lat": 26.676944444444445,
+  "reference_center_lon": -80.03777777777778,
+  "reference_radius_m": 1852.0,
+  "closest_reported_position": {
+    "utc": "2026-11-01T17:49:06.289157000Z",
+    "latitude": 26.663086,
+    "longitude": -80.098416,
+    "distance_m": 6228.349574368769,
+    "distance_NM": 3.363039726980977
+  },
+  "independent_vincenty_distance_difference_m": -2.6429916033521295e-07,
+  "minimum_on_supported_geodesic_segments_m": 6228.349574368769,
+  "bracketing_utc": [
+    "2026-11-01T17:49:06.289157000Z",
+    "2026-11-01T17:49:06.289157000Z"
+  ],
+  "property_perimeter_reproducible": false,
+  "historical_TFR_active_verified": false,
+  "interpretation": "Distance to a proposed circular reference only; no conclusion about intent, compliance, or unobserved intervals"
+}

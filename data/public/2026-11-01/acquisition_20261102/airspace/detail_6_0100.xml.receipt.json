@@ -1,0 +1,34 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/airspace/detail_6_0100.xml",
+  "kind": "faa_notam_xml",
+  "source_url": "https://tfr.faa.gov/download/detail_6_0100.xml",
+  "final_url": "https://tfr.faa.gov/download/detail_6_0100.xml",
+  "retrieved_utc": "2026-11-02T10:25:49.758413+00:00",
+  "http_status": 200,
+  "size_bytes": 32300,
+  "sha256": "79cea18a3a1482e395d263bc52d52fb8e4a8db38c41924d8af0e0416ec20854b",
+  "content_type": "application/xml",
+  "content_encoding": "",
+  "etag": "W/\"32300-1792337920000\"",
+  "last_modified": "Sun, 18 Oct 2026 15:38:40 GMT",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/airspace/detail_6_0100.xml.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Accept-Ranges": "bytes",
+    "ETag": "W/\"32300-1792337920000\"",
+    "Last-Modified": "Sun, 18 Oct 2026 15:38:40 GMT",
+    "Content-Type": "application/xml",
+    "Content-Length": "32300",
+    "Proxy-agent": "Oracle-iPlanet-Web-Server/7.0",
+    "Expires": "Mon, 02 Nov 2026 10:25:49 GMT",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Pragma": "no-cache",
+    "Date": "Mon, 02 Nov 2026 10:25:49 GMT",
+    "Connection": "keep-alive",
+    "Server-Timing": "cdn-cache; desc=MISS, edge; dur=58, origin; dur=9, ak_p; desc=\"1793615149826_398977486_977097844_6704_18944_47_46_-\";dur=1",
+    "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains"
+  },
+  "omitted_headers": [
+    "Set-Cookie"
+  ]
+}

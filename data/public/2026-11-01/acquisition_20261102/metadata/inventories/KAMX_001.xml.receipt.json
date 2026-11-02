@@ -1,0 +1,25 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/KAMX_001.xml",
+  "kind": "inventory",
+  "source_url": "https://unidata-nexrad-level2.s3.amazonaws.com/?list-type=2&prefix=2026%2F11%2F01%2FKAMX%2F&max-keys=1000",
+  "final_url": "https://unidata-nexrad-level2.s3.amazonaws.com/?list-type=2&prefix=2026%2F11%2F01%2FKAMX%2F&max-keys=1000",
+  "retrieved_utc": "2026-11-02T10:21:47.599688+00:00",
+  "http_status": 200,
+  "size_bytes": 105531,
+  "sha256": "80501be855eb646b0fcd0b0edd2ded57b3d509ba693eaba8f6191a4688f1c5d3",
+  "content_type": "application/xml",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/inventories/KAMX_001.xml.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "x-amz-id-2": "WKIh3ycUi9jw+PCyY+9MkRqi9cY3huv67r2FFg2LY3uhwVyw+kuP9Oqe217m0toajyIoR3F9RqfcpqhsPyn1gfDV3aXmEkeK",
+    "x-amz-request-id": "HPWYGCRR2R6XDTN7",
+    "Server": "AmazonS3",
+    "Date": "Mon, 02 Nov 2026 10:21:48 GMT",
+    "x-amz-bucket-region": "us-east-1",
+    "Content-Type": "application/xml",
+    "Transfer-Encoding": "chunked"
+  }
+}

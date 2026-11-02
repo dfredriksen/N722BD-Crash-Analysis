@@ -1,3 +1,5 @@
+> Historical preliminary analysis. Superseded by the [November 2 independent validation and reconstruction](technical_investigation_report.md). Original numerical claims below are retained for provenance.
+
 # Moving-aircraft KAMX radar match: preliminary pass
 
 Analysis of uploaded N722BD flight tracking and five KAMX NEXRAD Level II volumes (2026-11-01 UTC). This is a **screening exercise**, not a verified 3D weather encounter analysis.

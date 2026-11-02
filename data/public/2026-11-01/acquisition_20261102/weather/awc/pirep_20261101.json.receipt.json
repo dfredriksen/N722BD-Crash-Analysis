@@ -1,0 +1,31 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/weather/awc/pirep_20261101.json",
+  "kind": "aviation_weather",
+  "source_url": "https://aviationweather.gov/api/data/pirep?bbox=24%2C-83%2C29%2C-78&format=json&date=2026-11-01T20%3A00%3A00Z&age=6",
+  "final_url": "https://aviationweather.gov/api/data/pirep?bbox=24%2C-83%2C29%2C-78&format=json&date=2026-11-01T20%3A00%3A00Z&age=6",
+  "retrieved_utc": "2026-11-02T10:22:34.966897+00:00",
+  "http_status": 200,
+  "size_bytes": 94669,
+  "sha256": "34d4985f9ab3f0aa97b58da8b810bd4ce5b8c35ca93b900a6eecaac5f0b97c4b",
+  "content_type": "application/json; charset=utf-8",
+  "content_encoding": "",
+  "etag": "W/\"171cd-5BdErNEfXPgHfFfNRdLvyFCRh44\"",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/weather/awc/pirep_20261101.json.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:22:35 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "94669",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Cache-control": "max-age=60",
+    "ETag": "W/\"171cd-5BdErNEfXPgHfFfNRdLvyFCRh44\"",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Security-Policy": "frame-ancestors 'self' *.weather.gov",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "x-azure-ref": "20261102T102235Z-r1d4bcfd98b24qh7hC1LAXyqbs00000001600000000018ez",
+    "X-Cache": "CONFIG_NOCACHE",
+    "Accept-Ranges": "bytes"
+  }
+}

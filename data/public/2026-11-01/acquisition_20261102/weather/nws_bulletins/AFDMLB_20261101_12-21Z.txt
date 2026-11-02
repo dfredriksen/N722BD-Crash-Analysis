@@ -1,0 +1,423 @@
+
+729 
+FXUS62 KMLB 011815
+AFDMLB
+
+Area Forecast Discussion
+National Weather Service Melbourne FL
+115 PM EST Sun Nov 1 2026
+
+...New AVIATION...
+
+.KEY MESSAGES...
+Issued at 150 AM EST Sun Nov 1 2026
+
+- Later today, rain bands are expected to increase in coverage as
+  a disturbance moves overhead. Through Monday, widespread
+  rainfall of 1-3 inches is forecast with a 10% chance of 5-7
+  inches. Where soils are already saturated, a Flood Watch is in 
+  effect for Brevard, Indian River, St Lucie, and Martin Counties 
+  from 10 am today through Monday afternoon.
+
+- Beach conditions remain dangerous today and Monday along Central
+  Florida's Atlantic coast. A High Surf Advisory remains in 
+  effect for 5-7 ft breakers, and there is a high risk of life- 
+  threatening rip currents. Please remain out of the ocean! Minor 
+  to moderate coastal flooding may occur at high tide mainly near 
+  and south of St Lucie Inlet.
+
+- The combination of rough seas and fresh easterly winds continues
+  to cause hazardous conditions for boaters, especially in the
+  open Atlantic. A Small Craft Advisory is in effect through at
+  least Tuesday morning.
+
+&&
+
+.DISCUSSION...
+Issued at 150 AM EST Sun Nov 1 2026
+
+             -----------Synoptic Overview-----------
+
+Early this morning, we are tracking a shortwave trough extending
+from the NE Gulf to the Missouri River Valley. This feature is
+on the nose of a subtropical jet segment emanating from the Four
+Corners to the Plains. At the surface, a 1035 hPa high-pressure
+system is centered near Philadelphia, PA. Brisk easterly flow
+continues in the boundary layer over Florida, courtesy of a tight
+pressure gradient to the south of the surface anticyclone. Copious
+moisture, with PWAT values exceeding 170% of normal, extends from
+the southern half of Florida into the northern Gulf.
+
+Over the next 24 hours, the disturbance immediately west of Florida
+is forecast to move over the state. As this occurs, Central Florida
+will become positioned beneath a region of upper-level divergence,
+promoting synoptic-scale lift. This may also allow a diffuse surface
+trough to develop along the east coast of Florida. As the axis of
+deepest moisture centers itself over the peninsula, moisture 
+convergence should become enhanced, particularly along the 
+Atlantic coast. A weakly unstable environment is also anticipated,
+with MUCAPE values generally around 1250 J/kg or less. The 
+ingredients for unsettled weather persist into at least Monday 
+afternoon.
+
+As the mid-level disturbance stalls over the area from late Monday
+into Tuesday, jet dynamics will become much less favorable for
+lift. However, plentiful moisture is forecast to remain in place
+through the middle of the week.
+
+Quasi-zonal flow overtakes much of the U.S. later this week, with
+a pair of disturbances transiting the subtropical jet. We have been
+following these features in the guidance for a potential cold front
+on Thursday. Guidance has been trending weaker with the lead 
+shortwave, and the 31/12Z ensemble suite continued that approach. 
+For Florida, the secondary disturbance now provides the better 
+chance for a diffuse cold frontal passage by Friday. This should 
+allow some drier air to reach Central Florida next weekend, though
+substantial cool air advection is not expected.
+
+Cluster analysis of the global ensembles indicates increasing model
+spread next weekend. Trough development is favored over the Southern
+Plains by around Sunday, with a reinforcing cold front possibly
+arriving by Monday the 9th. This front may have a better chance of
+delivering more autumn-like conditions to the area once it passes.
+
+             -------Sensible Weather & Impacts-------
+
+Through Monday...
+
+The main concerns for the next couple of days are flash flood
+potential and hazardous coastal conditions across east central
+Florida. Here are some of the impacts...
+
+Heavy Rain/Flooding:
+
+We're already seeing some brief downpours early this morning,
+with bands of showers near Orlando and along the Treasure Coast. A
+moisture discontinuity lies between Daytona Beach and Orlando,
+with deeper moisture to its south. As the disturbance over the Gulf
+approaches, the environment will become increasingly favorable for
+rain bands, some of which are expected to become heavy at times. The
+greatest chance of this activity through sunset is generally from
+Brevard and Osceola Counties and points southward. By tonight,
+deeper moisture should overspread all of Central Florida, leading
+to additional development of showers and a few storms throughout
+the area. The high potential for numerous showers and locally
+heavy rain bands is expected to slowly diminish by Monday afternoon.
+
+High precipitation efficiency within slow-moving rain bands may
+support locally intense rainfall rates. QPF clusters from the
+synoptic models, along with the latest REFS hi-res suite, suggest
+the heaviest rain potential is along the coast from Brevard
+County southward, perhaps extending into portions of Osceola
+and Okeechobee Counties as well. Antecedent conditions (recent
+rainfall) have left us with nearly saturated soils across nearly
+all of the Treasure Coast urban corridor. Coincident with this,
+we have issued a Flood Watch for Brevard, Indian River, St Lucie,
+and Martin Counties from 10 AM today until 3 PM Monday. This is
+where the greatest threat for flash flooding currently exists,
+but there is still a 5-15% chance of excessive rainfall across
+all of east central Florida over the next couple of days.
+
+Admittedly, there is a lot of variance in the guidance, affecting
+confidence in exactly where the heaviest amounts will fall. All
+told, we still forecast widespread 1-3 inches through Monday night,
+with a reasonable worst case (10% chance) of 5-7 inches.
+
+Thanks to WFOs Miami and Jacksonville for collaboration on this
+heavy rain and flooding threat.
+
+Coastal Hazards:
+
+Persistent easterly winds gusting 20-30 mph continue to cause
+rough surf at all Atlantic beaches of Central Florida. A High Surf 
+Advisory remains in effect for 5-7 ft breakers. Due to increased 
+vulnerability caused by recent beach erosion, we have extended the 
+High Surf Advisory through Monday for similar breaking wave action. 
+Combined with the high risk of deadly rip currents, it is critical 
+for residents and visitors to stay out of the ocean.
+
+Minor to moderate coastal flooding remains a concern generally near
+and south of St Lucie Inlet during the afternoon high tides. If
+excessive rainfall occurs during high tide, flooding may be worsened
+due to impeded drainage into tidal waterways.
+
+Tuesday - Friday...
+
+Onshore flow lingers on Tuesday, then begins to lessen on
+Wednesday. Ample moisture remains in place, but despite a nearby
+disturbance, the setup is less favorable for heavy rain. Still,
+we will keep a 50-60% chance for showers on Tuesday and a 30-50%
+chance on Wednesday. Areas that pick up heavy rain earlier in
+the week will still need to be monitored for localized flooding,
+mainly on Tuesday.
+
+Statistical guidance has trended toward rain chances of 20% or
+less Thursday and Friday. As mentioned before, the initial cold
+front looks weaker, and the secondary boundary on Friday is rather
+diffuse, limiting convergence. Highs each day should range through
+the low to mid 80s with lows in the mid 60s to low 70s.
+
+Next Weekend...
+
+Most likely, Central Florida will be in between weather systems next
+weekend. This should leave us with tranquil, pleasant conditions. We
+currently have a dry forecast with highs in the low 80s and lows
+generally in the 60s. It looks somewhat less humid as well.
+
+&&
+
+.MARINE...
+Issued at 150 AM EST Sun Nov 1 2026
+
+Hazardous boating conditions will persist in the Atlantic waters
+off of Central Florida through early this week. A strong area of
+high pressure over the Northeast U.S. has tightened the pressure
+gradient, causing fresh easterly flow across the waters. Numerous
+showers and a few storms are forecast later today through Monday
+as a disturbance moves overhead. Winds slowly begin to slacken by
+late Tuesday and especially Wednesday, allowing seas to gradually
+subside by midweek.
+
+The Small Craft Advisory continues for all of the local Atlantic
+through at least Tuesday morning, with the offshore zones remaining
+beneath the Advisory through at least Tuesday evening. East winds
+15-25 kts through Monday, 15-20 kts on Tuesday, decreasing to around
+10-15 kts by late Wednesday afternoon. Seas 5-9 ft through Monday,
+5-8 ft on Tuesday, and slowly decreasing to 5-7 ft on Wednesday.
+
+&&
+
+.AVIATION...
+(18Z TAFs)
+Issued at 111 PM EST Sun Nov 1 2026
+
+Organization of convection near Lake Okeechobee is producing
+widespread SHRA with embedded TSRA from KVRB-KSUA inland.
+Persistent MVFR-IFR impacts occasionally down to LIFR in +SHRA 
+expected in this area. There is considerable uncertainty how
+convection will evolve the rest of the afternoon, but general
+consensus is for this activity to gradually lift north and
+overspread most if not all the ECFL terminals. Convective impacts
+(MVFR-LIFR conditions are forecast to persist through much of the
+night. Outside of TS/SH, breezy onshore winds 10-15 kts gusting to
+25 kts.
+
+&&
+
+.PRELIMINARY POINT TEMPS/POPS...
+DAB  71  79  72  81 /  70  70  50  40 
+MCO  70  79  71  83 /  80  60  40  50 
+MLB  73  81  73  82 /  80  80  60  60 
+VRB  73  82  73  84 /  80  80  60  70 
+LEE  69  80  70  84 /  70  50  30  40 
+SFB  70  80  70  83 /  80  60  40  50 
+ORL  70  80  71  83 /  80  60  40  50 
+FPR  73  81  73  83 /  80  80  60  70 
+
+&&
+
+.MLB WATCHES/WARNINGS/ADVISORIES...
+FL...Flood Watch through Monday afternoon for FLZ058-154-159-164-247-
+     254-259-264-347-447-547-647-747.
+
+     High Surf Advisory until 7 PM EST Monday for FLZ141-154-159-164-
+     347-447-647-747.
+
+     Coastal Flood Advisory until 7 PM EST Monday for FLZ159-164.
+
+AM...Small Craft Advisory until 10 AM EST Tuesday for AMZ550-552-555.
+
+     Small Craft Advisory until 4 PM EST Tuesday for AMZ570-572-575.
+
+&&
+
+$$
+
+DISCUSSION...Heil
+AVIATION...Haley
+
+
+
+398 
+FXUS62 KMLB 012027
+AFDMLB
+
+Area Forecast Discussion
+National Weather Service Melbourne FL
+327 PM EST Sun Nov 1 2026
+
+...New KEY MESSAGES, DISCUSSION, MARINE...
+
+.KEY MESSAGES...
+Issued at 311 PM EST Sun Nov 1 2026
+
+- Scattered to numerous rain bands forecast this afternoon and
+  overnight as a disturbance moves overhead. Through Monday,
+  widespread rainfall of 1-3 inches, with some spots reaching 5-8
+  inches. There is a very low chance for rainfall amounts in
+  excess of 10 inches, such as those seen the city of Okeechobee
+  this afternoon. Where soils are already saturated, a Flood Watch
+  is in effect for Brevard, Indian River, St Lucie, Martin, and
+  Okeechobee Counties through Monday afternoon.
+
+- Beach conditions remain dangerous today and Monday along Central
+  Florida's Atlantic coast. A High Surf Advisory remains in 
+  effect for 5-7 ft breakers, and there is a high risk of life- 
+  threatening rip currents. Please remain out of the ocean! Minor 
+  to moderate coastal flooding may occur at high tide mainly near 
+  and south of St Lucie Inlet.
+
+- The combination of rough seas and fresh easterly winds continues
+  to cause hazardous conditions for boaters, especially in the
+  open Atlantic. A Small Craft Advisory is in effect through at
+  least Tuesday morning.
+
+&&
+
+.DISCUSSION...
+Issued at 311 PM EST Sun Nov 1 2026
+
+Today-Monday... A disturbance aloft in the Gulf will move over the 
+Florida peninsula today, eventually stalling over the area late 
+Monday and into Tuesday. Locally, this will increase moisture and 
+promote a wet and unsettled period. As this disturbance moves over 
+the Florida peninsula today, Central Florida will become positioned 
+beneath a region of upper-level divergence, promoting synoptic-scale 
+lift this afternoon and into this evening. This may also allow a 
+diffuse surface trough to develop along the east coast of Florida 
+this afternoon. As the axis of deepest moisture centers itself over 
+the peninsula, moisture convergence will become enhanced, 
+particularly along the Atlantic coast and towards Lake Okeechobee. 
+Synoptic-scale lift will become slightly less favorable on Monday as 
+the disturbance stalls over the area, however moisture will remain 
+plentiful. Forecast PW values increase to 2.0-2.2" this afternoon and 
+will generally be 1.8-2.1" on Monday. 
+
+Scatted to numerous showers and an occasional storm are forecast 
+this afternoon and evening, with a high (70-80%) chance of rain from 
+Orlando southward, and a medium to high (50-70%) chance of rain 
+northward. Moderate to high rain chances then continue through the 
+tonight and through Monday. There is a high (70-80%)chance for rain 
+along the coast, and a medium to high (50-70%) chance for rain 
+across the interior on Monday. A Flood Watch is in effect for 
+Brevard, Indian River, St. Lucie, Martin, and Okeechobee counties 
+through at least 3PM on Monday. This is where the greatest threat 
+for flash flooding currently exists. The Weather Prediction Center 
+(WPC) has outlooked portions of east central Florida in a Slight 
+(Level 2 of 4) Risk and a Marginal (level 1 of 4) Risk for excessive 
+rainfall today and Monday. The greatest storm hazard today and 
+Monday will be heavy rainfall and the threat of flooding, with 
+widespread 1-3 inches through Monday night, with some spots reaching 
+5-8 inches. There is a very low chance for rainfall amounts in 
+excess of 10 inches, such as those seen the city of Okeechobee this 
+afternoon. Over the past 3 to 4 hours, rainfall amounts of 6-7 
+inches have fallen in Okeechobee city, with one gauge reaching 8 
+inches in Okeechobee city. Other storm hazards will be occasional 
+lightning strikes and gusty winds of 40-45 mph. 
+
+Easterly winds will continue to be breezy this afternoon and Monday, 
+with winds 10-15 mph with gusts up to 30 mph possible at times, 
+especially along the coast. Cloudy conditions and increased rain 
+chances will keep afternoon temperatures slightly below seasonal 
+values, ranging from the upper 70s and low 80s today and Monday.
+
+Outside of showers and convection, a number of coastal hazards will 
+remain present at area beaches. A high risk of life-threatening rip 
+currents continues alongside large breaking waves and rough surf. 
+Entering the water is not advised! Minor to moderate coastal 
+flooding remains a concern generally near and south of St Lucie 
+Inlet during the afternoon high tides. If excessive rainfall occurs 
+during high tide, flooding may be worsened due to impeded drainage 
+into tidal waterways. Thus, a Coastal Flood Advisory will continue 
+through Monday. 
+
+Tuesday-Saturday... Upper level low pressure across the Central US 
+on Tuesday will move east and northeast into the Midwest by mid next 
+week. High pressure off the eastern US coastline will move offshore 
+and northeastward out into the western Atlantic by mid week. An 
+upper level low pressure is forecast to form near and north of the 
+Bahamas by late week. At the surface, a cold front will move across 
+the central US into mid week (causing that high pressure to move 
+offshore of the eastern US), reaching the Florida panhandle and 
+northern Florida by early Thursday, and crossing central Florida 
+Thursday into Friday. Locally, onshore flow is forecast to weaken 
+through midweek before turning north to northwest by late week. Deep 
+moisture will generally persist through Tuesday, continuing moderate 
+rain chances. Drier air will then filter across the local area into 
+late week, reducing the rain chances to 20% or less late week and 
+into the weekend. Temperatures generally in the mid 80s will 
+decrease slightly to low to mid 80s by late week. 
+
+&&
+
+.MARINE...
+Issued at 311 PM EST Sun Nov 1 2026
+
+Today- Friday... (Previous Discussion) Hazardous boating conditions 
+will persist in the Atlantic waters off of Central Florida through 
+early this week. A strong area of high pressure over the Northeast 
+U.S. has tightened the pressure gradient, causing fresh easterly 
+flow across the waters. Numerous showers and a few storms are 
+forecast later today through Monday as a disturbance moves overhead. 
+Winds slowly begin to slacken by late Tuesday and especially 
+Wednesday, allowing seas to gradually subside by midweek.
+
+The Small Craft Advisory continues for all of the local Atlantic 
+through at least Tuesday morning, with the offshore zones remaining 
+beneath the Advisory through at least Tuesday evening. East winds 15-
+25 kts through Monday, 15-20 kts on Tuesday, decreasing to around 10-
+15 kts by late Wednesday afternoon. Seas 5-9 ft through Monday, 5-8 
+ft on Tuesday, and slowly decreasing to 5-7 ft on Wednesday.
+
+&&
+
+.AVIATION...
+(18Z TAFs)
+Issued at 111 PM EST Sun Nov 1 2026
+
+Organization of convection near Lake Okeechobee is producing
+widespread SHRA with embedded TSRA from KVRB-KSUA inland.
+Persistent MVFR-IFR impacts occasionally down to LIFR in +SHRA 
+expected in this area. There is considerable uncertainty how
+convection will evolve the rest of the afternoon, but general
+consensus is for this activity to gradually lift north and
+overspread most if not all the ECFL terminals. Convective impacts
+(MVFR-LIFR conditions are forecast to persist through much of the
+night. Outside of TS/SH, breezy onshore winds 10-15 kts gusting to
+25 kts.
+
+&&
+
+.PRELIMINARY POINT TEMPS/POPS...
+DAB  71  79  72  81 /  70  70  50  40 
+MCO  70  79  71  83 /  80  60  40  50 
+MLB  73  81  73  82 /  80  80  60  60 
+VRB  73  82  73  84 /  80  80  60  70 
+LEE  69  80  70  84 /  70  50  30  40 
+SFB  70  80  70  83 /  80  60  40  50 
+ORL  70  80  71  83 /  80  60  40  50 
+FPR  73  81  73  83 /  80  80  60  70 
+
+&&
+
+.MLB WATCHES/WARNINGS/ADVISORIES...
+FL...Flood Watch through Monday afternoon for FLZ058-154-159-164-247-
+     254-259-264-347-447-547-647-747.
+
+     High Surf Advisory until 7 PM EST Monday for FLZ141-154-159-164-
+     347-447-647-747.
+
+     Coastal Flood Advisory until 7 PM EST Monday for FLZ159-164.
+
+AM...Small Craft Advisory until 10 AM EST Tuesday for AMZ550-552-555.
+
+     Small Craft Advisory until 4 PM EST Tuesday for AMZ570-572-575.
+
+&&
+
+$$
+
+DISCUSSION...Watson
+AVIATION...Haley
+
+

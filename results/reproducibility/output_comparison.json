@@ -1,0 +1,296 @@
+[
+  {
+    "file": "results\\independent\\174426_beam_geometry.png",
+    "before_sha256": "a4d0bb802b6ff51c6a8eeb04c8737d212f09b602896d5482fcf6788ff72c299f",
+    "after_sha256": "a4d0bb802b6ff51c6a8eeb04c8737d212f09b602896d5482fcf6788ff72c299f",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\aircraft_radar_3d.png",
+    "before_sha256": "2161fff550b6a0598ec1f88f901d2ff1881667adb2c8a38b5061270c3c544d94",
+    "after_sha256": "2161fff550b6a0598ec1f88f901d2ff1881667adb2c8a38b5061270c3c544d94",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\aircraft_radar_matches.csv",
+    "before_sha256": "ed166f8d801fc9a3ce8af5ea6987ef6fd28c15121144617220c00d371f4be33b",
+    "after_sha256": "ed166f8d801fc9a3ce8af5ea6987ef6fd28c15121144617220c00d371f4be33b",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\beam_uncertainty.csv",
+    "before_sha256": "a112f14528579e6f52042c31d1e08437c47d81174850139ed9e6fc729b707c87",
+    "after_sha256": "a112f14528579e6f52042c31d1e08437c47d81174850139ed9e6fc729b707c87",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\clock_ray_coverage.csv",
+    "before_sha256": "00bd7f59c21fdcbec098a4b30f1afac9646c2d57de0b4f3ca85b4bbce3cd1a95",
+    "after_sha256": "00bd7f59c21fdcbec098a4b30f1afac9646c2d57de0b4f3ca85b4bbce3cd1a95",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\clock_sensitivity.csv",
+    "before_sha256": "9c9ff478c387762d1565c06e79ac3430193ecdc75291906b73afc464a7cb93fb",
+    "after_sha256": "9c9ff478c387762d1565c06e79ac3430193ecdc75291906b73afc464a7cb93fb",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\clock_sensitivity_summary.csv",
+    "before_sha256": "4b637d144218e708db5faf1e74e47dad9cd03eff5016eb18f2d256e3f67a8237",
+    "after_sha256": "4b637d144218e708db5faf1e74e47dad9cd03eff5016eb18f2d256e3f67a8237",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\evidence_audit.csv",
+    "before_sha256": "d4aca79635e869bfb7f993ef640c62395d25d698955d028e24dfe0d70b137fb7",
+    "after_sha256": "d4aca79635e869bfb7f993ef640c62395d25d698955d028e24dfe0d70b137fb7",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\execution.json",
+    "before_sha256": "d80eb0bbba1e033f9f233e5c33cf320fe358e2d63c1cae7766c0b2a1b4728a20",
+    "after_sha256": "1d789e8f616405b32a3b232b154c5ab967e3ee79cdeda4f63e421b5c983891d6",
+    "byte_identical": false
+  },
+  {
+    "file": "results\\independent\\fixed_final_position_samples.csv",
+    "before_sha256": "ba5167effce78b9a94bd54dfe417d468023817d9818b24dd2a8ae61be7456ce9",
+    "after_sha256": "ba5167effce78b9a94bd54dfe417d468023817d9818b24dd2a8ae61be7456ce9",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\flight_observations.csv",
+    "before_sha256": "01d630f5d2aa110cbfe1daf117e6b22fd823453cc4942bc3d6ed95a42ce04700",
+    "after_sha256": "01d630f5d2aa110cbfe1daf117e6b22fd823453cc4942bc3d6ed95a42ce04700",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\flight_path.geojson",
+    "before_sha256": "95879525c022d6c7f4f29c926a75c371d2d2ad08a672e3482bb8ef88bd31c712",
+    "after_sha256": "95879525c022d6c7f4f29c926a75c371d2d2ad08a672e3482bb8ef88bd31c712",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\flight_state_timeline.csv",
+    "before_sha256": "59f3c5670d3d732ee6e4ce57f024cdc0994f0bbfab803642d65bbe5bb8ee5785",
+    "after_sha256": "59f3c5670d3d732ee6e4ce57f024cdc0994f0bbfab803642d65bbe5bb8ee5785",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\flight_summary.json",
+    "before_sha256": "057bfb4017fddfcf9ff49f9728244e00530f16427ce8e41c823e058d3fe1223b",
+    "after_sha256": "057bfb4017fddfcf9ff49f9728244e00530f16427ce8e41c823e058d3fe1223b",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\flight_timeline.png",
+    "before_sha256": "763fe9e9cfdc76ca862d46737b913e66df3aee545398a51f53f98eae202c829a",
+    "after_sha256": "763fe9e9cfdc76ca862d46737b913e66df3aee545398a51f53f98eae202c829a",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\git_blob_integrity.csv",
+    "before_sha256": "3211f713a2940630a711ab06fd4256ac84bc37c27f9ee0ad84617dc66e53b604",
+    "after_sha256": "3211f713a2940630a711ab06fd4256ac84bc37c27f9ee0ad84617dc66e53b604",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\git_file_size_audit.csv",
+    "before_sha256": "7e68a4b76a479193e064e8e0e5068493604aea9417f820890dac98356e7d07c8",
+    "after_sha256": "7e68a4b76a479193e064e8e0e5068493604aea9417f820890dac98356e7d07c8",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\KAMX20261101_173507_V06_overlay.png",
+    "before_sha256": "0a190f14a291c696973a3e5fe3b5ac9940af5bcf78af01e0cb5f9b8387eec311",
+    "after_sha256": "0a190f14a291c696973a3e5fe3b5ac9940af5bcf78af01e0cb5f9b8387eec311",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\KAMX20261101_174032_V06_2_overlay.png",
+    "before_sha256": "ef04645c4fc2778feec30635413578ae395d3736a254f6e1ab510d38de3620ae",
+    "after_sha256": "ef04645c4fc2778feec30635413578ae395d3736a254f6e1ab510d38de3620ae",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\KAMX20261101_174548_V06_1_overlay.png",
+    "before_sha256": "4d251249fb7f34f910d674c0a85be93a8a15f85ccfc9db54ca8e99bac78708dc",
+    "after_sha256": "4d251249fb7f34f910d674c0a85be93a8a15f85ccfc9db54ca8e99bac78708dc",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\package_audit.json",
+    "before_sha256": "5ec0e698dd23d04658b415301e82a5a037e06ac6a34969abca099a43b90338b7",
+    "after_sha256": "6e5d34d32c4910014af5bf54c4d1ecb6d0ff03a834588e3e1e320e2e15c6f1cc",
+    "byte_identical": false
+  },
+  {
+    "file": "results\\independent\\package_members.json",
+    "before_sha256": "ad8ae81bc7b1356394c30c315f3488dc754b54d71b63fd0ed6cb7c296a08e7ba",
+    "after_sha256": "ad8ae81bc7b1356394c30c315f3488dc754b54d71b63fd0ed6cb7c296a08e7ba",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\pyart_api_comparison.csv",
+    "before_sha256": "f5b1b7e4b135247ffd51ea7ccadc5b78caaa9e99b8d17e30c845e72ce9f6237f",
+    "after_sha256": "f5b1b7e4b135247ffd51ea7ccadc5b78caaa9e99b8d17e30c845e72ce9f6237f",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\pyart_api_validation.json",
+    "before_sha256": "6b1b39719693e148e85f19aca6b7718f5a3ac2e3300a1c9a7e5e867b1cb08f52",
+    "after_sha256": "6b1b39719693e148e85f19aca6b7718f5a3ac2e3300a1c9a7e5e867b1cb08f52",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\pyart_highlevel_samples.csv",
+    "before_sha256": "0130779dcf4b97c8bfdbd1edbbafd0780e90741acc60e7d76c8d0cdaca85a283",
+    "after_sha256": "0130779dcf4b97c8bfdbd1edbbafd0780e90741acc60e7d76c8d0cdaca85a283",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\radar_comparison.csv",
+    "before_sha256": "241e7af213b510536f6f9f2350123a6390f319c47da7bc04d8ddd5b62bfec74d",
+    "after_sha256": "241e7af213b510536f6f9f2350123a6390f319c47da7bc04d8ddd5b62bfec74d",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\radar_flight_overlay.geojson",
+    "before_sha256": "3fedb17bb6f8adcf066d82fb5a91de043a3d7c31c31fa86923a74664007d139a",
+    "after_sha256": "3fedb17bb6f8adcf066d82fb5a91de043a3d7c31c31fa86923a74664007d139a",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\README.md",
+    "before_sha256": "cc1fd3a777e6d1dcce6b94b7fb44113fea096e08d6ea9c1916645f6da29bc303",
+    "after_sha256": "cc1fd3a777e6d1dcce6b94b7fb44113fea096e08d6ea9c1916645f6da29bc303",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\supplied_member_integrity.csv",
+    "before_sha256": "5ea661923ea9bcfc3efe780fe182e09af94f783150a2cb3805495703a4b5eb4b",
+    "after_sha256": "5ea661923ea9bcfc3efe780fe182e09af94f783150a2cb3805495703a4b5eb4b",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\sweep_coverage.csv",
+    "before_sha256": "8c48fbac1018ad6df619ffac9105bec3b6500b60059024697717518bf3f0df00",
+    "after_sha256": "8c48fbac1018ad6df619ffac9105bec3b6500b60059024697717518bf3f0df00",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\validation_summary.json",
+    "before_sha256": "ec82b7fb85b5b44fcd16f5bd3f041959e2a884baaf938fd7cef467e6dc3ebff7",
+    "after_sha256": "ec82b7fb85b5b44fcd16f5bd3f041959e2a884baaf938fd7cef467e6dc3ebff7",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\independent\\volume_summary.csv",
+    "before_sha256": "c5e0e31b030667d928b41b834ecc1c74ebb89f8660d8c6898470ff8eed4432e7",
+    "after_sha256": "c5e0e31b030667d928b41b834ecc1c74ebb89f8660d8c6898470ff8eed4432e7",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\all_ray_sensitivity.csv",
+    "before_sha256": "464bb365a3fc857da5aa072c4160ba66e6aec4c044b7946e2ff4350d008697b8",
+    "after_sha256": "464bb365a3fc857da5aa072c4160ba66e6aec4c044b7946e2ff4350d008697b8",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\beam_geometry_check.csv",
+    "before_sha256": "30ddd0f7f21b12583d4d404ab8f196eb585a2bed03654145a41db928fc5dc6c6",
+    "after_sha256": "30ddd0f7f21b12583d4d404ab8f196eb585a2bed03654145a41db928fc5dc6c6",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\clock_candidates_not_in_pr_scenarios.csv",
+    "before_sha256": "d95576a13144b3868fee2f23b58a2600cad82940cefe46232bffff43fec361d0",
+    "after_sha256": "d95576a13144b3868fee2f23b58a2600cad82940cefe46232bffff43fec361d0",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\clock_independent_check.csv",
+    "before_sha256": "057ca3f2e62a3152a21263c243746cdc7a40b46eb5ad9ff2bfe536d67ebada6d",
+    "after_sha256": "057ca3f2e62a3152a21263c243746cdc7a40b46eb5ad9ff2bfe536d67ebada6d",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\custom_independent_comparison.json",
+    "before_sha256": "4f23fc2905c111c240a2e07e2c438678817166d980f7e1b52d6dce573ba7b101",
+    "after_sha256": "4f23fc2905c111c240a2e07e2c438678817166d980f7e1b52d6dce573ba7b101",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\flight_evidence_check.json",
+    "before_sha256": "52feaa5f3fd2fb46d9f5788e12ac0dc74ca51cc133849d66df254796489fa616",
+    "after_sha256": "52feaa5f3fd2fb46d9f5788e12ac0dc74ca51cc133849d66df254796489fa616",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\geodesic_check.csv",
+    "before_sha256": "a215902a7a7a33bca011f8831abbb594d14f00e42cab87ce6c923abbbde7c0fc",
+    "after_sha256": "a215902a7a7a33bca011f8831abbb594d14f00e42cab87ce6c923abbbde7c0fc",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\geometry_summary.json",
+    "before_sha256": "e997791e6a70eeaa8ebde227dfd194121583e7dfadf9ee62b94948a53e8d755b",
+    "after_sha256": "e997791e6a70eeaa8ebde227dfd194121583e7dfadf9ee62b94948a53e8d755b",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\independent_decoder.json",
+    "before_sha256": "7dadcd3a9733aea0d7dfe48685c3739d0fcf4043ffe746a5cd93729cf82f0451",
+    "after_sha256": "7dadcd3a9733aea0d7dfe48685c3739d0fcf4043ffe746a5cd93729cf82f0451",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\independent_rays.csv",
+    "before_sha256": "4a5a4a694e70347055b37a61da5ca0218961a0e82ec59b702a477bf59e84f8a0",
+    "after_sha256": "4a5a4a694e70347055b37a61da5ca0218961a0e82ec59b702a477bf59e84f8a0",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\perimeter_audit.json",
+    "before_sha256": "a33251facde74fd90c7bb0ad3c19d7a0e9aa359b422b9d6c4607711c2bfc3a79",
+    "after_sha256": "a33251facde74fd90c7bb0ad3c19d7a0e9aa359b422b9d6c4607711c2bfc3a79",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\perimeter_point_distances.csv",
+    "before_sha256": "4a1551f6df42aaa9c7c88567713ae617fa7c066c1e40d05b2cf0699fdff8b05e",
+    "after_sha256": "4a1551f6df42aaa9c7c88567713ae617fa7c066c1e40d05b2cf0699fdff8b05e",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\README.md",
+    "before_sha256": "89f869c18ee83c7297b2a9cad0fb4e1373053b1e0a188e55ba991a21adc18090",
+    "after_sha256": "89f869c18ee83c7297b2a9cad0fb4e1373053b1e0a188e55ba991a21adc18090",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\reported_descent_observations.csv",
+    "before_sha256": "7f240d6fb7a7329bef96ede93ad707406b517deec60d5a3b7ae8705582173b07",
+    "after_sha256": "7f240d6fb7a7329bef96ede93ad707406b517deec60d5a3b7ae8705582173b07",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\sensitivity_overlap_examples.csv",
+    "before_sha256": "450749b759449f6ab8058ec6f5053be660f6c8d775334c7b075ee5495a4910c1",
+    "after_sha256": "450749b759449f6ab8058ec6f5053be660f6c8d775334c7b075ee5495a4910c1",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\target_sensitivity.csv",
+    "before_sha256": "ba142bf3a9706691dee18382047d3dc8e114a12d07378e6b48c74fda2cf99150",
+    "after_sha256": "ba142bf3a9706691dee18382047d3dc8e114a12d07378e6b48c74fda2cf99150",
+    "byte_identical": true
+  },
+  {
+    "file": "results\\review\\unchanged_science_from_838f10d.json",
+    "before_sha256": "100d1d3a0a1475eda1852b2509d9504ad25f88e92d1f8b31024062448469ed3d",
+    "after_sha256": "100d1d3a0a1475eda1852b2509d9504ad25f88e92d1f8b31024062448469ed3d",
+    "byte_identical": true
+  }
+]

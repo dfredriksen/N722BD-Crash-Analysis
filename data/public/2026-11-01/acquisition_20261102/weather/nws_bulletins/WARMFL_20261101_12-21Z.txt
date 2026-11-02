@@ -1,0 +1,1708 @@
+
+364 
+WGUS82 KMFL 011207
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+707 AM EST Sun Nov 1 2026
+
+FLC011-011400-
+/O.NEW.KMFL.FA.Y.0163.261101T1207Z-261101T1400Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Broward FL-
+707 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 9 AM EST THIS MORNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Southern Broward County in southeastern Florida...
+
+* WHEN...Until 900 AM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 707 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 2 inches of rain have
+    fallen.
+  - Additional rainfall amounts up to 1 inch are expected over the
+    area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Davie, Plantation, Sunrise, Weston, Cooper City, Pine Island
+    Ridge, Sunshine Acres, Intersection I-75 And Griffin Road,
+    Sawgrass Mills Mall, Royal Palm Ranches, Nova Southeastern
+    University, Broadview Park, Markham Park and Downtown Davie.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 2612 8020 2602 8025 2606 8043 2613 8042
+      2617 8035
+
+
+$$
+
+Fisher
+
+
+
+446 
+WGUS82 KMFL 011355
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+855 AM EST Sun Nov 1 2026
+
+FLC011-011405-
+/O.EXP.KMFL.FA.Y.0163.000000T0000Z-261101T1400Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Broward FL-
+855 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY WILL EXPIRE AT 9 AM EST THIS MORNING...
+
+The Flood Advisory will expire at 9 AM EST this morning for a portion
+of southeast Florida, including the following area, Broward.
+
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+
+&&
+
+LAT...LON 2612 8020 2617 8035 2613 8042 2606 8043
+      2602 8025
+
+
+$$
+
+Fisher
+
+
+
+040 
+WWUS82 KMFL 011412
+SPSMFL
+
+Special Weather Statement
+National Weather Service Miami FL
+912 AM EST Sun Nov 1 2026
+ 
+FLZ073>075-011445-
+Mainland Monroe FL-Metropolitan Miami Dade FL-Inland Miami-
+Dade County FL-
+912 AM EST Sun Nov 1 2026
+
+...A strong thunderstorm will impact portions of northern Mainland
+Monroe and central Miami-Dade Counties through 945 AM EST...
+
+At 912 AM EST, National Weather Service meteorologists were tracking
+a strong thunderstorm 8 miles west of Intersection Krome And Kendall
+Drive, or 9 miles northwest of The Redland, moving west at 15 mph.
+
+HAZARD...Wind gusts of 45 to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around 
+         unsecured objects.
+
+Locations impacted include...
+Homestead General Airport, The Redland, Shark Valley Obs Tower, The
+Hammocks, and Everglades National Park.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+These winds can down small tree limbs and branches, and blow around
+unsecured small objects. Seek shelter in a safe building until the
+storm passes.
+
+Torrential rainfall is also occurring with this storm and may lead to
+localized flooding. Do not drive your vehicle through flooded
+roadways.
+
+&&
+
+LAT...LON 2567 8045 2550 8055 2559 8088 2581 8080
+TIME...MOT...LOC 1412Z 109DEG 12KT 2565 8062 
+
+MAX HAIL SIZE...0.00 IN
+MAX WIND GUST...50 MPH
+
+$$
+
+Fisher
+
+
+
+359 
+WWUS82 KMFL 011505
+SPSMFL
+
+Special Weather Statement
+National Weather Service Miami FL
+1005 AM EST Sun Nov 1 2026
+ 
+FLZ073-174-011530-
+Far South Miami-Dade County FL-Inland Miami-Dade County FL-
+1005 AM EST Sun Nov 1 2026
+
+...A strong thunderstorm will impact portions of southern Miami-Dade
+County through 1030 AM EST...
+
+At 1005 AM EST, National Weather Service meteorologists were tracking
+a strong thunderstorm 9 miles southwest of Royal Palm Ranger, or 17
+miles southwest of Homestead General Airport, moving northeast at 25
+mph.
+
+HAZARD...Wind gusts of 50 to 55 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around 
+         unsecured objects.
+
+Locations impacted include...
+Royal Palm Ranger.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+These winds can down small tree limbs and branches, and blow around
+unsecured small objects. Seek shelter in a safe building until the
+storm passes.
+
+&&
+
+LAT...LON 2520 8063 2519 8065 2525 8082 2546 8070
+      2539 8051 2520 8061 2519 8062 2518 8062
+TIME...MOT...LOC 1505Z 205DEG 21KT 2527 8068 
+
+MAX HAIL SIZE...0.00 IN
+MAX WIND GUST...55 MPH
+
+$$
+
+Fisher
+
+
+
+877 
+WGUS82 KMFL 011518
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1018 AM EST Sun Nov 1 2026
+
+FLC086-011715-
+/O.NEW.KMFL.FA.Y.0164.261101T1518Z-261101T1715Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Miami-Dade FL-
+1018 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1215 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Miami-Dade County in southeastern Florida...
+
+* WHEN...Until 1215 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1017 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 2 inches of rain have
+    fallen.
+  - Additional rainfall amounts up to 1 inch are expected over the
+    area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Miami Beach and Fisher Island.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 2576 8016 2584 8013 2584 8012 2575 8013
+
+
+$$
+
+Fisher
+
+
+
+798 
+WGUS82 KMFL 011528
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1028 AM EST Sun Nov 1 2026
+
+FLC086-011730-
+/O.NEW.KMFL.FA.Y.0165.261101T1528Z-261101T1730Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Miami-Dade FL-
+1028 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1230 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Northern Miami-Dade County in southeastern Florida...
+
+* WHEN...Until 1230 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1028 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 2 inches of rain have
+    fallen.
+  - Additional rainfall amounts up to 1 inch are expected over the
+    area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Miami, El Portal, Liberty City, Little Haiti, Gladeview, Downtown
+    Miami, West Little River and Allapattah.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2577 8018 2579 8025 2586 8023 2585 8017
+
+
+$$
+
+
+
+305 
+WGUS82 KMFL 011534
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1034 AM EST Sun Nov 1 2026
+
+FLC086-011730-
+/O.NEW.KMFL.FA.Y.0166.261101T1534Z-261101T1730Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Miami-Dade FL-
+1034 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1230 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Central Miami-Dade County in southeastern Florida...
+
+* WHEN...Until 1230 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1034 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 2 inches of rain have
+    fallen.
+  - Additional rainfall amounts up to 1 inch are expected over the
+    area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Miami, Coral Gables, South Miami, Coconut Grove, University Of
+    Miami and Marlins Park.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2567 8026 2571 8030 2578 8022 2577 8019
+
+
+$$
+
+
+
+894 
+WGUS82 KMFL 011549
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1049 AM EST Sun Nov 1 2026
+
+FLC086-011745-
+/O.NEW.KMFL.FA.Y.0167.261101T1549Z-261101T1745Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Miami-Dade FL-
+1049 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1245 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Miami-Dade County in southeastern Florida...
+
+* WHEN...Until 1245 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1049 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 2 inches of rain have
+    fallen.
+  - Additional rainfall amounts up to 1 inch are expected over the
+    area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Coral Gables, South Miami, Kendall, Pinecrest, Palmetto Bay,
+    Richmond Heights, Cutler Bay, Glenvar Heights, The Falls, Howard
+    and Palmetto Estates.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2556 8030 2564 8037 2571 8030 2567 8026
+
+
+$$
+
+
+
+235 
+WGUS82 KMFL 011556
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1056 AM EST Sun Nov 1 2026
+
+FLC043-051-011800-
+/O.NEW.KMFL.FA.Y.0168.261101T1556Z-261101T1800Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-Hendry FL-
+1056 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Southwestern Glades County in southern Florida...
+  Northeastern Hendry County in southern Florida...
+
+* WHEN...Until 100 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1056 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 2 and 4 inches of rain have
+    fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Labelle, Montura, Ortona, Port La Belle, Devils Garden, Muse and
+    Lake Hicpochee.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 2690 8150 2691 8136 2679 8111 2662 8103
+      2660 8117 2675 8150
+
+
+$$
+
+Fisher
+
+
+
+300 
+WGUS82 KMFL 011607
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1107 AM EST Sun Nov 1 2026
+
+FLC086-011800-
+/O.NEW.KMFL.FA.Y.0169.261101T1607Z-261101T1800Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Miami-Dade FL-
+1107 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Central Miami-Dade County in southeastern Florida...
+
+* WHEN...Until 100 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1106 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 2 inches of rain have
+    fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Coral Gables, South Miami, Kendall, West Miami, West Kendall, The
+    Crossings, Sunset, Kendale Lakes, Richmond Heights, Zoo Miami,
+    Olympia Heights, The Hammocks, Glenvar Heights, University Park,
+    Country Walk and Westchester.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2574 8026 2556 8045 2559 8049 2578 8035
+
+
+$$
+
+Fisher
+
+
+
+074 
+WGUS82 KMFL 011607 RRA
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1107 AM EST Sun Nov 1 2026
+
+FLC086-011800-
+/O.NEW.KMFL.FA.Y.0170.261101T1607Z-261101T1800Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Miami-Dade FL-
+1107 AM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Central Miami-Dade County in southeastern Florida...
+
+* WHEN...Until 100 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1107 AM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 2 inches of rain have
+    fallen.
+  - Additional rainfall amounts up to 1 inch are expected over the
+    area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Black Point, Goulds, Cutler Bay, West Perrine, Princeton, Zoo
+    Miami, Richmond Heights, South Miami Heights and Palmetto
+    Estates.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2564 8037 2556 8030 2551 8033 2556 8045
+
+
+$$
+
+
+
+543 
+WWUS82 KMFL 011658
+SPSMFL
+
+Special Weather Statement
+National Weather Service Miami FL
+1158 AM EST Sun Nov 1 2026
+ 
+FLZ067-011730-
+Inland Palm Beach County FL-
+1158 AM EST Sun Nov 1 2026
+
+...A strong thunderstorm will impact portions of central Palm Beach
+County through 1230 PM EST...
+
+At 1157 AM EST, National Weather Service meteorologists were tracking
+a strong thunderstorm 10 miles west of Loxahatchee NWR, or 13 miles
+southeast of Belle Glade, moving northwest at 40 mph.
+
+HAZARD...Wind gusts of 45 to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around 
+         unsecured objects.
+
+Locations impacted include...
+Belle Glade, Pahokee, South Bay, Canal Point, Belle Glade Camp, Fremd
+Village-Padgett Island, and Loxahatchee NWR.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+These winds can down small tree limbs and branches, and blow around
+unsecured small objects. Seek shelter in a safe building until the
+storm passes.
+
+&&
+
+LAT...LON 2642 8052 2670 8078 2670 8077 2669 8075
+      2670 8072 2674 8073 2676 8075 2678 8073
+      2674 8071 2676 8069 2681 8070 2684 8065
+      2689 8062 2692 8059 2655 8035
+TIME...MOT...LOC 1657Z 147DEG 35KT 2655 8051 
+
+MAX HAIL SIZE...0.00 IN
+MAX WIND GUST...50 MPH
+
+$$
+
+Fisher
+
+
+
+432 
+WGUS82 KMFL 011700
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1200 PM EST Sun Nov 1 2026
+
+FLC086-011710-
+/O.CAN.KMFL.FA.Y.0164.000000T0000Z-261101T1715Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Miami-Dade FL-
+1200 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IS CANCELLED...
+
+The Flood Advisory is cancelled for a portion of southeast Florida,
+including the following area, Miami-Dade.
+
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+
+A Flood Watch remains in effect until 300 PM EST Monday for a portion
+of southeast Florida...
+
+&&
+
+LAT...LON 2584 8013 2584 8012 2575 8013 2576 8016
+
+
+$$
+
+Fisher
+
+
+
+437 
+WGUS82 KMFL 011700 RRA
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1200 PM EST Sun Nov 1 2026
+
+FLC086-011710-
+/O.CAN.KMFL.FA.Y.0165.000000T0000Z-261101T1730Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Miami-Dade FL-
+1200 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IS CANCELLED...
+
+The Flood Advisory is cancelled for a portion of southeast Florida,
+including the following area, Miami-Dade.
+
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+
+A Flood Watch remains in effect until 300 PM EST Monday for a portion
+of southeast Florida...
+
+&&
+
+LAT...LON 2585 8017 2586 8023 2579 8025 2577 8018
+
+
+$$
+
+Fisher
+
+
+
+425 
+WGUS52 KMFL 011718
+FFWMFL
+FLC086-011915-
+/O.NEW.KMFL.FF.W.0006.261101T1718Z-261101T1915Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Miami FL
+1218 PM EST Sun Nov 1 2026
+
+The National Weather Service in Miami has issued a
+
+* Flash Flood Warning for...
+  Central Miami-Dade County in southeastern Florida...
+
+* Until 215 PM EST.
+
+* At 1218 PM EST, Doppler radar indicated thunderstorms producing
+  heavy rain across the warned area. Between 3 and 5 inches of rain
+  have fallen. Additional rainfall amounts of 1 to 2 inches are
+  possible in the warned area. Flash flooding is ongoing or expected
+  to begin shortly.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Flash flooding of small creeks and streams, urban areas,
+           highways, streets and underpasses as well as other poor
+           drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Black Point, Kendall, Pinecrest, Cutler Bay, West Perrine, Goulds,
+  Zoo Miami, Princeton, Palmetto Bay, Richmond Heights, Richmond
+  West, Naranja, Homestead Base, South Miami Heights, Palmetto
+  Estates, Howard and The Falls.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 2564 8027 2547 8035 2552 8042 2558 8045
+      2567 8034
+
+FLASH FLOOD...RADAR INDICATED
+
+$$
+
+Fisher
+
+
+
+557 
+WGUS82 KMFL 011723
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1223 PM EST Sun Nov 1 2026
+
+FLC043-011930-
+/O.NEW.KMFL.FA.Y.0171.261101T1723Z-261101T1930Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-
+1223 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 230 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Northeastern Glades County in southern Florida...
+
+* WHEN...Until 230 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1223 PM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 2 and 3 inches of rain have
+    fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Buckhead Ridge and Brighton Seminole Reservation.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2699 8104 2712 8108 2721 8097 2721 8094
+      2720 8094 2720 8093 2719 8092 2719 8091
+      2717 8091 2716 8089 2717 8088 2716 8088
+      2715 8087 2714 8087 2716 8086 2714 8084
+
+
+$$
+
+
+
+660 
+WGUS82 KMFL 011724
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1224 PM EST Sun Nov 1 2026
+
+FLC043-051-011930-
+/O.NEW.KMFL.FA.Y.0172.261101T1724Z-261101T1930Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-Hendry FL-
+1224 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 230 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...South Central Glades County in southern Florida...
+  Northeastern Hendry County in southern Florida...
+
+* WHEN...Until 230 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1224 PM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 3 inches of rain have
+    fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Clewiston, Moore Haven and Harlem.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2690 8115 2673 8084 2673 8085 2675 8089
+      2668 8089 2687 8127
+
+
+$$
+
+
+
+948 
+WGUS82 KMFL 011735
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1235 PM EST Sun Nov 1 2026
+
+FLC043-051-012000-
+/O.EXT.KMFL.FA.Y.0168.000000T0000Z-261101T2000Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-Hendry FL-
+1235 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY NOW IN EFFECT UNTIL 3 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Southwestern Glades County in southern Florida...
+  Northeastern Hendry County in southern Florida...
+
+* WHEN...Until 300 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1235 PM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 3 and 5 inches of rain have
+    fallen.
+  - Additional rainfall amounts of 1 to 3 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Labelle, Montura, Ortona, Port La Belle, Devils Garden, Muse and
+    Lake Hicpochee.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 2660 8117 2662 8103 2679 8111 2691 8136
+      2690 8150 2675 8150
+
+
+$$
+
+Fisher
+
+
+
+299 
+NWUS52 KMFL 011743
+LSRMFL
+
+Preliminary Local Storm Report
+National Weather Service Miami FL
+1243 PM EST Sun Nov 1 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1242 PM     Marine Tstm Wind 8 E Lakeport            26.94N 81.01W
+11/01/2026  M48 MPH          AMZ610             FL   Mesonet
+
+            West End Lake Okeechobee Mesonet measured 41
+            kts or 48 mph.
+
+&&
+
+$$
+CF
+
+
+
+715 
+WGUS62 KMFL 011749
+FFAMFL
+
+URGENT - IMMEDIATE BROADCAST REQUESTED
+Flood Watch
+National Weather Service Miami FL
+1249 PM EST Sun Nov 1 2026
+
+FLZ063-066-020800-
+/O.EXA.KMFL.FA.A.0002.000000T0000Z-261102T2000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades-Hendry-
+Including the cities of Lakeport, Buckhead Ridge, Brighton Seminole,
+Clewiston, Palmdale, Muse, Felda, Hendry Correctional, Moore Haven,
+and Ortona
+1249 PM EST Sun Nov 1 2026
+
+...FLOOD WATCH IN EFFECT THROUGH MONDAY AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues to be
+  possible.
+
+* WHERE...A portion of southern Florida, including the following
+  counties, Glades and Hendry.
+
+* WHEN...Through Monday afternoon.
+
+* IMPACTS...Flooding may occur in poor drainage and urban areas.
+
+* ADDITIONAL DETAILS...
+  - Bands of heavy rainfall will continue to fall over Glades and
+    Hendry counties through tonight and into Monday. Some locations
+    across the watch area have already seen 2 to 4 inches of rain and
+    in general, an additional 2 to 4 inches of rain will remain
+    possible through Monday afternoon. Isolated locations where the
+    heaviest banding sets up could see an additional 4 to 6 inches
+    during this time frame.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+You should monitor later forecasts and be alert for possible Flood
+Warnings. Those living in areas prone to flooding should be prepared
+to take action should flooding develop.
+
+&&
+
+$$
+
+FLZ067-068-071>074-168-172>174-020800-
+/O.CON.KMFL.FA.A.0002.000000T0000Z-261102T2000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Inland Palm Beach County-Metro Palm Beach County-Inland Broward
+County-Metro Broward County-Inland Miami-Dade County-Metropolitan
+Miami Dade-Coastal Palm Beach County-Coastal Broward County-
+Coastal Miami Dade County-Far South Miami-Dade County-
+Including the cities of Sawgrass Mills Mal, Davie, Hialeah, Sunrise,
+West Palm Beach, Miccosukee Indian Reservation, Mahogany
+Hammock, Pa-Hay Okee Overlook, Palm Beach Gardens, Caloosa, Belle
+Glade, Pembroke Pines, Fort Lauderdale, Boynton Beach, Florida City,
+Shark Valley Obs Tower, Kendall, The Acreage, Kendale Lakes,
+Hollywood, Carol City, Fortymile Bend, Wellington, Pompano Beach,
+Coral Springs, Redland, Greenacres City, Deerfield Beach, Royal Palm
+Ranger, Boca Raton, Miami, Lion Country Safari Park, Florida Gardens,
+Royal Palm Beach, Delray Beach, Riviera Beach, Jupiter, Miramar, Lake
+Worth, and Sandalfoot Cove
+1249 PM EST Sun Nov 1 2026
+
+...FLOOD WATCH REMAINS IN EFFECT THROUGH MONDAY AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues to be
+  possible.
+
+* WHERE...A portion of southeast Florida, including the following
+  areas, Coastal Broward County, Coastal Miami Dade County, Coastal
+  Palm Beach County, Far South Miami-Dade County, Inland Broward
+  County, Inland Miami-Dade County, Inland Palm Beach County, Metro
+  Broward County, Metro Palm Beach County and Metropolitan Miami
+  Dade.
+
+* WHEN...Through Monday afternoon.
+
+* IMPACTS...Isolated to scattered area of flash flooding will be
+  possible, with the main impact being street flooding, road
+  closures, and limited impact to structures in flood prone areas.
+
+* ADDITIONAL DETAILS...
+  - Uncertainty is high regarding exactly where the highest rain
+    amounts will fall. However, scattered locations across the east
+    coast may pick up 3 to 5 inches of rain through Monday. Isolated
+    spots may see accumulations as high as 5 to 7 inches. These
+    amounts may fall over a window of a few hours. Expected impacts
+    could be greater than forecast if the heaviest rainfall occurs
+    near the coast during times of high tide.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+You should monitor later forecasts and be alert for possible Flood
+Warnings. Those living in areas prone to flooding should be prepared
+to take action should flooding develop.
+
+&&
+
+$$
+
+CWC
+
+
+
+645 
+WGUS82 KMFL 011752
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+1252 PM EST Sun Nov 1 2026
+
+FLC099-011945-
+/O.NEW.KMFL.FA.Y.0173.261101T1752Z-261101T1945Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Palm Beach FL-
+1252 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 245 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Northwestern Palm Beach County in southeastern Florida...
+
+* WHEN...Until 245 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 1252 PM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 3 inches of rain have
+    fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Belle Glade, Pahokee, Canal Point and Fremd Village-Padgett
+    Island.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2662 8063 2675 8078 2687 8063 2686 8056
+      2673 8055
+
+
+$$
+
+
+
+629 
+WGUS72 KMFL 011804
+FFSMFL
+
+Flash Flood Statement
+National Weather Service Miami FL
+104 PM EST Sun Nov 1 2026
+
+FLC086-011814-
+/O.CAN.KMFL.FF.W.0006.000000T0000Z-261101T1915Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Miami-Dade FL-
+104 PM EST Sun Nov 1 2026
+
+...FLASH FLOOD WARNING IS CANCELLED FOR CENTRAL MIAMI-DADE COUNTY...
+
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+
+A Flood Watch remains in effect until 300 PM EST Monday for portions
+of southeast and southern Florida.
+
+&&
+
+LAT...LON 2564 8027 2567 8034 2558 8045 2552 8042
+      2547 8035
+
+$$
+
+Fisher
+
+
+
+254 
+WGUS82 KMFL 011916
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+216 PM EST Sun Nov 1 2026
+
+FLC043-051-012030-
+/O.EXT.KMFL.FA.Y.0172.000000T0000Z-261101T2030Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-Hendry FL-
+216 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY NOW IN EFFECT UNTIL 330 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...South Central Glades County in southern Florida...
+  Northeastern Hendry County in southern Florida...
+
+* WHEN...Until 330 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 215 PM EST, Doppler radar and automated rain gauges indicated
+    heavy rain due to thunderstorms. Minor flooding is ongoing or
+    expected to begin shortly in the advisory area. Between 3 and 4
+    inches of rain have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Clewiston, Moore Haven and Harlem.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2690 8115 2673 8084 2673 8085 2675 8089
+      2668 8089 2687 8127
+
+
+$$
+
+NMP
+
+
+
+496 
+WGUS82 KMFL 011917
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+217 PM EST Sun Nov 1 2026
+
+FLC043-012030-
+/O.EXT.KMFL.FA.Y.0171.000000T0000Z-261101T2030Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-
+217 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY NOW IN EFFECT UNTIL 330 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Northeastern Glades County in southern Florida...
+
+* WHEN...Until 330 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 216 PM EST, Doppler radar and automated rain gauges indicated
+    heavy rain due to thunderstorms. Minor flooding is ongoing or
+    expected to begin shortly in the advisory area. Between 3 and 4
+    inches of rain have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Buckhead Ridge and Brighton Seminole Reservation.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2699 8104 2712 8108 2721 8097 2721 8094
+      2720 8094 2720 8093 2719 8092 2719 8091
+      2717 8091 2716 8089 2717 8088 2716 8088
+      2715 8087 2714 8087 2716 8086 2714 8084
+
+
+$$
+
+NMP
+
+
+
+563 
+WGUS82 KMFL 011935
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+235 PM EST Sun Nov 1 2026
+
+FLC099-012045-
+/O.EXT.KMFL.FA.Y.0173.000000T0000Z-261101T2045Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Palm Beach FL-
+235 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY NOW IN EFFECT UNTIL 345 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Northwestern Palm Beach County in southeastern Florida...
+
+* WHEN...Until 345 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 234 PM EST, Doppler radar and automated rain gauges indicated
+    heavy rain due to thunderstorms. Minor flooding is ongoing or
+    expected to begin shortly in the advisory area. Between 3 and 4
+    inches of rain have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Belle Glade, Pahokee, Canal Point and Fremd Village-Padgett
+    Island.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2687 8063 2686 8056 2673 8055 2662 8063
+      2675 8078
+
+
+$$
+
+NMP
+
+
+
+084 
+WGUS82 KMFL 011944
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+244 PM EST Sun Nov 1 2026
+
+FLC021-012145-
+/O.NEW.KMFL.FA.Y.0174.261101T1944Z-261101T2145Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Collier FL-
+244 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 445 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...West Central Collier County in southwestern Florida...
+
+* WHEN...Until 445 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 242 PM EST, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1.5 and 2.5 inches of rain
+    have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    West Toll Gate On Alligator Alley, Lely Resort, Belle Meade,
+    Naples Manor, East Naples, Fiddlers Creek, South Blocks Golde,
+    Intersection I-75 And Everglades Blvd, Lely and Picayune Strand
+    State Forest.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2611 8178 2616 8171 2616 8148 2603 8152
+      2604 8175
+
+
+$$
+
+NMP
+
+
+
+677 
+WGUS82 KMFL 011945
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+245 PM EST Sun Nov 1 2026
+
+FLC043-051-012100-
+/O.EXT.KMFL.FA.Y.0168.000000T0000Z-261101T2100Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-Hendry FL-
+245 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY NOW IN EFFECT UNTIL 4 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Southwestern Glades County in southern Florida...
+  Northeastern Hendry County in southern Florida...
+
+* WHEN...Until 400 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 245 PM EST, Doppler radar and automated rain gauges indicated
+    heavy rain due to thunderstorms. Minor flooding is ongoing or
+    expected to begin shortly in the advisory area. Between 4.5 and
+    5.5 inches of rain have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Labelle, Montura, Ortona, Port La Belle, Devils Garden, Muse and
+    Lake Hicpochee.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 2660 8117 2662 8103 2679 8111 2691 8136
+      2690 8150 2675 8150
+
+
+$$
+
+NMP
+
+
+
+134 
+WGUS82 KMFL 012020
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+320 PM EST Sun Nov 1 2026
+
+FLC043-012115-
+/O.EXT.KMFL.FA.Y.0171.000000T0000Z-261101T2115Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-
+320 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY NOW IN EFFECT UNTIL 415 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Northeastern Glades County in southern Florida...
+
+* WHEN...Until 415 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 320 PM EST, Doppler radar and automated rain gauges indicated
+    heavy rain due to thunderstorms. Minor flooding is ongoing or
+    expected to begin shortly in the advisory area. Between 3.5 and
+    4.5 inches of rain have fallen.
+  - Additional rainfall amounts of 0.5 to 1 inch are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Buckhead Ridge and Brighton Seminole Reservation.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2699 8104 2712 8108 2721 8097 2721 8094
+      2720 8094 2720 8093 2719 8092 2719 8091
+      2717 8091 2716 8089 2717 8088 2716 8088
+      2715 8087 2714 8087 2716 8086 2714 8084
+
+
+$$
+
+NMP
+
+
+
+572 
+WGUS82 KMFL 012021
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+321 PM EST Sun Nov 1 2026
+
+FLC043-051-012115-
+/O.EXT.KMFL.FA.Y.0172.000000T0000Z-261101T2115Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-Hendry FL-
+321 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY NOW IN EFFECT UNTIL 415 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...South Central Glades County in southern Florida...
+  Northeastern Hendry County in southern Florida...
+
+* WHEN...Until 415 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 321 PM EST, Doppler radar and automated rain gauges indicated
+    heavy rain due to thunderstorms. Minor flooding is ongoing or
+    expected to begin shortly in the advisory area. Between 3.5 and
+    4.5 inches of rain have fallen.
+  - Additional rainfall amounts of 0.5 to 1 inch are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Clewiston, Moore Haven and Harlem.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2690 8115 2673 8084 2673 8085 2675 8089
+      2668 8089 2687 8127
+
+
+$$
+
+NMP
+
+
+
+733 
+WGUS82 KMFL 012032
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+332 PM EST Sun Nov 1 2026
+
+FLC099-012130-
+/O.EXT.KMFL.FA.Y.0173.000000T0000Z-261101T2130Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Palm Beach FL-
+332 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY NOW IN EFFECT UNTIL 430 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...Northwestern Palm Beach County in southeastern Florida...
+
+* WHEN...Until 430 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 331 PM EST, Doppler radar and automated rain gauges indicated
+    heavy rain due to thunderstorms. Minor flooding is ongoing or
+    expected to begin shortly in the advisory area. Between 4 and 5
+    inches of rain have fallen.
+  - Additional rainfall amounts of 0.5 to 1 inch are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Belle Glade, Pahokee, Canal Point and Fremd Village-Padgett
+    Island.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2687 8063 2686 8056 2673 8055 2662 8063
+      2675 8078
+
+
+$$
+
+NMP
+
+
+
+444 
+WWUS82 KMFL 012034
+SPSMFL
+
+Special Weather Statement
+National Weather Service Miami FL
+334 PM EST Sun Nov 1 2026
+ 
+FLZ066-012100-
+Hendry FL-
+334 PM EST Sun Nov 1 2026
+
+...A strong thunderstorm will impact portions of southeastern Hendry
+County through 400 PM EST...
+
+At 334 PM EST, National Weather Service meteorologists were tracking
+a strong thunderstorm 9 miles northwest of Big Cypress Seminole
+Reservation, or 17 miles south of Montura. This storm was nearly
+stationary.
+
+HAZARD...Wind gusts of 45 to 50 mph.
+
+SOURCE...Radar indicated.
+
+IMPACT...Gusty winds could knock down tree limbs and blow around 
+         unsecured objects.
+
+This storm will remain over mainly rural areas of southeastern Hendry
+County.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+These winds can down small tree limbs and branches, and blow around
+unsecured small objects. Seek shelter in a safe building until the
+storm passes.
+
+Torrential rainfall is also occurring with this storm and may lead to
+localized flooding. Do not drive your vehicle through flooded
+roadways.
+
+&&
+
+LAT...LON 2630 8094 2633 8122 2652 8122 2652 8092
+TIME...MOT...LOC 2034Z 181DEG 4KT 2640 8107 
+
+MAX HAIL SIZE...0.00 IN
+MAX WIND GUST...50 MPH
+
+$$
+
+NMP
+
+
+
+740 
+WGUS82 KMFL 012049
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+349 PM EST Sun Nov 1 2026
+
+FLC099-012245-
+/O.NEW.KMFL.FA.Y.0175.261101T2049Z-261101T2245Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Palm Beach FL-
+349 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY IN EFFECT UNTIL 545 PM EST THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Northeastern Palm Beach County in southeastern Florida...
+
+* WHEN...Until 545 PM EST.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas.
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 348 PM EST, Doppler radar and automated rain gauges indicated
+    heavy rain due to thunderstorms. Minor flooding is ongoing or
+    expected to begin shortly in the advisory area. Between 2 and 3
+    inches of rain have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    West Palm Beach, Wellington, Palm Beach Gardens, Royal Palm
+    Beach, The Acreage, Loxahatchee Groves, North County Airport and
+    Caloosa.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 2691 8030 2689 8018 2659 8018 2662 8033
+
+
+$$
+
+NMP
+
+
+
+053 
+WGUS82 KMFL 012051
+FLSMFL
+
+Flood Advisory
+National Weather Service Miami FL
+351 PM EST Sun Nov 1 2026
+
+FLC043-051-012101-
+/O.EXP.KMFL.FA.Y.0168.000000T0000Z-261101T2100Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Glades FL-Hendry FL-
+351 PM EST Sun Nov 1 2026
+
+...FLOOD ADVISORY WILL EXPIRE AT 4 PM EST THIS AFTERNOON...
+
+The Flood Advisory will expire at 4 PM EST this afternoon for a
+portion of southern Florida, including the following areas, Glades
+and Hendry.
+
+The heavy rain has ended. Flooding is no longer expected to pose a
+threat. Please continue to heed remaining road closures.
+
+A Flood Watch remains in effect until 300 PM EST Monday for portions
+of southeast and southern Florida...
+
+&&
+
+LAT...LON 2660 8117 2662 8103 2679 8111 2691 8136
+      2690 8150 2675 8150
+
+
+$$
+
+NMP
+
+

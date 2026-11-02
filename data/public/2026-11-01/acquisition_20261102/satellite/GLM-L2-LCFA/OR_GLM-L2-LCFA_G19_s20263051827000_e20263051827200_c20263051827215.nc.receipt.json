@@ -1,0 +1,28 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/satellite/GLM-L2-LCFA/OR_GLM-L2-LCFA_G19_s20263051827000_e20263051827200_c20263051827215.nc",
+  "kind": "goes_glm",
+  "source_url": "https://noaa-goes19.s3.amazonaws.com/GLM-L2-LCFA/2026/305/18/OR_GLM-L2-LCFA_G19_s20263051827000_e20263051827200_c20263051827215.nc",
+  "final_url": "https://noaa-goes19.s3.amazonaws.com/GLM-L2-LCFA/2026/305/18/OR_GLM-L2-LCFA_G19_s20263051827000_e20263051827200_c20263051827215.nc",
+  "retrieved_utc": "2026-11-02T10:23:40.224979+00:00",
+  "http_status": 200,
+  "size_bytes": 368962,
+  "sha256": "1d4a4464e2a5477ae8912305fe807fa579ee084de4127f2198048292b5d1b972",
+  "content_type": "binary/octet-stream",
+  "content_encoding": "",
+  "etag": "\"8f58b6932b8457517bebdafbe61abe7b\"",
+  "last_modified": "Sun, 01 Nov 2026 18:27:26 GMT",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/satellite/GLM-L2-LCFA/OR_GLM-L2-LCFA_G19_s20263051827000_e20263051827200_c20263051827215.nc.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "x-amz-id-2": "TZaKDtguPxmAaep4FKBpa26I/SbnvOtq5AkNkiLKfBjHywsNrHdRM8xsTt4H3ome8Xz8eoNJg1w=",
+    "x-amz-request-id": "8CF7HQJ5FXYRYFPM",
+    "Server": "AmazonS3",
+    "Date": "Mon, 02 Nov 2026 10:23:41 GMT",
+    "Last-Modified": "Sun, 01 Nov 2026 18:27:26 GMT",
+    "ETag": "\"8f58b6932b8457517bebdafbe61abe7b\"",
+    "x-amz-server-side-encryption": "AES256",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "368962"
+  }
+}

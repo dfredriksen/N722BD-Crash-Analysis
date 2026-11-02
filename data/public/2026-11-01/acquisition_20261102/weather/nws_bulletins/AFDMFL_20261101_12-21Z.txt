@@ -1,0 +1,382 @@
+
+325 
+FXUS62 KMFL 011754
+AFDMFL
+
+Area Forecast Discussion
+National Weather Service Miami FL
+1254 PM EST Sun Nov 1 2026
+
+...New AVIATION...
+
+.KEY MESSAGES...
+Updated at 1251 PM EST Sun Nov 1 2026
+
+  - Flood watch in effect for the Lake Okeechobee Region as well
+    as the eastern half of South Florida through Monday as the 
+    potential for isolated flash flooding increases.
+
+  - Minor to Moderate coastal flooding expected during times of 
+    high tide.
+
+  - Dangerous marine and beach conditions are expected across the
+    Atlantic coast.
+
+&&
+
+.SYNOPSIS...
+Issued at 226 AM EST Sun Nov 1 2026
+
+Satellite imagery and model analysis data show a shortwave moving
+into the eastern Gulf and assisting with the development of deep
+convection. Another shortwave can be found in WV imagery over
+central AR. Together, these waves are responsible for the dip in
+the longwave upper-level trough over the Southeast. A CONUS-scale
+surface analysis by the WPC depicts a large ridge centered over
+the Mid-Atlantic/Northeast, that sits under a mid/upper ridge axis
+that stretches from the Northern Plains, through the Midwest, and
+off the Mid-Atlantic coast. A hand analysis of the surface pattern
+across the local area reveals a persistent trough along the
+eastern FL coastline (along the Gulf Stream). The strong easterly
+flow across this trough is resulting in bands of shower activity
+developing near, and moving over SE FL.
+
+&&
+
+.SHORT TERM...
+(Today through Monday)
+Issued at 226 AM EST Sun Nov 1 2026
+
+Through today, the leading shortwave will cross the Peninsula as
+the trailing shortwave elongates and moves into the eastern Gulf.
+Stable layers in the mid-levels are preventing a robust surface
+response to these upper-level shortwaves. However, the affect of
+the shortwaves will be in the addition of moisture to the column 
+and the contribution to ascent in areas where convection is 
+ongoing. Thus, for the surface forcing today we'll rely on low-
+level isentropic ascent and mesoscale boundaries. Where these
+features develop is uncertain; but while the development pattern 
+is similar to recent days, the coverage may be a bit higher, the 
+thunderstorm threat will be higher, and the potential for heavy 
+rainfall will be higher. Global ensembles, even in the day 1-2
+period, have a rather large spread on QPF amounts. This is likely
+due to the lack of a clear, synoptic-scale surface forcing
+mechanism. However, the majority of the ensemble members would
+suggest that 1-2" of rain will be a common amount for locations
+across south Florida over the next 48 hours. Common high-end
+amounts for localized areas could be on the order of 2-4", with
+reasonable worst case scenario that a location or two could get
+5-7" of rain over 48 hours. How it's determined how much you get
+will be based on whether you're impacted by a stray shower now and
+then, a couple back to back heavy showers, or a banding feature
+setting up across your specific location. All of these scenarios
+are probably, but pinning down the location for each is quite
+difficult. The current suite of hi-res data, and trends over the
+last several hours, would indicate that Broward county probably
+has the greater chance for those high-end amounts today. Hi-res
+guidance would also indicate this axis of heavy rain may shift
+north overnight tonight, with Palm Beach county having the
+greatest chance for heavy rain overnight. How wet Monday will be
+is also a source of spread in the ensembles in the near term. Some
+of this uncertainty is whether or not a part of the second
+shortwave cuts off and meanders over the SE Gulf/Straits, or stays
+connected to the mean trough and moves a bit further eastward.
+Either way, showers are still expected as we remain in the
+persistent low-level easterly flow regime. The question is just
+how widespread and how heavy they may be.
+
+Bottom line (at the end), is that the next couple days will be
+characterized by showers and isolated storms across South Florida,
+with the main threat being periods of heavy rainfall.
+
+&&
+
+.LONG TERM...
+(Monday night through Saturday)
+Issued at 226 AM EST Sun Nov 1 2026
+
+A brief period of mid/upper level ridging is expected early to
+mid-week, with low-level easterly flow continuing around the
+surface ridge. This will likely keep us from completely drying out
+through early next week. However, by mid-week, a frontal system
+moving through the central CONUS is forecast to start pushing the
+low-level ridge northeastward. This will give us a more southerly
+component to the low-level winds and end the persistent shower
+activity. It'll still be humid, just not as wet. There is a ton of
+model divergence on how that central CONUS system evolves, but it
+seems like the majority of the solutions bring a pretty weak
+frontal boundary through Florida by the end of the week.
+
+&&
+
+.AVIATION...
+(18Z TAFS)
+Issued at 1251 PM EST Sun Nov 1 2026
+
+Scattered to numerous showers and storms will continue to affect
+the region through the rest of this afternoon and into tonight.
+Periods of MVFR or IFR will remain possible during this time
+frame. Easterly winds of 10 to 15 kts will continue through the
+rest of this afternoon and into tonight. Gusts of 20 to 25 kts
+will be common especially across the east coast terminals. 
+
+&&
+
+.MARINE...
+Issued at 226 AM EST Sun Nov 1 2026
+
+Strong easterly flow over the Atlantic will keep seas elevated
+through early this week. Advisory conditions are expected to
+continue, with hazardous conditions for small craft. Showers and
+storms are expected to be widespread today and tomorrow. Calming 
+winds and lowering seas are expected starting around mid-week.
+
+&&
+
+.BEACHES...
+Issued at 226 AM EST Sun Nov 1 2026
+
+The onshore flow and elevated winds and seas will keep a High Risk
+for rip currents across Atlantic beaches well into this week.
+Large breakers are expected through at least today across Broward
+and Palm beaches, with a high surf advisory in effect for these
+locations. Higher than usual tides will also create elevated water
+levels near the coast. Dangerous beach and swim conditions are
+expected through mid-week.
+
+&&
+
+.HYDROLOGY...
+Issued at 226 AM EST Sun Nov 1 2026
+
+Believe it or not we're nearing the ebb of the astronomical tides
+between the full and new moons. While we may briefly (and barely)
+drop below moderate flood levels on Monday, probabilities of at
+least reaching low-end moderate flood levels appear too high to
+let the Coastal Flood Advisory drop. Water levels are forecast to
+gradually start climbing again by mid-week as we draw closer and
+closer to the New Moon on Nov 9. Hopefully we'll be able to remove
+the strong onshore wind component and pull back some of the heavy
+rain potential as astronomical tide levels start to rise again.
+
+&&
+
+.PRELIMINARY POINT TEMPS/POPS...
+Miami            74  81  74  84 /  70  90  70  70 
+West Kendall     74  82  74  85 /  70  90  50  70 
+Opa-Locka        74  82  74  85 /  70  90  70  70 
+Homestead        74  83  75  86 /  80  80  60  60 
+Fort Lauderdale  73  80  74  83 /  80  90  80  80 
+N Ft Lauderdale  73  81  74  84 /  80  90  80  80 
+Pembroke Pines   73  82  73  85 /  70  90  70  70 
+West Palm Beach  73  81  73  83 /  70  80  80  80 
+Boca Raton       74  81  74  83 /  80  90  80  80 
+Naples           71  82  71  85 /  60  70  30  50 
+
+&&
+
+.MFL WATCHES/WARNINGS/ADVISORIES...
+FL...Flood Watch through Monday afternoon for FLZ063-066>068-071>074-
+     168-172>174.
+
+     Coastal Flood Advisory until 7 PM EST Monday for FLZ168-172-173.
+
+     High Rip Current Risk through Monday evening for FLZ168-172-173.
+
+     High Surf Advisory until 7 PM EST this evening for FLZ168-172.
+
+AM...Small Craft Advisory until 7 PM EST Monday for AMZ650-651-670-
+     671.
+
+GM...None.
+&&
+
+$$
+
+SHORT TERM...Harrigan
+LONG TERM....Harrigan
+AVIATION...CWC
+
+
+
+094 
+FXUS62 KMFL 011923
+AFDMFL
+
+Area Forecast Discussion
+National Weather Service Miami FL
+223 PM EST Sun Nov 1 2026
+
+...New SHORT TERM, MARINE, HYDROLOGY...
+
+.KEY MESSAGES...
+Updated at 137 PM EST Sun Nov 1 2026
+
+  - Flood watch remains in effect for the Lake Okeechobee Region 
+    as well as the eastern half of South Florida through Monday as
+    the potential for additional heavy rainfall and flooding 
+    continues.
+
+  - Minor to Moderate coastal flooding expected during times of 
+    high tide.
+
+  - Dangerous marine and beach conditions are expected across the
+    Atlantic coast.
+
+&&
+
+.SHORT TERM...
+(Rest of today through Monday)
+Issued at 137 PM EST Sun Nov 1 2026
+
+A broad mid level disturbance will generally remain parked over 
+South Florida as well as the Eastern Gulf heading into tonight 
+and most of Monday. At the surface, the remnants of a stalled 
+frontal boundary will continue to affect the region during this 
+time frame. The latest 18z ACARS data features a long and skinny 
+profile throughout the atmospheric column with PWAT values 
+hovering close to 2 inches this afternoon. The pressure gradient 
+remains also remains tight across South Florida as strong high 
+pressure remains centered over the Mid Atlantic region. This is 
+keeping a rather strong and gusty easterly wind flow in place 
+across the area. The abundance of moisture combined with what is 
+left of the weak frontal boundary as well as the mid level 
+disturbance will continue to allow for rounds of additional 
+showers and thunderstorms to develop tonight into Monday. 
+
+While some of the stronger thunderstorms will contain gusty 
+winds, the bigger concern here will be the continued potential for
+multiple rounds of heavy downpours will high rainfall rates. 
+These rounds of heavy downpours will add to the potential for 
+additional flooding concerns across the eastern half of the South 
+Florida as well as the Lake Okeechobee region through tonight and
+into Monday. Some locations across the east coast metro areas as 
+well as the Lake Okeechobee region have already seen 1 to 3 inches
+of rainfall with some isolated totals of 4 to 6 inches mainly in 
+portions of Glades and Hendry Counties. An additional 1 to 3 
+inches will remain possible tonight into Monday across most of the
+region, with locally higher amounts of 3 to 5 inches possible 
+where the stronger storms set up. The best chances of the higher 
+end totals will be located across the east coast metro areas as 
+well as the Lake Okeechobee region. 
+
+Low temperatures tonight will generally range from the upper 60s
+west of Lake Okeechobee to the lower 70s across the coastal areas.
+With plenty of cloud cover and rainfall anticipated for Monday,
+high temperatures will remain below normal and will generally 
+range from the upper 70s to lower 80s across most areas. 
+
+&&
+
+.LONG TERM...
+(Monday night through Saturday)
+Issued at 226 AM EST Sun Nov 1 2026
+
+A brief period of mid/upper level ridging is expected early to
+mid-week, with low-level easterly flow continuing around the
+surface ridge. This will likely keep us from completely drying out
+through early next week. However, by mid-week, a frontal system
+moving through the central CONUS is forecast to start pushing the
+low-level ridge northeastward. This will give us a more southerly
+component to the low-level winds and end the persistent shower
+activity. It'll still be humid, just not as wet. There is a ton of
+model divergence on how that central CONUS system evolves, but it
+seems like the majority of the solutions bring a pretty weak
+frontal boundary through Florida by the end of the week.
+
+&&
+
+.AVIATION...
+(18Z TAFS)
+Issued at 1251 PM EST Sun Nov 1 2026
+
+Scattered to numerous showers and storms will continue to affect
+the region through the rest of this afternoon and into tonight.
+Periods of MVFR or IFR will remain possible during this time
+frame. Easterly winds of 10 to 15 kts will continue through the
+rest of this afternoon and into tonight. Gusts of 20 to 25 kts
+will be common especially across the east coast terminals. 
+
+&&
+
+.MARINE...
+Issued at 137 PM EST Sun Nov 1 2026
+
+Hazardous marine conditions will continue across the Atlantic waters 
+tonight and into the early portion of the week as a fresh to strong 
+easterly breeze remains in place combined with a lingering 
+northeasterly swell. Across the Gulf waters, a moderate to fresh 
+easterly breeze will continue through Monday before gradually 
+starting to diminish on Tuesday. Seas across the Atlantic waters
+will generally range between 6 to 9 feet through Monday while 
+seas across the Gulf waters will remain between 2 to 4 feet. 
+Scattered to numerous showers and thunderstorms will continue 
+across all local waters through the early portion of the week. 
+
+&&
+
+.BEACHES...
+Issued at 226 AM EST Sun Nov 1 2026
+
+The onshore flow and elevated winds and seas will keep a High Risk
+for rip currents across Atlantic beaches well into this week.
+Large breakers are expected through at least today across Broward
+and Palm beaches, with a high surf advisory in effect for these
+locations. Higher than usual tides will also create elevated water
+levels near the coast. Dangerous beach and swim conditions are
+expected through mid-week.
+
+&&
+
+.HYDROLOGY...
+Issued at 137 PM EST Sun Nov 1 2026
+
+Believe it or not we're nearing the ebb of the astronomical tides
+between the full and new moons. While we may briefly (and barely)
+drop below moderate flood levels on Monday, probabilities of at
+least reaching low-end moderate flood levels appear too high to
+let the Coastal Flood Advisory drop. Water levels are forecast to
+gradually start climbing again by mid-week as we draw closer and
+closer to the New Moon on Nov 9. Hopefully we'll be able to remove
+the strong onshore wind component and pull back some of the heavy
+rain potential as astronomical tide levels start to rise again.
+
+&&
+
+.PRELIMINARY POINT TEMPS/POPS...
+Miami            73  81  75  84 /  80  80  60  60 
+West Kendall     74  82  75  85 /  80  70  60  60 
+Opa-Locka        73  82  74  85 /  80  80  60  60 
+Homestead        74  83  75  86 /  80  70  60  60 
+Fort Lauderdale  73  80  74  83 /  80  80  70  70 
+N Ft Lauderdale  73  81  75  84 /  80  80  70  70 
+Pembroke Pines   73  82  74  85 /  80  80  60  70 
+West Palm Beach  72  81  74  83 /  80  80  70  70 
+Boca Raton       73  81  75  83 /  80  80  70  70 
+Naples           70  82  71  85 /  60  50  20  60 
+
+&&
+
+.MFL WATCHES/WARNINGS/ADVISORIES...
+FL...Flood Watch through Monday afternoon for FLZ063-066>068-071>074-
+     168-172>174.
+
+     Coastal Flood Advisory until 7 PM EST Monday for FLZ168-172-173.
+
+     High Rip Current Risk through Tuesday evening for FLZ168-172-173.
+
+     High Surf Advisory until 7 AM EST Monday for FLZ168-172.
+
+AM...Small Craft Advisory until 10 AM EST Tuesday for AMZ650-651-670-
+     671.
+
+GM...None.
+&&
+
+$$
+
+SHORT TERM...CWC
+LONG TERM....Harrigan
+AVIATION...CWC
+
+

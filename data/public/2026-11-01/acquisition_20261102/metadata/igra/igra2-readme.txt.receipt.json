@@ -1,0 +1,30 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/metadata/igra/igra2-readme.txt",
+  "kind": "documentation",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/igra/igra2-readme.txt",
+  "final_url": "https://www.ncei.noaa.gov/pub/data/igra/igra2-readme.txt",
+  "retrieved_utc": "2026-11-02T10:24:10.513295+00:00",
+  "http_status": 200,
+  "size_bytes": 13734,
+  "sha256": "cce34dc7dba4b80a2f301ae7a7d9cb2a1da5a0f69b430297cf8687b3a1977775",
+  "content_type": "text/plain",
+  "content_encoding": "",
+  "etag": "\"35a6-63e0081d45295\"",
+  "last_modified": "Thu, 04 Sep 2025 21:35:59 GMT",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/metadata/igra/igra2-readme.txt.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:24:10 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Last-Modified": "Thu, 04 Sep 2025 21:35:59 GMT",
+    "ETag": "\"35a6-63e0081d45295\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "13734",
+    "Content-Type": "text/plain",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "X-Requested-With, Content-Type",
+    "Keep-Alive": "timeout=3, max=100",
+    "Connection": "Keep-Alive"
+  }
+}

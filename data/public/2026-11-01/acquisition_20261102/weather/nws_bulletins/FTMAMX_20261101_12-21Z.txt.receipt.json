@@ -1,0 +1,27 @@
+{
+  "repository_target": "data/public/2026-11-01/acquisition_20261102/weather/nws_bulletins/FTMAMX_20261101_12-21Z.txt",
+  "kind": "nws_bulletin_bundle",
+  "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=FTMAMX&sdate=2026-11-01T12%3A00Z&edate=2026-11-01T21%3A00Z&limit=9999&fmt=text&order=asc",
+  "final_url": "https://mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=FTMAMX&sdate=2026-11-01T12%3A00Z&edate=2026-11-01T21%3A00Z&limit=9999&fmt=text&order=asc",
+  "retrieved_utc": "2026-11-02T10:24:15.328471+00:00",
+  "http_status": 200,
+  "size_bytes": 29,
+  "sha256": "fd4e2071a6130a1a5a3ba777fd59676b3310f32d23836d50178edf15adb7b0bb",
+  "content_type": "text/plain; charset=UTF-8",
+  "content_encoding": "",
+  "etag": "",
+  "last_modified": "",
+  "receipt_path": "data/public/2026-11-01/acquisition_20261102/weather/nws_bulletins/FTMAMX_20261101_12-21Z.txt.receipt.json",
+  "transport_error": "",
+  "response_headers": {
+    "Date": "Mon, 02 Nov 2026 10:24:15 GMT",
+    "Server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.8 mod_fcgid/2.3.9 mod_wsgi/6.1.1 Python/3.14",
+    "X-Content-Type-Options": "nosniff",
+    "X-IEM-ServerID": "iemvs36-dc.agron.iastate.edu",
+    "Access-Control-Allow-Origin": "*",
+    "Keep-Alive": "timeout=5, max=100",
+    "Connection": "Keep-Alive",
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "text/plain; charset=UTF-8"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "status": "target_found",
+  "tar_members_scanned": 56983,
+  "archive_parts": [
+    {
+      "file": "data/public/2026-11-01/acquisition_20261102/flight_tracking/adsblol/archive/v2026.11.01-planes-readsb-prod-0.tar.aa",
+      "sha256": "62813665a44851df60676e2449435001cf1acbb5768b0f7fe756fc8145ae9aa3"
+    },
+    {
+      "file": "data/public/2026-11-01/acquisition_20261102/flight_tracking/adsblol/archive/v2026.11.01-planes-readsb-prod-0.tar.ab",
+      "sha256": "e083915f63d0f42fedb3af7ea1ab61b970d76265c1663af09ae8c4cf28e19179"
+    }
+  ],
+  "matches": [
+    {
+      "member": "./traces/17/trace_full_a9ab17.json",
+      "path": "data/public/2026-11-01/acquisition_20261102/flight_tracking/adsblol/extracted/traces/17/trace_full_a9ab17.json",
+      "sha256": "4ebab6b9897e4feefa69dcacd0065c1d353cac675f3d4da3541416cf0747dd95",
+      "size_bytes": 26333,
+      "icao": "a9ab17",
+      "registration": "N722BD",
+      "aircraft_type": "LJ60",
+      "points": 1028,
+      "first_utc": "2026-11-01T14:17:43.240000+00:00",
+      "last_utc": "2026-11-01T17:49:32.750000+00:00",
+      "event_window_points": 370,
+      "metadata_keys": [
+        "alert",
+        "alt_geom",
+        "baro_rate",
+        "category",
+        "emergency",
+        "flight",
+        "geom_rate",
+        "gva",
+        "nac_p",
+        "nac_v",
+        "nic",
+        "nic_baro",
+        "rc",
+        "sda",
+        "sil",
+        "sil_type",
+        "spi",
+        "squawk",
+        "track",
+        "type",
+        "version"
+      ]
+    }
+  ],
+  "license": "ODbL-1.0; ADSB.lol and contributors",
+  "limitation": "Processed trace; not raw 1090 MHz payloads. Shared upstream receivers possible."
+}
