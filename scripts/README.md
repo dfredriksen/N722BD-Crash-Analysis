@@ -23,6 +23,13 @@ python scripts/summarize_validation.py
 python -m unittest discover -s tests -v
 ```
 
+The 14-test suite includes ten boundary/plot checks and four recorded-result
+regressions against committed per-ray/per-match CSVs. The regressions check the
+reviewed decoder counts, missing SW moments, and the distinction between nominal
+geometric overlap and valid moment measurements. They do not rerun the raw radar
+pipeline or authenticate the source evidence. PNG track lines share the GeoJSON
+20-second gap rule and retain isolated observations as points.
+
 The full API validator samples one common-grid gate near 117.467 km on every ray.
 It sets `linear_interp=False` explicitly. `check_highlevel_api.py` compares these
 samples and metadata against native Py-ART records. That is an internal API

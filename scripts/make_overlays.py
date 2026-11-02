@@ -29,6 +29,24 @@ def ground_from_slant(slant, elevation, k=4/3):
     return r*math.atan2(slant*math.cos(e), r+slant*math.sin(e))
 
 
+def plot_observed_track(ax, positions):
+    """Use the GeoJSON segmentation rule for PNGs, including isolated points."""
+    positions=positions.sort_values('time').drop_duplicates('time')
+    artists=[]
+    for feature in flight_features(positions):
+        geometry=feature['geometry']
+        coordinates=geometry['coordinates']
+        if geometry['type']=='Point':
+            x,y=[coordinates[0]],[coordinates[1]]
+            style='k.'
+        else:
+            x,y=zip(*coordinates)
+            style='k-'
+        artists.extend(ax.plot(x,y,style,lw=1,
+            label='FR24 positions during sampled rays' if not artists else '_nolegend_'))
+    return artists
+
+
 def main():
     p = ROOT/'results/independent'
     m = pd.read_csv(p/'aircraft_radar_matches.csv')
@@ -56,7 +74,7 @@ def main():
         start, end = pd.to_datetime(rays.utc,utc=True,format='ISO8601').agg(['min','max'])
         track = flight[(flight.time >= start)&(flight.time <= end)].dropna(subset=['latitude','longitude'])
         ax = axes[0]
-        ax.plot(track.longitude,track.latitude,'k-',lw=1,label='FR24 positions during sampled rays')
+        plot_observed_track(ax,track)
         for _, row in rays.iterrows():
             x,y=destination(row.radar_latitude,row.radar_longitude,row.azimuth_deg,row.ground_range_m)
             ax.scatter(x,y,c=[row.REF_value],vmin=-10,vmax=65,cmap='turbo',s=13)

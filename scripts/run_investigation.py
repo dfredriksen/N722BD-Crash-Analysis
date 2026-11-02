@@ -1,7 +1,10 @@
 """Evidence audit, native-gate cross-check and aircraft-centered reconstruction.
 
-Uses the unmodified, BSD-licensed Py-ART 2.3.0 low-level Archive II reader.
-No full Py-ART installation is claimed by this fallback. Originals are read only.
+Uses the unmodified, BSD-licensed Py-ART 2.3.0 low-level Archive II reader for
+native-gate comparison and reconstruction. The separate full Py-ART API run is
+performed by validate_n722bd_pyart.py and checked by check_highlevel_api.py.
+The delivered investigation ran both paths under Python 3.11 with the full
+Py-ART environment installed. Originals are read only.
 """
 import argparse
 import ast

@@ -22,6 +22,13 @@ authentic or complete. Agreement between the custom decoder and Py-ART supports
 decoding consistency on the compared data; it is not independent validation of
 the weather, aircraft state or accident narrative.
 
+The current suite has 14 tests: ten boundary/plot tests and four recorded-result
+regressions. The latter recompute the reviewed 48,600/29,556 ray counts and
+3,929 SW omissions from committed per-ray CSVs, and check that nominal geometric
+overlap with masked moments is distinct from a valid moment measurement.
+These regression checks detect changes to the recorded findings; they do not
+rerun the five raw archives or independently certify the numerical results.
+
 No ATC audio, transcripts or radar-track records have been synchronized to this
 timeline. Assessing weather avoidance or intentional maneuvering would require
 corroborating operational evidence. A Mar-a-Lago perimeter or airspace analysis
@@ -121,6 +128,9 @@ dynamics model. Position and clock error distributions are unavailable.
 The full track has 14 position gaps longer than 20 seconds, with a maximum gap
 of about 434 seconds. Exported path lines are split across those gaps rather
 than drawn as continuous observed flight segments.
+Both GeoJSON and per-volume PNG track lines use that same segmentation rule;
+isolated observed positions remain visible as individual points. The PNG
+regression checks actual plotted segments at the 20/21-second gap boundary.
 
 The prior analyses identify altitude as feet, ground speed as knots and vertical
 rate as ft/min; these units are carried forward explicitly. The CSV itself does
