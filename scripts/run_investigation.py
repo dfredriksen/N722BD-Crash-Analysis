@@ -28,6 +28,8 @@ import matplotlib.pyplot as plt
 from pyproj import Geod
 from vendor.pyart_nexrad_level2 import NEXRADLevel2File
 from evidence_source import EvidenceSource
+from radar_geometry import (slant_from_ground, beam_height, height_at_ground,
+                            point_geometry, altitude_interval_overlap)
 
 ROOT = Path(__file__).resolve().parents[1]
 UTC = dt.timezone.utc
@@ -120,18 +122,6 @@ def distance_bearing(lat1, lon1, lat2, lon2):
     return distance, bearing % 360
 
 
-def slant_from_ground(ground, elevation, k=4/3):
-    radius = 6371000*k
-    angle = ground/radius
-    return radius*math.sin(angle)/math.cos(math.radians(elevation)+angle)
-
-
-def beam_height(slant, elevation, site_height, k=4/3):
-    radius = 6371000*k
-    return math.sqrt(radius**2+slant**2+2*radius*slant*
-                     math.sin(math.radians(elevation)))-radius+site_height
-
-
 def sample(moment, slant):
     if moment is None:
         return dict(value=np.nan, status='moment_absent', gate=-1, range_m=np.nan,
@@ -145,6 +135,25 @@ def sample(moment, slant):
         status=('below_threshold_or_missing' if raw == 0 else 'range_folded' if raw == 1 else 'valid'),
         raw=raw, gate=index, range_m=moment['first_gate']+index*moment['gate_spacing'],
         gate_spacing_m=moment['gate_spacing'])
+
+
+def clock_case(frames, time, shift, lat, lon, height, az, el):
+    """Evaluate each radial before nominal filtering; positive shift queries later FR24 time."""
+    shifted = pd.Timestamp(time)+pd.Timedelta(seconds=shift)
+    position = interpolate(frames['pos'], shifted, ['latitude', 'longitude'])
+    altitude = interpolate(frames['alt'], shifted, ['altitude'])
+    row = dict(aircraft_clock_shift_s=shift, aircraft_query_utc=shifted.isoformat(),
+        brackets_available=position is not None and altitude is not None,
+        within_2deg=False, nominal_joint_overlap=False,
+        interpretation='all_rays_reselected_scenario_not_measured_clock_error')
+    if position is None or altitude is None:
+        return row
+    ground, bearing = distance_bearing(lat, lon, *position[0])
+    delta = (az-bearing+180)%360-180
+    geometry = point_geometry(ground, altitude[0][0]*.3048, height, el, delta)
+    row.update(geometry, reported_altitude_ft=altitude[0][0], ground_range_m=ground,
+        azimuth_difference_deg=delta, within_2deg=abs(delta)<=2)
+    return row
 
 
 def main():
@@ -244,6 +253,14 @@ def main():
                     for field in FIELDS.values():
                         fixed.update({field+'_'+k:v for k,v in sample(record.get(field), sr).items()})
                     azimuth_samples.append(fixed)
+                # No nominal bracketing, bearing or height preselection here.
+                # Store every ray for every shift, including unsupported states.
+                for shift in (-2., -1., 0., 1., 2.):
+                    scenario = dict(**base, **clock_case(frames, time, shift, lat, lon, height, az, el))
+                    for field in FIELDS.values():
+                        values = sample(record.get(field), scenario['aircraft_slant_range_m']) if scenario['brackets_available'] else dict(status='aircraft_state_unavailable', value=np.nan)
+                        scenario.update({field+'_'+key: value for key, value in values.items() if key in ('status', 'value')})
+                    clock_scenarios.append(scenario)
                 position = interpolate(frames['pos'], pd.Timestamp(time), frame_cols['pos'])
                 altitude = interpolate(frames['alt'], pd.Timestamp(time), frame_cols['alt'])
                 if position is None or altitude is None:
@@ -256,60 +273,50 @@ def main():
                     continue
                 slant = slant_from_ground(ground, el)
                 center = beam_height(slant, el, height)
-                low = beam_height(slant, el-.5, height)
-                high = beam_height(slant, el+.5, height)
+                low = height_at_ground(ground, el-.5, height)
+                high = height_at_ground(ground, el+.5, height)
+                geometry = point_geometry(ground, altft*.3048, height, el, delta)
                 match = dict(**base, aircraft_latitude=airlat, aircraft_longitude=airlon,
                     reported_altitude_ft=altft, altitude_datum='unverified_assumed_MSL_for_screen',
                     position_before_s=pleft, position_after_s=pright,
                     altitude_before_s=aleft, altitude_after_s=aright,
                     radar_latitude=lat, radar_longitude=lon, radar_height_m_msl=height,
-                    ground_range_m=ground, slant_range_m=slant, aircraft_bearing_deg=bearing,
+                    ground_range_m=ground, axis_ground_slant_range_m=slant, aircraft_bearing_deg=bearing,
                     azimuth_difference_deg=delta, beam_center_m_msl=center,
                     beam_lower_m_msl=low, beam_upper_m_msl=high,
                     aircraft_minus_beam_m=altft*.3048-center,
                     nominal_vertical_overlap=low <= altft*.3048 <= high,
                     nominal_horizontal_overlap=abs(delta) <= .5,
                     vertical_gap_m=max(0., low-altft*.3048, altft*.3048-high))
+                match.update(geometry)
                 for field in FIELDS.values():
-                    match.update({field+'_'+k:v for k,v in sample(record.get(field), slant).items()})
+                    aircraft_sample = sample(record.get(field), geometry['aircraft_slant_range_m'])
+                    match.update({field+'_'+k:v for k,v in aircraft_sample.items()})
+                    match.update({'axis_'+field+'_'+k:v for k,v in sample(record.get(field), slant).items()})
+                    in_gate = (np.isfinite(aircraft_sample['range_m']) and
+                        abs(aircraft_sample['range_m']-geometry['aircraft_slant_range_m']) <= aircraft_sample['gate_spacing_m']/2)
+                    match[field+'_range_cell_contains_aircraft'] = bool(in_gate)
+                    match[field+'_geometric_overlap'] = bool(in_gate and geometry['nominal_joint_overlap'])
                 if np.isfinite(match['REF_range_m']):
                     gate_range = match['REF_range_m']
                     half_spacing = match['REF_gate_spacing_m']/2
-                    match['REF_range_error_m'] = gate_range-slant
+                    match['REF_range_error_m'] = gate_range-geometry['aircraft_slant_range_m']
                     match['REF_gate_beam_min_m_msl'] = min(beam_height(gate_range+d,el+a,height)
                         for d in (-half_spacing,half_spacing) for a in (-.5,.5))
                     match['REF_gate_beam_max_m_msl'] = max(beam_height(gate_range+d,el+a,height)
                         for d in (-half_spacing,half_spacing) for a in (-.5,.5))
                 matches.append(match)
-                # Retain all near-height candidates; no confidence probabilities implied.
-                if match['vertical_gap_m'] < 2000:
-                    for shift in (-2.,-1.,0.,1.,2.):
-                        shifted = pd.Timestamp(time)+pd.Timedelta(seconds=shift)
-                        pp = interpolate(frames['pos'],shifted,frame_cols['pos'])
-                        hh = interpolate(frames['alt'],shifted,frame_cols['alt'])
-                        scenario = dict(**base,aircraft_clock_shift_s=shift,
-                            brackets_available=pp is not None and hh is not None,
-                            interpretation='scenario_not_measured_clock_error')
-                        if pp is not None and hh is not None:
-                            gg,bb=distance_bearing(lat,lon,*pp[0]);ss=slant_from_ground(gg,el)
-                            ll=beam_height(ss,el-.5,height);uu=beam_height(ss,el+.5,height)
-                            dd=(az-bb+180)%360-180
-                            scenario.update(reported_altitude_ft=hh[0][0],ground_range_m=gg,
-                                azimuth_difference_deg=dd,vertical_gap_m=max(0.,ll-hh[0][0]*.3048,hh[0][0]*.3048-uu),
-                                nominal_joint_overlap=ll<=hh[0][0]*.3048<=uu and abs(dd)<=.5)
-                        clock_scenarios.append(scenario)
-                    for k in (1., 4/3, 1.5):
-                        sr = slant_from_ground(ground, el, k)
-                        for width in (.8, 1., 1.2, 1.5):
-                            bottom = beam_height(sr, el-width/2, height, k)
-                            top = beam_height(sr, el+width/2, height, k)
-                            for altitude_tolerance in (0., 152.4, 304.8):
-                                uncertainty.append(dict(**base, effective_earth_radius_factor=k,
-                                    full_beam_width_deg=width, altitude_tolerance_m=altitude_tolerance,
-                                    lower_m_msl=bottom, upper_m_msl=top,
-                                    vertical_overlap=bottom-altitude_tolerance <= altft*.3048 <= top+altitude_tolerance,
-                                    horizontal_overlap=abs(delta) <= width/2,
-                                    interpretation='scenario_not_measured_uncertainty'))
+                # All nominal-bearing candidates, without the old 2-km height filter.
+                for k in (1., 4/3, 1.5):
+                    for width in (.8, 1., 1.2, 1.5):
+                        g = point_geometry(ground, altft*.3048, height, el, delta, k, width)
+                        for tolerance in (0., 152.4, 304.8):
+                            uncertainty.append(dict(**base, effective_earth_radius_factor=k,
+                                full_beam_width_deg=width, altitude_tolerance_m=tolerance,
+                                cone_lower_m_msl=g['cone_lower_m_msl'], cone_upper_m_msl=g['cone_upper_m_msl'],
+                                axis_to_aircraft_angle_deg=g['axis_to_aircraft_angle_deg'],
+                                possible_angular_overlap=altitude_interval_overlap(g, altft*.3048, tolerance),
+                                interpretation='circular_cone_altitude_interval_scenario_not_measured_uncertainty'))
             summary.append(dict(volume=name, pyart_rays=len(radar.radial_records),
                 custom_rays=custom_count, matched_ray_keys=len(pykeys & originals.keys()),
                 custom_only_ray_keys=len(originals.keys()-pykeys),
@@ -321,7 +328,16 @@ def main():
         sums = write_csv(out/'volume_summary.csv', summary)
         matchframe = write_csv(out/'aircraft_radar_matches.csv', matches)
         write_csv(out/'beam_uncertainty.csv', uncertainty)
-        write_csv(out/'clock_sensitivity.csv', clock_scenarios)
+        clockframe = pd.DataFrame(clock_scenarios)
+        coverage_columns = ['volume', 'ray_index', 'utc', 'aircraft_clock_shift_s',
+                            'brackets_available', 'within_2deg', 'nominal_joint_overlap']
+        clockframe[coverage_columns].to_csv(out/'clock_ray_coverage.csv', index=False)
+        clockframe[clockframe.within_2deg].to_csv(out/'clock_sensitivity.csv', index=False)
+        write_csv(out/'clock_sensitivity_summary.csv', [dict(aircraft_clock_shift_s=shift,
+            evaluated_rays=len(group), bracket_supported_rays=int(group.brackets_available.sum()),
+            within_2deg=int(group.within_2deg.sum()), nominal_joint_overlap=int(group.nominal_joint_overlap.sum()),
+            joint_valid_REF=int((group.nominal_joint_overlap & (group.REF_status=='valid')).sum()))
+            for shift, group in clockframe.groupby('aircraft_clock_shift_s')])
         write_csv(out/'fixed_final_position_samples.csv', azimuth_samples)
         # WGS84 GeoJSON flight positions: altitude omitted because datum unverified.
         (out/'flight_path.geojson').write_text(json.dumps(dict(type='FeatureCollection',
@@ -344,10 +360,11 @@ def main():
             azimuth_screen_deg=2, nominal_full_width_deg=1,
             altitude_units='ft per supplied analyses; source datum unverified',
             geodesy='WGS84 inverse geodesic; spherical 6371km effective-radius vertical model',
+            beam_model='circular angular cone; ground-consistent vertical projections; aircraft-point native gates',
+            clock_scenarios='all 48600 rays evaluated independently for each shift; positive queries later FR24 time',
             run_utc=dt.datetime.now(UTC).isoformat()), indent=2))
         print(sums.to_string(index=False))
-        print('Matches',len(matchframe),'nominal vertical and horizontal',
-              int((matchframe.nominal_vertical_overlap & matchframe.nominal_horizontal_overlap).sum()))
+        print('Matches',len(matchframe),'nominal circular-cone overlap', int(matchframe.nominal_joint_overlap.sum()))
 
 
 if __name__ == '__main__':

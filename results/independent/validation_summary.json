@@ -5,27 +5,40 @@
   "omitted_custom_percent": 39.18518518518518,
   "candidate_rays": 290,
   "nominal_joint_overlap_rays": 1,
+  "nominal_joint_valid_REF_rays": 0,
   "fields": {
     "REF": {
       "compared_native_gates": 35578936,
+      "raw_comparable_rays": 29556,
+      "raw_comparison_unavailable_on_shared_moments": 0,
       "raw_gate_mismatches": 0,
       "max_value_difference": 0.0,
+      "geometry_compared_rays": 29556,
+      "geometry_comparison_unavailable_on_shared_moments": 0,
       "geometry_disagreements": 0,
       "mask_disagreements": 0,
       "moment_presence_disagreements_on_shared_rays": 0
     },
     "VEL": {
       "compared_native_gates": 11112860,
+      "raw_comparable_rays": 16067,
+      "raw_comparison_unavailable_on_shared_moments": 0,
       "raw_gate_mismatches": 0,
       "max_value_difference": 0.0,
+      "geometry_compared_rays": 16067,
+      "geometry_comparison_unavailable_on_shared_moments": 0,
       "geometry_disagreements": 0,
       "mask_disagreements": 0,
       "moment_presence_disagreements_on_shared_rays": 0
     },
     "SW": {
       "compared_native_gates": 6429492,
+      "raw_comparable_rays": 12138,
+      "raw_comparison_unavailable_on_shared_moments": 0,
       "raw_gate_mismatches": 0,
       "max_value_difference": 0.0,
+      "geometry_compared_rays": 12138,
+      "geometry_comparison_unavailable_on_shared_moments": 0,
       "geometry_disagreements": 0,
       "mask_disagreements": 0,
       "moment_presence_disagreements_on_shared_rays": 3929

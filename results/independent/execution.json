@@ -12,5 +12,7 @@
   "nominal_full_width_deg": 1,
   "altitude_units": "ft per supplied analyses; source datum unverified",
   "geodesy": "WGS84 inverse geodesic; spherical 6371km effective-radius vertical model",
-  "run_utc": "2026-11-02T08:51:32.192802+00:00"
+  "beam_model": "circular angular cone; ground-consistent vertical projections; aircraft-point native gates",
+  "clock_scenarios": "all 48600 rays evaluated independently for each shift; positive queries later FR24 time",
+  "run_utc": "2026-11-02T09:53:52.235323+00:00"
 }

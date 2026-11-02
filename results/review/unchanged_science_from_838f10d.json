@@ -1,0 +1,62 @@
+[
+  {
+    "path": "results/independent/radar_comparison.csv",
+    "baseline_sha256": "241e7af213b510536f6f9f2350123a6390f319c47da7bc04d8ddd5b62bfec74d",
+    "revised_sha256": "241e7af213b510536f6f9f2350123a6390f319c47da7bc04d8ddd5b62bfec74d",
+    "byte_identical": true
+  },
+  {
+    "path": "results/independent/volume_summary.csv",
+    "baseline_sha256": "c5e0e31b030667d928b41b834ecc1c74ebb89f8660d8c6898470ff8eed4432e7",
+    "revised_sha256": "c5e0e31b030667d928b41b834ecc1c74ebb89f8660d8c6898470ff8eed4432e7",
+    "byte_identical": true
+  },
+  {
+    "path": "results/independent/sweep_coverage.csv",
+    "baseline_sha256": "8c48fbac1018ad6df619ffac9105bec3b6500b60059024697717518bf3f0df00",
+    "revised_sha256": "8c48fbac1018ad6df619ffac9105bec3b6500b60059024697717518bf3f0df00",
+    "byte_identical": true
+  },
+  {
+    "path": "results/independent/pyart_highlevel_samples.csv",
+    "baseline_sha256": "0130779dcf4b97c8bfdbd1edbbafd0780e90741acc60e7d76c8d0cdaca85a283",
+    "revised_sha256": "0130779dcf4b97c8bfdbd1edbbafd0780e90741acc60e7d76c8d0cdaca85a283",
+    "byte_identical": true
+  },
+  {
+    "path": "results/independent/flight_observations.csv",
+    "baseline_sha256": "01d630f5d2aa110cbfe1daf117e6b22fd823453cc4942bc3d6ed95a42ce04700",
+    "revised_sha256": "01d630f5d2aa110cbfe1daf117e6b22fd823453cc4942bc3d6ed95a42ce04700",
+    "byte_identical": true
+  },
+  {
+    "path": "results/independent/flight_state_timeline.csv",
+    "baseline_sha256": "59f3c5670d3d732ee6e4ce57f024cdc0994f0bbfab803642d65bbe5bb8ee5785",
+    "revised_sha256": "59f3c5670d3d732ee6e4ce57f024cdc0994f0bbfab803642d65bbe5bb8ee5785",
+    "byte_identical": true
+  },
+  {
+    "path": "results/independent/flight_summary.json",
+    "baseline_sha256": "057bfb4017fddfcf9ff49f9728244e00530f16427ce8e41c823e058d3fe1223b",
+    "revised_sha256": "057bfb4017fddfcf9ff49f9728244e00530f16427ce8e41c823e058d3fe1223b",
+    "byte_identical": true
+  },
+  {
+    "path": "results/independent/flight_timeline.png",
+    "baseline_sha256": "763fe9e9cfdc76ca862d46737b913e66df3aee545398a51f53f98eae202c829a",
+    "revised_sha256": "763fe9e9cfdc76ca862d46737b913e66df3aee545398a51f53f98eae202c829a",
+    "byte_identical": true
+  },
+  {
+    "path": "results/independent/flight_path.geojson",
+    "baseline_sha256": "95879525c022d6c7f4f29c926a75c371d2d2ad08a672e3482bb8ef88bd31c712",
+    "revised_sha256": "95879525c022d6c7f4f29c926a75c371d2d2ad08a672e3482bb8ef88bd31c712",
+    "byte_identical": true
+  },
+  {
+    "path": "results/independent/fixed_final_position_samples.csv",
+    "baseline_sha256": "ba5167effce78b9a94bd54dfe417d468023817d9818b24dd2a8ae61be7456ce9",
+    "revised_sha256": "ba5167effce78b9a94bd54dfe417d468023817d9818b24dd2a8ae61be7456ce9",
+    "byte_identical": true
+  }
+]

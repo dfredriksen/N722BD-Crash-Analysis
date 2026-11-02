@@ -20,15 +20,32 @@ python scripts/run_investigation.py
 python scripts/flight_state_timeline.py
 python scripts/make_overlays.py
 python scripts/summarize_validation.py
+python scripts/review/independent_decode.py
+python scripts/review/custom_coverage_check.py
+python scripts/review/scientific_challenges.py
+python scripts/review/perimeter_check.py
+python scripts/review/flight_evidence_check.py
 python -m unittest discover -s tests -v
 ```
 
-The 14-test suite includes ten boundary/plot checks and four recorded-result
+Alternatively, `python scripts/reproduce.py --log-dir ../N722BD-run-logs` runs
+all these stages with per-stage logs, source hashes before/after, environment
+versions, and output SHA-256 comparison. Use a separate clone and fresh locked
+virtual environment for an isolated reproduction. The original ZIP need not be
+present; the 24 committed original members suffice.
+
+The 24-test suite includes twenty boundary/plot/adversarial checks and four recorded-result
 regressions against committed per-ray/per-match CSVs. The regressions check the
 reviewed decoder counts, missing SW moments, and the distinction between nominal
 geometric overlap and valid moment measurements. They do not rerun the raw radar
 pipeline or authenticate the source evidence. PNG track lines share the GeoJSON
 20-second gap rule and retain isolated observations as points.
+
+The review checks independently implement a bounded Message-31 byte walker,
+Vincenty geodesics, flight bracketing, and vectorized effective-radius geometry;
+they do not import the production geometry/interpolation. They test 55 declared
+sensitivity cases. They were authored by the same assistant, not an independent
+organization. See `results/review/README.md` for limits and output definitions.
 
 The full API validator samples one common-grid gate near 117.467 km on every ray.
 It sets `linear_interp=False` explicitly. `check_highlevel_api.py` compares these

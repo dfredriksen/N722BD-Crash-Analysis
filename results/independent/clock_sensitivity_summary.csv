@@ -1,0 +1,6 @@
+aircraft_clock_shift_s,evaluated_rays,bracket_supported_rays,within_2deg,nominal_joint_overlap,joint_valid_REF
+-2.0,48600,26741,292,1,0
+-1.0,48600,26713,292,1,0
+0.0,48600,26685,290,1,0
+1.0,48600,26657,290,1,0
+2.0,48600,26640,291,1,0

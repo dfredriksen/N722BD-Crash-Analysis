@@ -121,8 +121,7 @@ class RecordedFindingsTests(unittest.TestCase):
         self.assertEqual(int(unexpected.sum()),0)
 
     def test_geometric_overlap_is_not_a_valid_radar_detection(self):
-        overlap=self.matches[self.matches.nominal_vertical_overlap &
-                             self.matches.nominal_horizontal_overlap]
+        overlap=self.matches[self.matches.nominal_joint_overlap]
         self.assertEqual(len(overlap),1)
         self.assertEqual(overlap.utc.iloc[0],'2026-11-01T17:39:11.040000+00:00')
         for field in ['REF','VEL','SW']:
@@ -136,9 +135,15 @@ class RecordedFindingsTests(unittest.TestCase):
         row=near.iloc[0]
         self.assertFalse(row.nominal_vertical_overlap)
         self.assertTrue(row.nominal_horizontal_overlap)
-        for field,value in [('REF',12.5),('VEL',-6.),('SW',.5)]:
+        self.assertFalse(row.nominal_joint_overlap)
+        for field,value in [('REF',13.5),('VEL',-6.),('SW',1.5)]:
             self.assertEqual(row[field+'_status'],'valid')
             self.assertEqual(row[field+'_value'],value)
+        # Different modeled points select adjacent native gates; preserve both.
+        self.assertEqual(row.REF_range_m, 99875.)
+        self.assertEqual(row.axis_REF_range_m, 100125.)
+        self.assertEqual(row.axis_REF_value, 12.5)
+        self.assertEqual(row.axis_SW_value, .5)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,31 @@
+{
+  "max_WGS84_distance_difference_m": 4.549845471046865e-06,
+  "max_WGS84_bearing_difference_deg": 1.149373929365538e-10,
+  "nominal": {
+    "name": "nominal",
+    "bracket_supported_rays": 26685,
+    "within_2deg": 290,
+    "legacy_fixed_slant_rectangular_joint": 1,
+    "circular_joint": 1,
+    "legacy_fixed_slant_rectangular_joint_REF_valid": 0,
+    "circular_joint_REF_valid": 0
+  },
+  "case_count": 55,
+  "target": [
+    {
+      "utc": "2026-11-01T17:44:26.796000+00:00",
+      "ray_index": 7728,
+      "production_ground_consistent_lower_m": 10840.488846924156,
+      "lower_at_fixed_ground_distance_m": 10840.48884688522,
+      "difference_m": 3.893546818289906e-08,
+      "point_slant_difference_m": 3.374007064849138e-07,
+      "angular_difference_deg": 1.889977063740389e-11,
+      "pr_axis_slant_m": 100060.06950944492,
+      "aircraft_point_slant_m": 99936.62207206014,
+      "aircraft_apparent_elevation_deg": 5.773822659651988,
+      "axis_to_aircraft_angle_deg": 0.694240365818053,
+      "production_joint_overlap": false,
+      "circular_half_power_overlap": false
+    }
+  ]
+}

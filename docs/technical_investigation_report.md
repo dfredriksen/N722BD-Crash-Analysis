@@ -22,7 +22,7 @@ authentic or complete. Agreement between the custom decoder and Py-ART supports
 decoding consistency on the compared data; it is not independent validation of
 the weather, aircraft state or accident narrative.
 
-The current suite has 14 tests: ten boundary/plot tests and four recorded-result
+The current suite has 24 tests: twenty boundary/plot/adversarial tests and four recorded-result
 regressions. The latter recompute the reviewed 48,600/29,556 ray counts and
 3,929 SW omissions from committed per-ray CSVs, and check that nominal geometric
 overlap with masked moments is distinct from a valid moment measurement.
@@ -31,12 +31,12 @@ rerun the five raw archives or independently certify the numerical results.
 
 No ATC audio, transcripts or radar-track records have been synchronized to this
 timeline. Assessing weather avoidance or intentional maneuvering would require
-corroborating operational evidence. A Mar-a-Lago perimeter or airspace analysis
-would require a sourced, time-applicable boundary definition and separate
-horizontal/vertical uncertainty treatment. Determining whether a TFR was active
-would require historical FAA NOTAM/TFR evidence with effective UTC intervals,
-geometry, altitude limits and applicable exceptions. This report makes no
-finding of TFR activity, entry, violation or causal relevance.
+corroborating operational evidence. A geographic reference calculation is
+reported below using a sourced FAA **proposed** circle. It is not a property
+perimeter or proof of operative airspace. Historical FAA NOTAM/TFR evidence with
+effective UTC intervals, geometry, altitude limits and applicable exceptions
+remains missing. This report makes no finding of TFR activity, entry, violation
+or causal relevance.
 
 ## Evidence integrity and execution
 
@@ -97,11 +97,22 @@ traversal failure to the 19,044 omitted rays has not been isolated; the original
 decoder is preserved rather than silently repaired.
 
 The full Py-ART API and its native reader agree on all 48,600 ray timestamps and
-azimuth/elevation metadata, site height, and all three sampled moments' masks.
+azimuth/elevation metadata, site latitude/longitude/height, radial indices, and
+all three sampled moments' masks.
 Maximum numeric differences are zero at the checked gate, with 13,404 valid REF,
 8,211 VEL and 8,207 SW ray samples. This is an **internal Py-ART API consistency
 check**, not a third independent decoder or an all-gate API comparison. The
-custom-versus-Py-ART native comparison is the independent implementation check.
+custom-versus-Py-ART native comparison is an implementation check. A separate
+review byte walker (`scripts/review/independent_decode.py`) also compares all
+121,557,600 native REF/VEL/SW codes and their descriptors against installed
+Py-ART, with no differences on these five files. It independently recovers the
+custom ray/SW omissions. It is restricted to these compressed Message-31 files:
+ancillary Message 32 is skipped and a final 12-byte legacy framing advance is
+accepted only after referenced moment data fit. This follows Py-ART's framing
+convention and is not a general format-conformance oracle or independent
+atmospheric observation. The validation checker now rejects nonfinite required
+metadata and missing comparison coverage. Geometry failures are counted even
+when unequal array lengths prevent element comparisons.
 
 The encoded site coordinates are 25.611083984375 N, −80.41266632080078 E.
 Py-ART decodes radar site plus feedhorn height as **33 m MSL**, replacing the
@@ -138,13 +149,31 @@ not document the altitude datum, pressure correction or source encoding. Treatin
 reported altitude as MSL is an **assumption for geometric screening**, not a
 verified measurement datum. Datum error could exceed a near-beam separation.
 
-Radar-to-aircraft surface distance and bearing use WGS84 geodesics. Surface
-distance is converted to slant range before selecting native gates. The former
-custom screen used spherical ground distance as if it were slant range, which
-can select different gates and change beam heights. The vertical model uses a
+Radar-to-aircraft surface distance and bearing use WGS84 geodesics. Native gates
+are selected using the **aircraft point's modeled slant range**, calculated from
+surface distance and assumed-MSL altitude in the same effective-radius model.
+The beam-axis slant range at the aircraft's surface distance is a different
+point; its samples are retained separately in `axis_REF_*`, `axis_VEL_*` and
+`axis_SW_*`. The earlier reconstruction sampled that beam-axis point. The
+original custom screen used ground distance as slant range. The vertical model uses a
 6,371-km Earth radius with nominal effective-radius factor k=4/3. Beam center
 height is `sqrt(r² + (kR)² + 2*r*kR*sin(elevation)) - kR + site_height`.
 The inverse surface-distance relation uses the same effective-radius geometry.
+For surface distance d, radius a=kR and aircraft height h relative to the radar,
+the radar-local point is x=(a+h) sin(d/a), z=(a+h) cos(d/a)-a. Slant range is
+hypot(x,z); apparent elevation is atan2(z,x). Joint angular overlap uses the
+three-dimensional angle between that direction and the ray axis, compared with
+half the assumed full beamwidth. A native moment also needs a containing range
+cell; this is recorded separately from whether its code is valid or masked.
+
+The circular cone is an explicit antenna approximation, not a measured pattern.
+Half-power and half-gate-spacing conventions are not hard physical sensitivity
+limits. Vertical-projection heights are evaluated at the **same ground distance**
+for center and edges. Separate horizontal/vertical projection flags are
+diagnostics, not a substitute for the circular-cone overlap flag. Cone heights
+at the aircraft's actual bearing are also provided. WGS84 distances were checked
+with a separate Vincenty implementation: maximum difference 0.0000046 m on the
+290 candidates. This verifies calculations on the inputs, not position accuracy.
 
 All nearby rays and all elevation sweeps are evaluated; retained candidates are
 within ±2° of the contemporaneous aircraft bearing. No volumetric interpolation
@@ -161,28 +190,42 @@ observations bracket the time by approximately 0.451 and 0.071 seconds.
 Ray 7,728 in the 17:40 volume is at elevation 6.372070° and azimuth 345.563965°,
 about −0.354° from the WGS84 aircraft bearing.
 
-Calculated ground range is 99.308 km; slant range is 100.060 km. The nearest
-native gate is **100,125 m**, with 250-m spacing. Its verified decoded moments
-are **12.5 dBZ reflectivity, −6.0 m/s radial velocity and 0.5 m/s spectrum width**.
-These replace the preliminary report's 14 dBZ, −6 m/s and 2 m/s sampled using
-different range geometry. The earlier spherical fallback values also differ and
-are superseded by this WGS84 result.
+Calculated ground range is 99.308 km. The modeled aircraft-point slant range is
+**99,936.622 m**, selecting the **99,875-m** native gate (250-m spacing). Its
+decoded values are **13.5 dBZ reflectivity, −6.0 m/s radial velocity and 1.5 m/s
+spectrum width**. These are radar samples at that range, not measurements of the
+aircraft or proof of co-location. The beam-axis point at that ground distance has
+slant range **100,060.070 m** and selects the adjacent **100,125-m** gate, with
+**12.5 dBZ, −6.0 m/s and 0.5 m/s**. Those earlier values remain valid decodings of
+that different gate; they must not be labeled aircraft-point samples. Preliminary
+ground-as-slant and spherical-fallback values remain superseded.
 
 Under nominal assumptions the beam center is **11,719 m MSL (about 38,449 ft)**.
-The lower nominal 1° half-power envelope is **10,852 m MSL**, about **184 m
-(605 ft) above** the assumed-MSL aircraft altitude. Neighboring rays at
+The lower 1° **vertical projection at the same ground distance** is **10,840.489 m
+MSL**, about **172.489 m above** the assumed-MSL aircraft altitude. The former
+184.332-m gap used a different, fixed-slant edge point and is withdrawn as a
+same-ground separation. At the aircraft's bearing, the circular cone's lower
+edge is **11,095.278 m MSL**, a **427.278-m** gap. The axis-to-aircraft angle is
+**0.694240°**, exceeding the nominal 0.5° half-width. These are distinct modeled
+quantities, not measured clearance from hazardous weather. Neighboring rays at
 17:44:26.759, .833 and .868 are retained in the dataset, with their individual
 angular offsets, moments and timing. They do not provide simultaneous
 measurements at the aircraft's reported height.
 
 Sensitivity scenarios vary k between 1, 4/3 and 1.5, full beamwidth between
 0.8°, 1°, 1.2° and 1.5°, and extra altitude tolerance between 0, 500 and 1,000 ft.
-At k=4/3 and 1°, 1,000-ft tolerance admits overlap; 500 ft alone does not.
-A 1.5° envelope admits overlap without extra altitude tolerance. These are
+At k=4/3 and 1°, neither 500-ft nor 1,000-ft altitude tolerance alone admits
+circular-cone overlap. The previous 1,000-ft statement used independent angular
+projections and is withdrawn. A 1.5° full-width cone admits angular overlap
+without extra altitude tolerance; 1.2° plus 1,000-ft tolerance also does. These are
 exploratory scenarios, **not measured instrument errors or confidence bounds**.
-Native gate-edge/beam-corner heights and ±1/±2-second relative clock scenarios
-are also supplied. Subsecond CSV precision does not establish subsecond timing
-accuracy, and the clock scenarios do not verify either clock.
+Native gate-edge heights and ±1/±2-second relative clock scenarios are supplied.
+Each clock scenario re-evaluates **all 48,600 rays before selection**, including
+states unsupported at nominal time. `clock_ray_coverage.csv` records all 243,000
+evaluations; `clock_sensitivity.csv` gives the newly selected neighboring rays.
+Positive shift means querying the aircraft series later than the radar timestamp;
+it does not identify which physical clock is wrong. Subsecond CSV precision does
+not establish clock accuracy.
 
 ![Beam geometry at 17:44:26](../results/independent/174426_beam_geometry.png)
 
@@ -202,6 +245,19 @@ repeated 8,750-ft value and extreme vertical rate remain uncorroborated source
 reports. They do not establish impact time, actual descent rate or causation.
 The last altitude precedes the final position by approximately 6.95 seconds.
 
+The source contains a decreasing sequence, rather than just one anomalous
+vertical-rate value: **118 altitude observations** from 35,000 ft at
+17:48:24.780576 to 8,750 ft at 17:49:22.955011, with 117 negative steps and no
+positive or unchanged steps. The endpoint difference is 26,250 ft over 58.174435 s,
+equivalent to a **provider-series mean change of −27,073.748 ft/min**. It is not
+an independently verified aircraft descent rate. The largest observation gap
+in this interval is 0.596410 s. Four endpoint 8,750-ft values span 1.636699 s while
+three reported vertical-rate samples are −32,640 ft/min. The plateau and rate
+cannot jointly be treated as an exact synchronized altitude history. This
+discrepancy requires source/transponder evidence; it does not establish a
+level-off, terminal speed, impact or failure mechanism. The supporting rows are
+in `results/review/reported_descent_observations.csv`.
+
 The last jointly position-and-altitude-supported neighboring ray is at
 **17:49:16.422 UTC**. The ray near **17:49:29.286 UTC** can be screened against
 the fixed final-position bearing, but it lacks bracketing altitude support and
@@ -210,13 +266,63 @@ is not promoted to a complete moving-aircraft 3D match. The
 reference explicitly. Later volumes cannot establish conditions at an earlier
 aircraft state merely by spatial proximity.
 
-One candidate at **17:39:11.040 UTC** satisfies the nominal horizontal and
-vertical beam screen. Its REF/VEL/SW raw codes are all zero, masked as
+One candidate at **17:39:11.040 UTC** satisfies the nominal circular-cone and
+native range-cell screen. Its REF/VEL/SW raw codes are all zero, masked as
 below-threshold/missing; it is **not a validated weather detection**. Thus the
 preliminary categorical statement of zero geometric intersections is not
 reproduced, but the new geometric overlap supplies no positive weather-encounter
 measurement. Beam edges are half-power conventions, not hard boundaries of
 radar sensitivity; non-overlap also cannot establish absence of weather.
+
+## Conclusions tested against alternative assumptions
+
+The review evaluates 55 explicit cases over all rays: nominal, clocks ±1/2/5/10 s,
+k=1 and 1.5, widths 0.8/1.2/1.5°, signed altitude changes ±500/1,000 ft, position
+displacements 100/500/1,000 m in eight directions, tighter interpolation brackets,
+removal of repeated 8,750-ft values, position thinning, and eight combined
+clock/altitude/refraction cases. These are diagnostic scenarios, not sampled
+error distributions, exhaustive combinations or measured confidence intervals.
+
+- **Supported computational conclusion:** the custom decoder loses substantial
+  ray coverage and SW moments. The counts reproduce from preserved bytes using
+  the full pipeline and the separate review reader.
+- **Supported conditional sampling conclusion:** the nominal model yields one
+  geometric overlap, with masked moments; no nominal co-located valid radar
+  return is established. All tested clock-only offsets through ±10 s retain that
+  result. Some position/combined scenarios remove the masked overlap.
+- **The absence of a nominal valid overlap is not robust to all assumptions.**
+  A 1.5° beam produces two circular-cone overlaps, one with valid reflectivity
+  at 17:44:26.796. A combined −2-s aircraft-query shift, +1,000-ft altitude change
+  and k=1.5 also produces a valid-return overlap at that ray. Thus radar/flight
+  co-location is possible under specified models; actual storm exposure, weather
+  severity and accident causation remain unestablished. Neither 1,000 ft alone
+  nor a modeled overlap justifies a hazardous-weather finding.
+- **Supported source-series conclusion:** a densely reported altitude decrease
+  exists before the record ends. Its physical accuracy, terminal rate and final
+  state remain unverified. The final radar/aircraft match remains incomplete.
+
+See `results/review/all_ray_sensitivity.csv`, `target_sensitivity.csv` and
+`sensitivity_overlap_examples.csv` for case definitions, counts, and per-ray
+values. These checks use separate geometry/interpolation code, but were authored
+by the same assistant; they are not an independent human or organizational
+endorsement. Agreement of implementations or models is not proof of truth.
+
+## Mar-a-Lago reference geometry
+
+No authenticated property-perimeter dataset or historical operative TFR was
+provided. For a bounded geographic check only, FAA NPRM 2026-17957 specifies a
+proposed 1-NM circle centered at 26°40′37″N, 80°02′16″W. The document is explicitly
+a proposal, not evidence of an active restriction on November 1.
+[FAA proposed rule, PDF page 3](https://public-inspection.federalregister.gov/2026-17957.pdf).
+
+The closest supplied position is **6,228.350 m (3.363040 NM)** from that reference
+center at **17:49:06.289157 UTC**. Minimizing over geodesic segments joining
+observations no more than 20 seconds apart does not yield a closer point. Those
+segments are interpolated geometry, not continuous observed tracks. All supplied
+positions are outside this proposed 1-NM reference circle; this is not a finding
+about an actual property boundary, unobserved intervals, TFR entry or compliance.
+Distance alone supports no conclusion about intent or avoidance. Computation and
+source reference are preserved in `results/review/perimeter_audit.json`.
 
 ## Interpretation and missing evidence
 
@@ -242,7 +348,8 @@ Authoritative generated files are under `results/independent/`: full per-ray
 `radar_comparison.csv`, `pyart_api_comparison.csv`, `volume_summary.csv`,
 `sweep_coverage.csv`, `aircraft_radar_matches.csv`, `flight_state_timeline.csv`,
 `beam_uncertainty.csv`, `clock_sensitivity.csv`, WGS84 GeoJSON overlays and PNG
-figures. The overlay polygons are nominal reflectivity gate footprints; their
+figures. The overlay polygons are convex projected envelopes of sampled circular-cone
+reflectivity range cells, for display rather than intersection tests; their
 properties carry sample UTC, moment flags and modeled MSL heights. GeoJSON
 coordinates are longitude/latitude with no false ellipsoid-height coordinate.
 The figures combine samples from different times and elevations, not a
