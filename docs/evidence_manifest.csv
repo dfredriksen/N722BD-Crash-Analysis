@@ -1,5 +1,6 @@
 filename,repository_target,size_bytes,sha256,status
 "Flightradar24_N722BD_Granular_Data(1).csv","data/flight_tracking/Flightradar24_N722BD_Granular_Data(1).csv",4223095,8f7887a0c5d1efe47da78ce653721cfb5264f160f71debdeeda93e7bd2c771cd,pending_upload
+"KAMX20261101_173507_V06","data/radar/KAMX/KAMX20261101_173507_V06",14149960,b1412b40c997af3849bf941a7f64c38629c008087f0c77efb22e2e0de8b39c67,pending_upload
 "KAMX20261101_174032_V06(2)","data/radar/KAMX/KAMX20261101_174032_V06(2)",14145385,3136f380eb85b3372f146fd7a3053e6844e4d894bf19484aca6cdf3e04dbb73c,pending_upload
 "KAMX20261101_174548_V06(1)","data/radar/KAMX/KAMX20261101_174548_V06(1)",14199175,79d1f6bebdddcf9a456839aeb3753b9ce1f35bc20be0c5ea92651830b49675a3,pending_upload
 "KAMX20261101_175104_V06(1)","data/radar/KAMX/KAMX20261101_175104_V06(1)",14280182,c767e4e177c8e4b025ca57444e6966a528312313094901bd1cd44a672aa2a1cd,pending_upload
